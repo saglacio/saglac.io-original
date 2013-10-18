@@ -39,3 +39,7 @@ a, a:visited {
 a:hover {
   font-weight: bold;
 }
+
+.inscription {
+  text-align: center;
+}

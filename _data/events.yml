@@ -1,0 +1,60 @@
+- title: Janvier 2013 ("Nickel edition")
+  date: Lundi 13 janvier, à 18h00.
+  eventbrite_id: 9389088015
+  location: <a href="http://www.exodecafe.com">l'Exode Café</a>, Alma
+  talks:
+    -
+      title: PostgreSQL, de tout pour tous.
+      name: Marc-André Goderre
+      twitter: magoderre
+    -
+      title: Think Locally - Act Globally
+      name: PJ Hagerty
+      twitter: aspleenic
+    -
+      title: "Introduction to Pyramid: a web application development framework."
+      name: Alan Boudreault
+      twitter: AlanBoudreault
+    -
+      title: RubyMotion: create Mac (or iOS) apps with lovely Ruby
+      name: Jean-Philippe Boily
+      twitter: jipiboily
+
+- title: Décembre 2013 (aka "beta 2")
+  date: Lundi 9 décembre, à 18h00.
+  eventbrite_id: 9389088015
+  location: Bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.
+  talks:
+    -
+      title: Introduction à Git
+      name: Keven Lefebvre
+      twitter: kevenlefebvre
+    -
+      title: Introduction à Meteor
+      name: Gabriel Le Breton
+      twitter: gableroux
+    -
+      title: Introduction à Amazon EC2
+      name: Julien-Samuel Lacroix
+      twitter: juliensam
+    -
+      title: Introduction aux tests
+      name: Jean-Philippe Boily
+      twitter: jipiboily
+
+- title: Octobre 2013 (aka "beta 1")
+  date: Mardi 29 octobre, à 18h30.
+  location: <a href="http://www.exodecafe.com">l'Exode Café</a>, Alma
+  talks:
+    -
+      title: Présentation de l'idée du groupe
+      name: Jean-Philippe Boily
+      twitter: jipiboily
+    -
+      title: "Introduction à CoffeeScript"
+      name: Jean-Philippe Boily
+      twitter: jipiboily
+    -
+      title: "La géomatique dans vos appli!"
+      name: Marc-André Goderre
+      twitter: magoderre

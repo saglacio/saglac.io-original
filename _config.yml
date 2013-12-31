@@ -1,0 +1,10 @@
+title:        io
+tagline:      "saglac.io"
+url:          http://andhyde.com
+author:
+  name:       ""
+  email:      ""
+markdown:     redcarpet
+permalink:    pretty
+pygments:     true
+paginate:     5

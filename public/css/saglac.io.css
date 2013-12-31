@@ -1,0 +1,23 @@
+.events h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.events event h2 {
+  font-size: 24px;
+}
+
+.event li {
+  color: rgb(69, 68, 65);
+}
+
+.event .location span,
+.event .date span {
+  font-style:italic;
+}
+
+.footprint {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+}

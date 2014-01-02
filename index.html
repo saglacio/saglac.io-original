@@ -1,132 +1,40 @@
-<!doctype html>
+---
+layout: default
+title: 'Accueil'
+---
+<article id="description">
+  <h1>L'io, c'est quoi?</h1>
+  <p>L'<b>io</b> se veut un événement informel entre passionnés de programmation et administration de systèmes. Les rencontres sont mensuelles, en alternance entre Alma et Saguenay.</p>
 
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
+  <p>Il y a <b>3 ou 4 présentations (maintenant) limitées à 15 minutes sur des sujets qui passionnent les présentateurs</b> et qu'ils veulent partager avec vous. Ce ne sont pas nécessairement des experts sur le sujet. <b>L'intention est de partager les découvertes et connaissances.</b> </p>
 
-  <title>io</title>
-  <meta name="description" content="L'io se veut un événement informel entre passionnés de programmation et administration de systèmes.">
-  <meta name="author" content="@jipiboily">
+  <p>C'est aussi une bonne occasion de <b>fraterniser</b> autour d'un café ou d'une bière, par exemple!</p>
 
-  <link rel="stylesheet" href="css/styles.css">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <p class="footprint">Cours de prononciation anglophone en 2 secondes: "io" se prononce "ail eau".</p>
 
-    ga('create', 'UA-15789750-5', 'jipiboily.com');
-    ga('send', 'pageview');
+  <p class='footprint'>C'est largement et ouvertement inspiré de <a href="http://opencode.ca" target="_blank">l'Opencode</a>, à Québec.</p>
+</article>
+<h1>Prochaine édition: </h1>
 
-  </script>
-</head>
+<div class="events">
+  {% assign event = site.data.events.first %}
+    <div class="event">
+      <h2>{{ event.title }}</h2>
+      <p class="date">Quand? <span>{{ event.date }}</span></p>
 
-<body>
-  <header>
-    <h1>io</h1>
-  </header>
+      <p>
+        Présentations:
+      </p>
+      <ul>
+        {% for talk in event.talks %}
+          <li>{{talk.title}} - <a href="http://twitter.com/{{talk.twitter}}" target="_blank">{{talk.name}}</a></li>
+        {% endfor %}
+      </ul>
 
-  <div id="main">
-    <article id="description">
-      <h1>C'est quoi?</h1>
-      <p>L'<b>io</b> se veut un événement informel entre passionnés de programmation et administration de systèmes.</p>
-
-      <h2>ok...mais encore?</h2>
-      <p>Les détails se forgeront au fil des éditions, mais pour le moment il y aura quelques mini-conférences d'environ 15 minutes sur des sujets qui passionnent les interlocutteurs. Ce ne sont pas nécessairement des expert, l'intention est de partager les découvertes et connaissances.</p>
-      <p>Discuter autour d'un café ou une bière fait aussi parti de la chose!</p>
-
-      <p>Cours de prononciation anglophone en 2 secondes: "io" se prononce "ail eau".</p>
-
-      <p id='disclaimer'>C'est largement et ouvertement inspiré de <a href="http://opencode.ca" target="_blank">l'Opencode</a>, à Québec.</p>
-    </article>
-    <article class='edition'>
-      <h1>Édition de décembre 2013 (aka "beta 2")</h1>
-      <section>
-        <h2>Quand?</h2>
-        <p>Le lundi 9 décembre, à 18h00. Début des talks à 18h30.</p>
-      </section>
-
-      <section>
-        <h2>Où?</h2>
-        <p>Au bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.</p>
-      </section>
-
-      <section>
-        <h2>"Ordre du jour"</h2>
-        <ul>
-          <li><a href="https://twitter.com/kevenlefebvre">Keven Lefebvre</a> va nous faire une petite introduction à Git!</li>
-          <li><a href="https://twitter.com/gableroux">Gabriel Le Breton</a> va nous parler brièvement de Meteor</li>
-          <li><a href="https://twitter.com/juliensam">Julien-Samuel Lacroix</a> va nous faire une introduction à Amazon EC2</li>
-          <li><a href="https://twitter.com/jipiboily">Jean-Philipe Boily</a> va nous parler de...quelque chose! Suggestions? Possiblement quelque chose lié à Ruby.</li>
-        </ul>
-        <p>L'ordre sera déterminé sur place, c'est donc un "dés-ordre du jour"? Enfin...</p>
-        <div class='inscription'>
-          <a href="http://www.eventbrite.ca/event/9389088015?ref=ebtn" target="_blank"><img src="http://www.eventbrite.ca/custombutton?eid=9389088015" alt="Eventbrite - io de décembre 2013 - beta 2" /></a>
-        </div>
-      </section>
-    </article>
-    <article class='edition'>
-      <h1>Édition d'octobre 2013 (aka "beta 1")</h1>
-      <section>
-        <h2>Quand?</h2>
-        <p>Le mardi 29 octobre, à 18h30.</p>
-      </section>
-
-      <section>
-        <h2>Où?</h2>
-        <p>À <a href="http://www.exodecafe.com">l'Exode Café</a>, à Alma</p>
-      </section>
-
-      <section>
-        <h2>"Ordre du jour"</h2>
-        <ul>
-          <li>Présentation de l'idée du groupe par <a href="https://twitter.com/jipiboily" target='_blank'>@jipiboily</a></li>
-          <li>"Introduction à CoffeeScript" par <a href="https://twitter.com/jipiboily" target='_blank'>@jipiboily</a></li>
-          <li>"La géomatique dans vos appli!" par <a href="https://twitter.com/magoderre" target='_blank'>@magoderre</a></li>
-          <li><strike>"Hackathon 001: Apprendre de mes erreurs" par <a href="https://twitter.com/belug23" target='_blank'>@belug23</a></strike> (remis à une date ultiérieure)</li>
-        </ul>
-        <p>L'ordre sera déterminé sur place, c'est donc un "dés-ordre du jour"? Enfin...</p>
-      </section>
-    </article>
-    <article>
-      <h1>Inscription à l'infolettre</h1>
-      <p>...pour être averti des prochaines éditions.</p>
-      <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
-        <form action="http://jipiboily.us7.list-manage1.com/subscribe/post?u=057aa15d4f31799882124acd5&amp;id=da1eb7ce3d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div class="mc-field-group">
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-          <input type="submit" value="Ok!" name="subscribe" id="mc-embedded-subscribe" class="button">
-        </div>
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>  <div class="clear"></div>
-        </form>
-        </div>
-      <!--End mc_embed_signup-->
-    </article>
-    <article>
-      <h1>Google Group <a href="https://groups.google.com/forum/#!forum/io-saglac">ici!</a></h1>
-    </article>
-  </div>
-  <footer>
-    <p>Proposition de talks ou autres: <a href="mailto:info@saglac.io">info@saglac.io</a></p>
-    <p>Organisé par <a href="http://jipiboily.com">@jipiboily</a> avec l'aide d'autres personnes, selon les éditions. Pourquoi? Pour le plaisir de partager!</p>
-  </footer>
-
-  <script type="text/javascript">
-    var _gauges = _gauges || [];
-    (function() {
-      var t   = document.createElement('script');
-      t.type  = 'text/javascript';
-      t.async = true;
-      t.id    = 'gauges-tracker';
-      t.setAttribute('data-site-id', '526095ef108d7b2b6d000077');
-      t.src = '//secure.gaug.es/track.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(t, s);
-    })();
-  </script>
-</body>
-</html>
+      <div>
+        <p class='location'>Où? <span>{{event.location}}</span></p>
+      </div>
+      <div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.ca/tickets-external?eid={{event.eventbrite_id}}&ref=etckt&v=2" frameborder="0" height="260" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
+    </div>
+    <hr />
+</div>

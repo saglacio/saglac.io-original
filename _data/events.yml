@@ -4,10 +4,6 @@
   location: <a href="http://www.exodecafe.com">l'Exode Café</a>, Alma
   talks:
     -
-      title: PostgreSQL, de tout pour tous.
-      name: Marc-André Goderre
-      twitter: magoderre
-    -
       title: Think Locally - Act Globally
       name: PJ Hagerty
       twitter: aspleenic
@@ -15,6 +11,10 @@
       title: "Introduction to Pyramid: a web application development framework."
       name: Alan Boudreault
       twitter: AlanBoudreault
+    -
+      title: PostgreSQL, de tout pour tous.
+      name: Marc-André Goderre
+      twitter: magoderre
     -
       title: "RubyMotion: create Mac (or iOS) apps with lovely Ruby"
       name: Jean-Philippe Boily

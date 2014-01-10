@@ -1,3 +1,21 @@
+/* Base | From officiel Hyde theme CSS */
+.content {
+  padding: 40px 20px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 990px) {
+  .content {
+    padding: 60px 0;
+  }
+}
+
+/* Event */
 .events h1 {
   text-align: center;
   font-size: 60px;

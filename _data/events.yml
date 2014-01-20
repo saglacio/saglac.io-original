@@ -1,3 +1,16 @@
+- title: Février 2014
+  date: Lundi 10 février, à 18h00.
+  eventbrite_id: 10256987927
+  location: Bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.
+  talks:
+    -
+      title: "Environnement de développement avec Vagrant"
+      name: Alan Boudreault
+      twitter: AlanBoudreault
+    -
+      title: Un sujet cool!
+      name: Toi! Contact info@saglac.io
+
 - title: Janvier 2014 - Nickel edition
   date: Lundi 13 janvier, à 18h00.
   eventbrite_id: 9769359417

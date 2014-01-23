@@ -12,11 +12,12 @@ title: 'Accueil'
       <p><a href="/io">C’est quoi l’io? Les détails sont ici.</a></p>
     </div>
 
-
     <div class="panel">
       <h2>{{ next_io.title }}</h2>
       <p class="date">Quand? <span>{{ next_io.date }}</span></p>
       <p class='location'>Où? <span>{{next_io.location}}</span></p>
+
+      <a href="https://www.eventbrite.ca/custombutton?eid={{next_io.eventbrite_id}}" class="button alert">Inscription!</a>
 
       <h2 class='talks'>
         Quoi?

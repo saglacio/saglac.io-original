@@ -52,6 +52,10 @@ header#site-title h1 {
   padding: 0px 35px 0 35px;
 }
 
+
+#event-panels .button {
+  width: 100%;
+}
 #top-nav {
   width: 50%;
   margin: 0 auto;

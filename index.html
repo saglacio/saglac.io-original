@@ -3,6 +3,7 @@ layout: default
 title: 'Accueil'
 ---
 {% assign next_io = site.data.io-events.first %}
+{% assign next_openhack = site.data.openhack-events.first %}
 
 <div id='event-panels'>
   <div class="small-6 columns event">
@@ -15,7 +16,7 @@ title: 'Accueil'
     <div class="panel">
       <h2>{{ next_io.title }}</h2>
       <p class="date">Quand? <span>{{ next_io.date }}</span></p>
-      <p class='location'>Où? <span>{{next_io.location}}</span></p>
+      <p class='location'>Où? <span>{{ next_io.location }}</span></p>
 
       <a href="https://www.eventbrite.ca/custombutton?eid={{next_io.eventbrite_id}}" class="button alert">Inscription!</a>
 
@@ -36,10 +37,15 @@ title: 'Accueil'
     <div class="description">
       <p><a href='/openhack'>C’est quoi l’OpenHack? Les détails sont ici.</a></p>
     </div>
+
     <div class="panel">
-      <h2>Février 2014</h2>
-      <p class="date">Quand? <span>Lundi 24 février. Heure à déterminer.</span></p>
-      <p class='location'>Où? <span>À déterminer.</span></p>
+      <h2>{{ next_openhack.title }}</h2>
+      <p class="date">Quand? <span>{{ next_openhack.date }}</span></p>
+      <p class='location'>Où? <span>{{ next_openhack.location }}</span></p>
+
+      {% if next_openhack.eventbrite_id %}
+        <a href="https://www.eventbrite.ca/custombutton?eid={{next_openhack.eventbrite_id}}" class="button alert">Inscription!</a>
+      {% endif %}
     </div>
   </div>
 </div>

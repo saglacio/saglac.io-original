@@ -74,3 +74,8 @@ header#site-title h1 {
   -webkit-border-top-right-radius: 0px;
   border-top-right-radius: 0px;
 }
+
+/* Event pages */
+#description h2, .events h2 {
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<article id='description' class="small-6 columns">
+  <h2>Qu'est-ce que l’OpenHack?</h2>
+  <blockquote cite="http://openhack.github.io/">
+    "OpenHack is a meetup with a simple purpose: Code together, on anything. OpenHack works by hosting a meetup in your city that gets programmers of any experience level together to code." - openhack.github.io
+  </blockquote>
+
+  <h2>Les quatre "règles" d'or</h2>
+
+  <ul>
+    <li>Vous pouvez travailler sur n'importe quoi! Langage, framework, open source, travail, etc.</li>
+    <li>Vous n'avez pas besoin d'avoir une idée, pourquoi ne pas aider quelqu'un?</li>
+    <li>Ça commence avec une petite ronde d'introductions (tous les soirs!): qui vous êtes, sur quoi vous travaillez, si vous voulez de l'aide ou encore si vous voulez aider.</li>
+    <li>Il n'y a pas de quatrième règle!</li>
+  </ul>
+  <h2>En vidéo...?!</h2>
+  <iframe width="450" height="253" src="//www.youtube.com/embed/bQgbSXBjpz0?rel=0" frameborder="0" allowfullscreen></iframe>
+</article>
+
+<div class="events small-6 columns">
+  <h2>C'est quand?</h2>
+
+  {% for event in site.data.openhack-events %}
+    <div class="event">
+      <h3>{{ event.title }}</h3>
+      <p class="date">Quand? <span>{{ event.date }}</span></p>
+      <div>
+        <p class='location'>Où? <span>{{event.location}}</span></p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

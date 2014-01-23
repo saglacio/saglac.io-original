@@ -1,0 +1,76 @@
+/* Overrides Zurb's stuff */
+body {
+  background-color: transparent;
+  font-family: 'Open Sans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro';
+  letter-spacing: -0.05em;
+}
+
+/* Background */
+html {
+  background: url(/assets/images/picture-13-janvier-2014-1-b-w.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.row.container {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/* Headher */
+
+header#site-title h1, header#site-title h6 {
+  text-align: center;
+}
+
+header#site-title h1 {
+  font-size: 5em;
+}
+
+/* Main page */
+
+#event-panels div.description p {
+  text-align: center;
+  font-size: 12px;
+}
+
+#event-panels .panel {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#event-panels h2 {
+  text-align: center;
+  font-size: 3em;
+}
+
+#event-panels .event {
+  padding: 0px 35px 0 35px;
+}
+
+#top-nav {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#top-nav .button {
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+
+}
+
+#top-nav .button-group.radius>*:first-child,
+#top-nav .button-group.radius>*:first-child>a {
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+#top-nav .button-group.radius>*:last-child,
+#top-nav .button-group.radius>*:last-child>a {
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+}

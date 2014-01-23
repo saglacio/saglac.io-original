@@ -16,6 +16,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="/assets/css/saglac.io.css">
+
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/touch-icon-144-precomposed.png">
@@ -25,57 +29,25 @@
   </head>
   <body>
 
-    <header class="masthead">
-      <div class="masthead-inner">
+
+    <div class='row container'>
+      {% include top_nav.html %}
+
+      <header id='site-title'>
         <h1>
-          <a href="/">io</a>
+          saglac.io
         </h1>
-        <p class="lead">L'io se veut un événement informel entre passionnés de programmation et d'administration de systèmes.</p>
+        <h6>
+          Événements pour et par les passionnés de programmation et d’administration de systèmes du Saguenay-Lac-St-Jean
+        </h6>
+      </header>
 
-        <div class="colophon">
-          <ul class="colophon-links">
-            <li>
-              <a href="/">Accueil</a>
-            </li>
-            <li>
-              <a href="/evenements">Événements</a>
-            </li>
-            <li>
-              <a href="mailto:info@saglac.io">Proposez une présentation</a>
-            </li>
-          </ul>
 
-          <hr>
 
-          <ul class="colophon-links">
-            <li>
-              <a href="http://twitter.com/saglacio">Suivez @saglacio</a>
-            </li>
-            <li>
-              <a href="https://groups.google.com/forum/#!forum/io-saglac">Google Group</a>
-            </li>
-          </ul>
-          <div id="mc_embed_signup">
-            <form action="http://jipiboily.us7.list-manage1.com/subscribe/post?u=057aa15d4f31799882124acd5&amp;id=da1eb7ce3d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-            <div class="mc-field-group">
-              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Infolettre (courriel)">
-              <input type="submit" value="Inscription" name="subscribe" id="mc-embedded-subscribe" class="button">
-            </div>
-              <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-              </div>  <div class="clear"></div>
-            </form>
-          </div>
-          <p>Créé par <a href="http://twitter.com/jipiboily">@jipiboily</a></p>
-        </div>
-
-      </div>
-    </header>
-
-    <div class="content container">
       {{ content }}
     </div>
+
+    <a href="https://github.com/jipiboily/saglac.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
     {% include gauges.html %}
   </body>

@@ -30,6 +30,10 @@ title: 'OpenHack'
       <div>
         <p class='location'>Où? <span>{{event.location}}</span></p>
       </div>
+
+      {% if event == site.data.openhack-events.first and event.eventbrite_id %}
+        <a href="https://www.eventbrite.ca/e/{{event.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+      {% endif %}
     </div>
   {% endfor %}
 </div>

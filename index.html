@@ -18,7 +18,7 @@ title: 'Accueil'
       <p class="date">Quand? <span>{{ next_io.date }}</span></p>
       <p class='location'>Où? <span>{{ next_io.location }}</span></p>
 
-      <a href="https://www.eventbrite.ca/custombutton?eid={{next_io.eventbrite_id}}" class="button alert">Inscription!</a>
+      <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
 
       <h2 class='talks'>
         Quoi?
@@ -44,7 +44,7 @@ title: 'Accueil'
       <p class='location'>Où? <span>{{ next_openhack.location }}</span></p>
 
       {% if next_openhack.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/custombutton?eid={{next_openhack.eventbrite_id}}" class="button alert">Inscription!</a>
+        <a href="https://www.eventbrite.ca/e/{{next_openhack.eventbrite_id}}" class="button alert inscription">Inscription!</a>
       {% endif %}
     </div>
   </div>

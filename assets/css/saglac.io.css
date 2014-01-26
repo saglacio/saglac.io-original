@@ -22,6 +22,12 @@ div.row.container {
   background: rgba(255, 255, 255, 0.6);
 }
 
+/* General stuff */
+
+.button.inscription {
+  width: 100%;
+}
+
 /* Top nav */
 
 #top-nav {
@@ -96,10 +102,6 @@ footer form {
 
 #event-panels .event {
   padding: 0px 35px 0 35px;
-}
-
-#event-panels .button {
-  width: 100%;
 }
 
 /* Event pages */

@@ -56,6 +56,28 @@ header#site-title h1 {
   font-size: 5em;
 }
 
+/* Footer */
+
+footer {
+  clear: both;
+  padding: 50px 0;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer a {
+  color: #333333;
+  margin: 0 50px 0 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer form {
+  margin-left: 20px;
+}
+
 /* Main page */
 
 #event-panels div.description p {

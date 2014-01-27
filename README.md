@@ -1,10 +1,18 @@
 # saglac.io
 
-Site web de l’io.
+Website for saglac.io. This is a basic Jekyll website with Zurb Foundation. Nothing crazy.
 
-Ce n’est qu’un site web statique bien simple et pas très beau. Pull requests bienvenues! :)
+## Running in development
 
-Proposition de talks ou autres: info@saglac.io
+Run:
+```bash
+bundle install
+jekyll serve --watch
+```
+
+Boom!
+
+
+
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jipiboily/saglac.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-

@@ -1,0 +1,45 @@
+---
+layout: default
+title: 'io'
+---
+<article id='description' class="small-12 large-6 columns">
+  <h2>L’io, c’est quoi?</h2>
+  <p>L’io se veut un événement informel entre passionnés de programmation et d’administration de systèmes du Saguenay-Lac-St-Jean. Les rencontres sont mensuelles, en alternance entre Alma et Saguenay.</p>
+
+  <p>Il y a 3 ou 4 courtes présentations d’environ 15 minutes sur des sujets qui passionnent les présentateurs et qu’ils veulent partager avec vous. Ce ne sont pas nécessairement des experts sur le sujet. L’intention est de partager les découvertes et connaissances. </p>
+
+  <p>C’est aussi une bonne occasion de fraterniser autour d’un café ou d’une bière, par exemple!</p>
+
+  <p class="footprint">Cours de prononciation anglophone en 2 secondes: "io" se prononce "ail eau".</p>
+
+  <p class="footprint">C’est largement et ouvertement inspiré de <a href="http://opencode.ca" target="_blank">l’OpenCode</a>, à Québec.</p>
+</article>
+
+<div class="events small-12 large-6 columns">
+  <h2>C'est quand?</h2>
+
+  {% for event in site.data.io-events %}
+    <div class="event">
+      <h3>{{ event.title }}</h3>
+      <p class="date">Quand? <span>{{ event.date }}</span></p>
+      <div>
+        <p class='location'>Où? <span>{{event.location}}</span></p>
+      </div>
+
+      {% if event == site.data.io-events.first and event.eventbrite_id %}
+        <a href="https://www.eventbrite.ca/e/{{event.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+      {% endif %}
+
+      <p>
+        Présentations:
+      </p>
+      <ul>
+        {% for talk in event.talks %}
+          <li>{{talk.title}} - <a href="http://twitter.com/{{talk.twitter}}" target="_blank">
+            {{talk.name}}
+          </a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

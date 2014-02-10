@@ -23,9 +23,17 @@ div.row.container {
 }
 
 /* General stuff */
-
 .button.inscription {
   width: 100%;
+}
+
+/* Quick Responsive trick */
+iframe {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Top nav */
@@ -127,6 +135,7 @@ footer form {
   footer a {
     margin: 0px;
   }
+
 }
 
 /* Medium screens */
@@ -140,5 +149,11 @@ footer form {
 @media only screen and (max-width: 64em) {
   #top-nav, #fork-on-github {
     display: none;
+  }
+
+  /* center iframes (youtube videos) */
+  iframe {
+    margin: 0 auto;
+    display: block;
   }
 }

@@ -4,6 +4,10 @@
   location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma
   talks:
     -
+      title: "L'Arduino a nos portes!"
+      name: Steeve Juair
+      twitter: Juair
+    -
       title: "Polymer, Google veulent tuer javascript! (présentation éclair)"
       name: Alexandre Lessard
       twitter: belug23

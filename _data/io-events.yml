@@ -1,7 +1,7 @@
 - title: Mars 2014
   date: Lundi 10 Mars, à 18h00.
   eventbrite_id: 10597434211
-  location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma
+  location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.
   talks:
     -
       title: "L'Arduino a nos portes!"
@@ -15,6 +15,7 @@
       title: "Tu veux faire un talk? Fais nous le savoir! :)"
       name: Ton nom ici
       twitter: saglacio
+
 - title: Février 2014
   date: Lundi 10 février, à 18h00.
   eventbrite_id: 10256987927

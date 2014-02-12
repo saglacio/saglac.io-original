@@ -27,9 +27,8 @@ title: 'OpenHack'
     <div class="event">
       <h3>{{ event.title }}</h3>
       <p class="date">Quand? <span>{{ event.date }}</span></p>
-      <div>
-        <p class='location'>Où? <span>{{event.location}}</span></p>
-      </div>
+      <p class='location'>Où? <span>{{event.location}}</span></p>
+      <p class='sponsor'><u>Une consomation et de la pizza serons fournis aux participants.</u> Gracieuseté de <a href="http://www.solutionglobale.com/">Solution Globale</a>.</p>
 
       {% if event == site.data.openhack-events.first and event.eventbrite_id %}
         <a href="https://www.eventbrite.ca/e/{{event.eventbrite_id}}" class="button alert inscription">Inscription!</a>

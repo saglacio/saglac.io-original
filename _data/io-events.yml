@@ -1,5 +1,19 @@
+- title: Avril 2014
+  date: Lundi 7 avril, à 18h00.
+  eventbrite_id: 10924929759
+  location: 'Bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.'
+  talks:
+    -
+      title: "Erlang"
+      name: Frederic Trottier-Hebert
+      twitter: mononcqc
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
+
 - title: Mars 2014
-  date: Lundi 10 Mars, à 18h00.
+  date: Lundi 10 mars, à 18h00.
   eventbrite_id: 10597434211
   location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.
   talks:
@@ -14,7 +28,7 @@
     -
       title: "Elm à Elma"
       name: Martin Lavoie
-      twitter: refnil19 
+      twitter: refnil19
     -
       title: "Polymer, Google veulent tuer javascript! (présentation éclair)"
       name: Alexandre Lessard

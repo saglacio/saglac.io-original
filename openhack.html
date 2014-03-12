@@ -28,7 +28,7 @@ title: 'OpenHack'
       <h3>{{ event.title }}</h3>
       <p class="date">Quand? <span>{{ event.date }}</span></p>
       <p class='location'>Où? <span>{{event.location}}</span></p>
-      <p class='sponsor'><u>Une consomation et de la pizza seront fournis aux participants.</u></p>
+      <p class='sponsor'><u>Nous sommes à la recherche de commanditaire. D'ici là, vous devrez payer pour votre pizza et vos breuvages.</u></p>
 
       {% if event == site.data.openhack-events.first and event.eventbrite_id %}
         <a href="https://www.eventbrite.ca/e/{{event.eventbrite_id}}" class="button alert inscription">Inscription!</a>

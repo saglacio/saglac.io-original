@@ -18,6 +18,10 @@ html {
   background-size: cover;
 }
 
+a {
+    color: #004c8a;
+}
+
 div.row.container {
   background: rgba(255, 255, 255, 0.6);
 }

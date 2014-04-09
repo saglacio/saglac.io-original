@@ -42,7 +42,13 @@ title: 'Accueil'
       <h2>{{ next_openhack.title }}</h2>
       <p class="date">Quand? <span>{{ next_openhack.date }}</span></p>
       <p class='location'>Où? <span>{{ next_openhack.location }}</span></p>
-      <p class='sponsor'><u>Nous sommes à la recherche de commanditaire. D'ici là, vous devrez payer pour votre pizza et vos breuvages.</u></p>
+      <p class='sponsor'>
+        {% if next_openhack.sponsor %}
+          {{ next_openhack.sponsor }}
+        {% else %}
+          Nous sommes à la recherche de commanditaire. D'ici là, vous devrez payer pour votre pizza et vos breuvages.
+        {% endif %}
+      </p>
 
       {% if next_openhack.eventbrite_id %}
         <a href="https://www.eventbrite.ca/e/{{next_openhack.eventbrite_id}}" class="button alert inscription">Inscription!</a>

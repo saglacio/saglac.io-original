@@ -23,15 +23,21 @@ title: 'OpenHack'
 <div class="events small-12 large-6 columns">
   <h2>C'est quand?</h2>
 
-  {% for event in site.data.openhack-events %}
+  {% for next_openhack in site.data.openhack-events %}
     <div class="event">
-      <h3>{{ event.title }}</h3>
-      <p class="date">Quand? <span>{{ event.date }}</span></p>
-      <p class='location'>Où? <span>{{event.location}}</span></p>
-      <p class='sponsor'><u>Nous sommes à la recherche de commanditaire. D'ici là, vous devrez payer pour votre pizza et vos breuvages.</u></p>
+      <h3>{{ next_openhack.title }}</h3>
+      <p class="date">Quand? <span>{{ next_openhack.date }}</span></p>
+      <p class='location'>Où? <span>{{ next_openhack.location }}</span></p>
+      <p class='sponsor'>
+        {% if next_openhack.sponsor %}
+          {{ next_openhack.sponsor }}
+        {% else %}
+          Nous sommes à la recherche de commanditaire. D'ici là, vous devrez payer pour votre pizza et vos breuvages.
+        {% endif %}
+      </p>
 
-      {% if event == site.data.openhack-events.first and event.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/e/{{event.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+      {% if next_openhack == site.data.openhack-events.first and next_openhack.eventbrite_id %}
+        <a href="https://www.eventbrite.ca/e/{{next_openhack.eventbrite_id}}" class="button alert inscription">Inscription!</a>
       {% endif %}
     </div>
   {% endfor %}

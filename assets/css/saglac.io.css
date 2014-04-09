@@ -122,6 +122,12 @@ footer form {
   text-align: center;
 }
 
+
+.sponsor {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 /**************************************
   Media quieries
 ***************************************/

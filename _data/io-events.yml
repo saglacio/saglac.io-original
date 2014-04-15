@@ -1,3 +1,17 @@
+- title: Mai 2014
+  date: Mardi 13 mai, à 18h00.
+  eventbrite_id: 11311337515
+  location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.
+  talks:
+    -
+      title: "Titre à venir"
+      name: Steeve Juair
+      twitter: Juair
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
+
 - title: Avril 2014
   date: Mercredi 9 avril, à 18h00.
   eventbrite_id: 10924929759
@@ -12,9 +26,9 @@
       name: Kim Desrosiers
       twitter: kimondd
     -
-      title: "Un super sujet à proposer?"
-      name: Toi!
-      twitter: saglacio
+      title: "Lightning talk à propos de Fourchette et Opinionated"
+      name: Jean-Philippe Boily
+      twitter: jipiboily
 
 - title: Mars 2014
   date: Lundi 10 mars, à 18h00.

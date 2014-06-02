@@ -4,6 +4,10 @@
   location: 'Bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.'
   talks:
     -
+      title: "Création de paquets RPM pour Fedora/openSUSE/etc"
+      name: Adrien Vitti
+      twitter: n0tnull
+    -
       title: "Un super sujet à proposer?"
       name: Toi!
       twitter: saglacio

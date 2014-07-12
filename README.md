@@ -10,4 +10,4 @@ bundle install
 jekyll serve --watch
 ```
 
-Boom!
+Visit http://0.0.0.0:4000 ... :boom:!

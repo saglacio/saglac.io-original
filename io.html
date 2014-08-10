@@ -26,20 +26,21 @@ title: 'io'
         <p class='location'>Où? <span>{{event.location}}</span></p>
       </div>
 
+      {% if event.sponsor %}
+        <h3 class='sponsor'>COMMANDITE: {{event.sponsor}}</h3>
+      {% endif %}
+
       {% if event == site.data.io-events.first and event.eventbrite_id %}
         <a href="https://www.eventbrite.ca/e/{{event.eventbrite_id}}" class="button alert inscription">Inscription!</a>
       {% endif %}
 
-      <p>
-        Présentations:
-      </p>
-      <ul>
-        {% for talk in event.talks %}
-          <li>{{talk.title}} - <a href="http://twitter.com/{{talk.twitter}}" target="_blank">
-            {{talk.name}}
-          </a></li>
-        {% endfor %}
-      </ul>
+      <h4>Les présentations:</h4>
+      {% for talk in event.talks %}
+        <h5>{{talk.title}}</h5>
+        Par <a href="http://twitter.com/{{talk.twitter}}" target="_blank">{{talk.name}}</a>
+        <p>{{talk.description}}</p>
+      {% endfor %}
     </div>
+    <hr>
   {% endfor %}
 </div>

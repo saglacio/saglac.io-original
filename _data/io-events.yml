@@ -1,3 +1,22 @@
+- title: "September 2014: de la grande visite et des cadeaux!"
+  date: Mardi 9 septembre, à 18h00.
+  eventbrite_id: 12592567709
+  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  sponsor: 'Des t-shirts de <a href="http://circleci.com" target="_blank">Circle CI</a> seront tirés parmis les présents et il y aura des stickers pour tout le monde aussi! Autres surprises en attentes...'
+  talks:
+    -
+      title: "Firefox OS: une plateforme à découvrir"
+      name: "Frédéric Harper (Sr. Technical Evangelist - Mozilla)"
+      description: "HTML5 est un pas de géant dans la bonne direction: il apporte plusieurs fonctionnalités dont les développeurs avaient besoin pour créer plus facilement de meilleures expériences web. Il a aussi fait naitre un débat sans fin: applications natives ou applications web! Lors de cette présentation, Frédéric Harper vous montrera comment le web ouvert peut vous aider à créer des applications mobiles de qualités. Vous en apprendrez plus sur des technologies telles que les WebAPIs, ainsi que les outils qui vous permettront de viser un nouveau marché avec Firefox OS et le web d’aujourd'hui."
+      twitter: fharper
+    -
+      title: 'Sujet à confirmer...Go, Docker ou encore "CI servers: from scratch (really!), hosted or not?"...quel sujet vous parle?'
+      name: "Jean-Philippe Boily"
+      twitter: jipiboily
+    -
+      title: "En attente d'une confirmation..."
+      name: "Surprise!"
+      twitter: saglacio
 - title: Juin 2014
   date: Mardi 10 juin, à 18h00.
   eventbrite_id: 11717757127

@@ -11,3 +11,7 @@ jekyll serve --watch
 ```
 
 Visit http://0.0.0.0:4000 ... :boom:!
+
+## Add an event
+
+Everything is in the `_data` directory.

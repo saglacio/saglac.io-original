@@ -4,6 +4,11 @@
   location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Nourriture et alcool disponible.'
   talks:
     -
+      title: "Open à toutes les sauces : comment s'y retrouver"
+      name: Daniel Morissette
+      description: Open Source, Open Data, Open Standards, Open Government, Open API… Avec autant de “buzzwords”, comment s’y retrouver ? Nous allons tenter de démystifier le qui, le quoi et le comment derrière toutes ces tendances “Open”.
+      twitter: dmorissette
+    -
       title: "Un super sujet à proposer?"
       name: Toi!
       twitter: saglacio

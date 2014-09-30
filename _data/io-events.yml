@@ -4,7 +4,7 @@
   location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Nourriture et alcool disponible.'
   talks:
     -
-      title: "Quelque chose à propos de NoSQL...détails à venir."
+      title: "SQL vs. NoSQL: comment choisir sa base de données"
       name: Frederic Trottier-Hebert
       twitter: mononcqc
     -

@@ -1,3 +1,18 @@
+- title: "Novembre 2014: un an d'io, pour vrai!"
+  date: Mardi 11 novembre, à 18h00.
+  eventbrite_id: 13746079895
+  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  sponsor: 'Stickers de Rainforest, de Cloud 66 ainsi que des t-shirts & stickers de <a href="http://docker.com" target="_blank">Docker</a>!'
+  talks:
+    -
+      title: "Contain yourself: a Docker introduction."
+      name: Jean-Philippe Boily
+      twitter: jipiboily
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
+
 - title: "Octobre 2014: un an d'io!"
   date: Mardi 7 octobre, à 18h00.
   eventbrite_id: 13170572537

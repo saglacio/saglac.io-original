@@ -5,10 +5,6 @@
   sponsor: 'Stickers de Rainforest, de Cloud 66 ainsi que des t-shirts & stickers de <a href="http://docker.com" target="_blank">Docker</a>!'
   talks:
     -
-      title: "Contain yourself: a Docker introduction."
-      name: Jean-Philippe Boily
-      twitter: jipiboily
-    -
       title: "Become an Internet Wizard; GruntJs + CoffeeScript"
       name: Gabriel Le Breton
       twitter: gableroux

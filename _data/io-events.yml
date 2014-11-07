@@ -2,7 +2,7 @@
   date: Mardi 11 novembre, à 18h00.
   eventbrite_id: 13746079895
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
-  sponsor: 'Stickers de Rainforest, de Cloud 66 ainsi que des t-shirts & stickers de <a href="http://docker.com" target="_blank">Docker</a>!'
+  sponsor: '<a href="http://www.demarque.com/travailler-comme-developpeur-chez-demarque/">DeMarque</a> paye une consomation par personne! Stickers de <a href="https://www.rainforestqa.com/">Rainforest</a>, de <a href="http://www.cloud66.com/">Cloud 66</a> ainsi que des t-shirts & stickers de <a href="http://docker.com" target="_blank">Docker</a>!'
   talks:
     -
       title: "Become an Internet Wizard; GruntJs + CoffeeScript"

@@ -1,3 +1,13 @@
+- title: "Décembre 2014"
+  date: Mardi le 9 décembre, à 18h00.
+  eventbrite_id: 14698544743
+  location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Nourriture et alcool disponible.'
+  talks:
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
+      
 - title: "Novembre 2014: un an d'io, pour vrai!"
   date: Mardi 11 novembre, à 18h00.
   eventbrite_id: 13746079895

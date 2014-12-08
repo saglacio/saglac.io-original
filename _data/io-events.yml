@@ -4,6 +4,9 @@
   location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Nourriture et alcool disponible.'
   talks:
     -
+      title: "Gestionnaires de mots de passe"
+      name: "Quentin Bédéneau"
+    -
       title: "Un super sujet à proposer?"
       name: Toi!
       twitter: saglacio

@@ -1,3 +1,13 @@
+- title: "Janvier 2015"
+  date: Mercredi 21 Janvier, à 18h00.
+  eventbrite_id: 15252480580
+  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
+
 - title: "Décembre 2014"
   date: Mardi le 9 décembre, à 18h00.
   eventbrite_id: 14698544743
@@ -10,7 +20,7 @@
       title: "Why I love zsh"
       name: Kim Desrosiers
       twitter: kimondd
-      
+
 - title: "Novembre 2014: un an d'io, pour vrai!"
   date: Mardi 11 novembre, à 18h00.
   eventbrite_id: 13746079895

@@ -4,6 +4,10 @@
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
+      title: "Dart: en plein dans le mille"
+      name: Joel Trottier-Hebert
+      twitter: JoelTHebert
+    -
       title: "Unicode vs. UTF-8 et les signes de quand on se tire dans le pied (lighting talk)"
       name: Frederic Trottier-Hebert
       twitter: mononcqc

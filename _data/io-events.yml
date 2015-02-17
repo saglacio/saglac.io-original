@@ -4,6 +4,10 @@
   location: 'HopEra, 2377 Rue Saint Dominique, Jonquière, QC G7X 6L4. Microbrasserie et nourriture!'
   talks:
     -
+      title: "Le top des outils essentiels d'un bon OS"
+      name: Julien-Samuel Lacroix
+      twitter: JulienSam
+    -
       title: "Un super sujet à proposer?"
       name: Toi!
       twitter: saglacio

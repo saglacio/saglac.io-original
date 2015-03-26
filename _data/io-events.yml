@@ -1,3 +1,16 @@
+- title: "Mars 2015"
+  date: Mardi 30 mars, à 18h00.
+  eventbrite_id: 15510032926
+  location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Microbrasserie et nourriture!'
+  talks:
+    -
+      title: "Introduction à git"
+      name: Jessica Lapointe
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
+
 - title: "Février 2015"
   date: Mercredi 25 Février, à 18h00.
   eventbrite_id: 15510032926

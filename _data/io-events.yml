@@ -1,3 +1,16 @@
+- title: "Avril 2015"
+  date: Mardi 28 Avril, à 18h00.
+  eventbrite_id: 16388659923
+  location: 'Alma. Endroit précis à confirmer.'
+  talks:
+    -
+      title: "React.js: le nouveau truc cool!"
+      name: Jean-Philippe Boily
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
+
 - title: "Mars 2015"
   date: Mardi 30 mars, à 18h00.
   eventbrite_id: 16327857060
@@ -27,7 +40,7 @@
       title: "Un super sujet à proposer?"
       name: Toi!
       twitter: saglacio
-      
+
 - title: "Janvier 2015"
   date: Mercredi 21 Janvier, à 18h00.
   eventbrite_id: 15252480580

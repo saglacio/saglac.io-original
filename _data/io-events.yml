@@ -4,6 +4,13 @@
   location: 'Entrecôte Riverain (JONQUIÈRE!!!)'
   talks:
     -
+      title: "cos'è un hypervisor? (ça va parler de Proxmox)"
+      name: Steeve Juair
+      twitter: Juair
+    -
+      title: "SaltStack"
+      name: Gabriel Le Breton et Micael Bergeron
+    -
       title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
       name: Toi!
       twitter: saglacio
@@ -15,6 +22,7 @@
     -
       title: "React.js: le nouveau truc cool!"
       name: Jean-Philippe Boily
+      twitter: jipiboily
     -
       title: "Principes de base de programmation distribuée"
       name: Frederic Trottier-Hebert

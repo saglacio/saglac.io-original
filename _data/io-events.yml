@@ -1,3 +1,12 @@
+- title: "Juillet 2015"
+  date: Mardi 7 Juillet, à 18h00.
+  eventbrite_id: 17357823718
+  location: 'Microbrasse du Lac-St-Jean'
+  talks:
+    -
+      title: "Aucune présentation, ce sera des discussions sur la gestion de projet, logiciels de gestion de projet/tâches/bugs, agile, ou non, etc :)"
+      name: saglacio
+      twitter: saglacio
 - title: "Mai 2015"
   date: Mardi 26 Mai, à 18h00.
   eventbrite_id: 16869582375

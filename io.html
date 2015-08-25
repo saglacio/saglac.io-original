@@ -30,8 +30,14 @@ title: 'io'
         <h3 class='sponsor'>COMMANDITE: {{event.sponsor}}</h3>
       {% endif %}
 
-      {% if event == site.data.io-events.first and event.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/e/{{event.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+      {% if event == site.data.io-events.first %}
+        {% if event.eventbrite_id %}
+          <a href="https://www.eventbrite.ca/e/{{event.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+        {% endif %}
+
+        {% if event.event_url %}
+          <a href="{{event.event_url}}" class="button alert inscription">Inscription!</a>
+        {% endif %}
       {% endif %}
 
       <h4>Les présentations:</h4>

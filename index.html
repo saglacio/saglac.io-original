@@ -22,7 +22,13 @@ title: 'Accueil'
         <h3 class='sponsor'>COMMANDITE: {{next_io.sponsor}}</h3>
       {% endif %}
 
-      <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+      {% if next_io.eventbrite_id %}
+        <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+      {% endif %}
+
+      {% if next_io.event_url %}
+        <a href="{{next_io.event_url}}" class="button alert inscription">Inscription!</a>
+      {% endif %}
 
       <h2>Les présentations</h2>
       {% for talk in next_io.talks %}
@@ -34,7 +40,14 @@ title: 'Accueil'
       <p>
         Inscrivez-vous pour faciliter la planification de l'espace et des repas s'il y a lieu, merci! :)
       </p>
-      <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+
+      {% if next_io.eventbrite_id %}
+        <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
+      {% endif %}
+
+      {% if next_io.event_url %}
+        <a href="{{next_io.event_url}}" class="button alert inscription">Inscription!</a>
+      {% endif %}
     </div>
   </div>
 

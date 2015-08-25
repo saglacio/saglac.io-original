@@ -1,3 +1,12 @@
+- title: "Septembre 2015"
+  date: 23 Septembre, à 18h00.
+  event_url: "https://www.facebook.com/groups/saglac.io/events/"
+  location: 'Resto-Bar Le Stade (Chicoutimi)'
+  talks:
+    -
+      title: "CLI Games"
+      name: Kim Desrosiers
+      twitter: kimondd
 - title: "Juillet 2015"
   date: Mardi 7 Juillet, à 18h00.
   eventbrite_id: 17357823718

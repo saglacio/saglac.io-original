@@ -1,3 +1,16 @@
+- title: "Octobre 2015"
+  date: 28 Octobre, à 18h00.
+  event_url: ""
+  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "HUBOT - Improve and reduce employee efficiency"
+      name: Gabriel Le Breton
+      twitter: gableroux
+    -
+      title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
+      name: Toi!
+      twitter: saglacio
 - title: "Septembre 2015"
   date: 23 Septembre, à 18h00.
   event_url: "https://www.facebook.com/events/1470133096623433/"
@@ -8,7 +21,7 @@
       name: Kim Desrosiers
       twitter: kimondd
     -
-      title: "HUBOT - Improve and reduce employee efficiency"
+      title: "(REPORTÉ AU MOIS PROCHAIN) HUBOT - Improve and reduce employee efficiency"
       name: Gabriel Le Breton
       twitter: gableroux
     -

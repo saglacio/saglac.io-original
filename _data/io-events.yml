@@ -1,3 +1,18 @@
+- title: "Décembre 2015"
+  date: 2 décembre, à 18h00.
+  event_url: "https://www.facebook.com/events/197726173893502/"
+  location: 'Deuxième étage de la Tour à Bières, Chicoutimi. Nourriture et bière disponibles.'
+  talks:
+    -
+      title: "Introduction à Scala"
+      name: Kim Lavoie
+    -
+      title: "Révisions de DB avec Alembic et SQLAlchemy"
+      name: Jessica Lapointe
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
 - title: "Octobre 2015"
   date: 28 Octobre, à 18h00.
   event_url: "https://www.facebook.com/events/524316244393655/"

@@ -12,9 +12,12 @@
       name: Steeve Juair
       twitter: Juair
     -
-      title: "Un super sujet à proposer?"
-      name: Toi!
-      twitter: saglacio
+      title: "Programmation fonctionnelle en JS"
+      name: Kim Lavoie
+    -
+      title: "(Si le temps le permet) Démo de React + Redux + Jasmine dans le code de Metrics Watch"
+      name: Jean-Philippe Boily
+      twitter: jipiboily
 - title: "Décembre 2015"
   date: 2 décembre, à 18h00.
   event_url: "https://www.facebook.com/events/197726173893502/"

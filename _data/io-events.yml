@@ -1,3 +1,20 @@
+- title: "Janvier 2016"
+  date: 27 janvier, à 18h00.
+  event_url: "https://www.facebook.com/events/1632742133655739/"
+  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "Tester du Python en Erlang"
+      name: Frederic Trottier-Hebert
+      twitter: mononcqc
+    -
+      title: "Docker"
+      name: Steeve Juair
+      twitter: Juair
+    -
+      title: "Un super sujet à proposer?"
+      name: Toi!
+      twitter: saglacio
 - title: "Décembre 2015"
   date: 2 décembre, à 18h00.
   event_url: "https://www.facebook.com/events/197726173893502/"

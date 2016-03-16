@@ -1,3 +1,24 @@
+- title: "Mars 2016: bienvenue, printemps!"
+  date: 30 Mars, à 18h00.
+  event_url: "https://www.facebook.com/events/810666755732038/"
+  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "\"De Rails aux microservices Go: notre expérience avec Gemnasium Enterprise\" (version allégée de la conférence donnée au WAQ en avril prochain)"
+      name: Jean-Philippe Boily
+      twitter: jipiboily
+    -
+      title: "Let's Encrypt: de kecé?"
+      name: Gabriel Le Breton
+      twitter: gableroux
+    -
+      title: "Faire sa propre authentification HTTP Basic en 15 minutes"
+      name: Jean-Philippe Gravel
+      twitter: formixse
+    -
+      title: "dix-patch: équivalent à Segment.io"
+      name: Jean-Philippe Boily
+      twitter: jipiboily
 - title: "Mars 2016"
   date: 1er Mars, à 18h00.
   event_url: "https://www.facebook.com/events/189931134704504/"

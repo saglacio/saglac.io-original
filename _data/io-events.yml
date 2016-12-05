@@ -1,3 +1,18 @@
+- title: "Dernier io de 2016, à Alma!"
+  date: 7 décembre, à 18h00.
+  event_url: "https://www.facebook.com/events/1799450726981595/"
+  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "Pack your 💩 with webpack!"
+      name: Maxime Morin
+    -
+      title: '"Reflection" pour programmeurs et hackers'
+      name: Jules Robichaud-Gagnon
+    -
+      title: "Commencez vos projets par la fin!"
+      name: Mathieu Tortuyaux
+
 - title: "Novembre 2016 Spécial UQAC"
   date: 21 novembre, à 19h00.
   event_url: "https://www.facebook.com/events/163206777482547/"

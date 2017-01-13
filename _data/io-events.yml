@@ -22,6 +22,7 @@
       title: "150 pages de recherches en génie logiciel en 10 slides"
       name: Frederic Trottier-Hebert
       twitter: mononcqc
+      slides: https://s3.amazonaws.com/ferd-presentations/150-en-10.pdf
     -
       title: "Introduction à git, l'arbre de la vie"
       name: Gabriel Le Breton
@@ -41,7 +42,7 @@
     -
       title: "My shell story"
       name: Kim Desrosiers
-      
+
 - title: "Septembre 2016"
   date: 20 septembre, à 18h00.
   event_url: "https://www.facebook.com/events/186613181771937/"
@@ -53,7 +54,7 @@
     -
       title: "Pimp My Terminal"
       name: Joël Trottier-Hébert
-      
+
 - title: "Juin 2016"
   date: 21 juin, à 18h00.
   event_url: "https://www.facebook.com/events/1007957892587553/"
@@ -77,11 +78,12 @@
     -
       title: "Cloud9 : Pelleter dans le nuage (Lightning Talk)"
       name: Emile Bergeron
+      slides: http://emileber.github.io/cloud9-reveal/#/
     -
       title: "Du coup, Tmux!"
       name: Frederic Trottier-Hebert
       twitter: mononcqc
-      
+
 - title: "Mars 2016: bienvenue, printemps!"
   date: 30 Mars, à 18h00.
   event_url: "https://www.facebook.com/events/810666755732038/"
@@ -462,6 +464,7 @@
       title: "Introduction to Pyramid: a web application development framework."
       name: Alan Boudreault
       twitter: AlanBoudreault
+      slides: https://dl.dropboxusercontent.com/u/6210261/introduction-pyramid.zip
     -
       title: PostgreSQL, de tout pour tous.
       name: Marc-André Goderre
@@ -484,6 +487,7 @@
       title: Introduction à Meteor
       name: Gabriel Le Breton
       twitter: gableroux
+      slides: https://meteor.gableroux.com/#/
     -
       title: Introduction à Amazon EC2
       name: Julien-Samuel Lacroix

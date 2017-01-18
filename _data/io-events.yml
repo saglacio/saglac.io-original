@@ -49,6 +49,7 @@
       title: "Introduction à git, l'arbre de la vie"
       name: Gabriel Le Breton
       twitter: gableroux
+      slides: https://gableroux.com/presentation/2016/11/21/version-control/
     -
       title: "Unity: construire un UI de la bonne façon"
       name: Jules Robichaud-Gagnon
@@ -83,8 +84,9 @@
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
-      title: " influxdb telegraph grafana now I see the data"
+      title: "InfluxDB Telegraf Grafana now I see the data"
       name: Gabriel Le Breton
+      slides: https://gableroux.com/presentation/2016/06/21/influxdb-telegraf-grafana/
     -
       title: "Introduction à Unity WebGL"
       name: Jules Robichaud-Gagnon
@@ -188,6 +190,7 @@
       title: "HUBOT - Improve and reduce employee efficiency"
       name: Gabriel Le Breton
       twitter: gableroux
+      slides: https://gableroux.com/presentation/2015/10/28/hubot-saglacio/
     -
       title: "There's no place like 127.0.0.1"
       name: Steeve Juair
@@ -233,6 +236,7 @@
     -
       title: "SaltStack"
       name: Gabriel Le Breton et Micael Bergeron
+      slides: https://gableroux.com/presentation/2015/06/03/saltstack-saglacio/
     -
       title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
       name: Toi!
@@ -330,6 +334,7 @@
       title: "awk en 20 minutes"
       name: Frederic Trottier-Hebert
       twitter: mononcqc
+      slides: http://ferd.ca/awk-in-20-minutes.html
     -
       title: "ANNULÉ - Become an Internet Wizard; GruntJs + CoffeeScript"
       name: Gabriel Le Breton
@@ -509,7 +514,7 @@
       title: Introduction à Meteor
       name: Gabriel Le Breton
       twitter: gableroux
-      slides: https://meteor.gableroux.com/#/
+      slides: https://gableroux.com/presentation/2013/12/09/meteor-saglacio/
     -
       title: Introduction à Amazon EC2
       name: Julien-Samuel Lacroix

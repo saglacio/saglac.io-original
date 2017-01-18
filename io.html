@@ -40,7 +40,7 @@ title: 'io'
         {% endif %}
       {% endif %}
 
-      <h4>Les présentations:</h4>
+      <h4>Les présentations</h4>
       {% for talk in event.talks %}
         {% if talk.slides %}
         <div id="slides">
@@ -50,9 +50,11 @@ title: 'io'
         </div>
         {% endif %}
         <h5>{{talk.title}}</h5>
+        <div class="author">
         Par {% if talk.website %}<a href="{{talk.website}}" >{{talk.name}}</a>{% else %}{{talk.name}}{% endif %}
          {% if talk.twitter %}<a href="http://twitter.com/{{talk.twitter}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{% endif %}
         <p>{{talk.description}}</p>
+        </div>
       {% endfor %}
     </div>
     <hr>

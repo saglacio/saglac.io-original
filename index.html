@@ -32,6 +32,11 @@ title: 'Accueil'
 
       <h2>Les présentations</h2>
       {% for talk in next_io.talks %}
+        {% if talk.slides %}
+        <div id="slides">
+          <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
+        </div>
+        {% endif %}
         <h5>{{talk.title}}</h5>
         <div class="author">
         Par {% if talk.website %}<a href="{{talk.website}}" >{{talk.name}}</a>{% else %}{{talk.name}}{% endif %}

@@ -44,9 +44,7 @@ title: 'io'
       {% for talk in event.talks %}
         {% if talk.slides %}
         <div id="slides">
-          <a href="{{talk.slides}}">
-            [<img src="/assets/images/slides.png" alt="slides">]
-          </a>
+          <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
         </div>
         {% endif %}
         <h5>{{talk.title}}</h5>

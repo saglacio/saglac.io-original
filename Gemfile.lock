@@ -50,3 +50,4 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 1.4)
   redcarpet
+

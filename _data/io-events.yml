@@ -1,3 +1,25 @@
+- title: "Premier io de 2017"
+  date: 24 janvier, à 18h00.
+  #event_url: "https://www.facebook.com/events/1799450726981595/"
+  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "arch is cool, but I need to ship software"
+      description: "Comment installer archlinux, l'utiliser pendant 1 an, trouver ça cool, perdre des fins de semaines et des soirs à essayer de faire fonctionner xorg, bumblebeec, bbswitch, ses display ports et le piton brightness pour finalement faire un backup de son ordi et passer à Fedora parce qu'après un bug étrange, gnome-online-acconts fait des timeouts sans raisons (no more emails), chrome et chromium load pu les pages et des fois gdm décide de pas démarrer."
+      name: Gabriel Le Breton
+      website: https://gableroux.com/
+      twitter: gableroux
+    -
+      title: "Recon-ng : Un outil de reconnaissance"
+      description: "Un framework open-source d'intelligence gathering. #cybersec"
+      name: Martin Renaud
+      twitter: martinrenaud
+    -
+      title: "Optimisez votre JS pour la minification?"
+      description: "Sans compromis sur la lisibilité et avec des benchmarks."
+      name: Émile Bergeron
+      website: http://www.prismalstudio.com/
+
 - title: "Dernier io de 2016, à Alma!"
   date: 7 décembre, à 18h00.
   event_url: "https://www.facebook.com/events/1799450726981595/"
@@ -41,7 +63,7 @@
     -
       title: "My shell story"
       name: Kim Desrosiers
-      
+
 - title: "Septembre 2016"
   date: 20 septembre, à 18h00.
   event_url: "https://www.facebook.com/events/186613181771937/"
@@ -53,7 +75,7 @@
     -
       title: "Pimp My Terminal"
       name: Joël Trottier-Hébert
-      
+
 - title: "Juin 2016"
   date: 21 juin, à 18h00.
   event_url: "https://www.facebook.com/events/1007957892587553/"
@@ -81,7 +103,7 @@
       title: "Du coup, Tmux!"
       name: Frederic Trottier-Hebert
       twitter: mononcqc
-      
+
 - title: "Mars 2016: bienvenue, printemps!"
   date: 30 Mars, à 18h00.
   event_url: "https://www.facebook.com/events/810666755732038/"

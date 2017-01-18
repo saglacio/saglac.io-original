@@ -21,9 +21,9 @@ title: 'io'
   {% for event in site.data.io-events %}
     <div class="event">
       <h3>{{ event.title }}</h3>
-      <p class="date">Quand? <span>{{ event.date }}</span></p>
+      <p class="date"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i> {{ event.date }}</p>
       <div>
-        <p class='location'>Où? <span>{{event.location}}</span></p>
+        <p class='location'><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> {{event.location}}</p>
       </div>
 
       {% if event.sponsor %}
@@ -40,18 +40,19 @@ title: 'io'
         {% endif %}
       {% endif %}
 
-      <h4>Les présentations:</h4>
+      <h4>Les présentations</h4>
       {% for talk in event.talks %}
         {% if talk.slides %}
         <div id="slides">
-          <a href="{{talk.slides}}">
-            [<img src="/assets/images/slides.png" alt="slides">]
-          </a>
+          <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
         </div>
         {% endif %}
         <h5>{{talk.title}}</h5>
-        Par <a href="http://twitter.com/{{talk.twitter}}" target="_blank">{{talk.name}}</a>
+        <div class="author">
+        Par {% if talk.website %}<a href="{{talk.website}}" >{{talk.name}}</a>{% else %}{{talk.name}}{% endif %}
+         {% if talk.twitter %}<a href="http://twitter.com/{{talk.twitter}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{% endif %}
         <p>{{talk.description}}</p>
+        </div>
       {% endfor %}
     </div>
     <hr>

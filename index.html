@@ -32,13 +32,21 @@ title: 'Accueil'
 
       <h2>Les présentations</h2>
       {% for talk in next_io.talks %}
-        <h3>{{talk.title}}</h3>
-        Par <a href="http://twitter.com/{{talk.twitter}}" target="_blank">{{talk.name}}</a>
+        {% if talk.slides %}
+        <div id="slides">
+          <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
+        </div>
+        {% endif %}
+        <h5>{{talk.title}}</h5>
+        <div class="author">
+        Par {% if talk.website %}<a href="{{talk.website}}" >{{talk.name}}</a>{% else %}{{talk.name}}{% endif %}
+         {% if talk.twitter %}<a href="http://twitter.com/{{talk.twitter}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{% endif %}
         <p>{{talk.description}}</p>
+        </div>
       {% endfor %}
 
       <p>
-        Inscrivez-vous pour faciliter la planification de l'espace et des repas s'il y a lieu, merci! :)
+        Inscrivez-vous pour faciliter la planification de l'espace et des repas s'il y a lieu.
       </p>
 
       {% if next_io.eventbrite_id %}

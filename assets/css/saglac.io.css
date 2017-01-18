@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.05em;
 }
 
+h5 {
+    font-weight: bold;
+}
+
 /* Background */
 html {
   background: url(/assets/images/picture-13-janvier-2014-1-b-w.png) no-repeat center center fixed;
@@ -129,6 +133,11 @@ footer form {
 
 #slides {
   float: right;
+}
+
+.author {
+  color: #353535;
+  font-size: 14px;
 }
 
 /**************************************

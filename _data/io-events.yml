@@ -1,3 +1,19 @@
+- title: "IO de février 2017"
+  date: 22 février, à 18h00.
+  event_url: "https://www.facebook.com/events/1496033413763387/"
+  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "Tout est terrible"
+      description: "Primeur partielle sur une présentation du WAQ!"
+      name: Frederic Trottier-Hebert
+      twitter: mononcqc
+    -
+      title: "Start-up mode loin du code"
+      description: "Gérer l'aspect social d'une start-up avec des outils techno."
+      name: Juan Pablo Aguilar-Lliguin
+      website: http://arriba.ec/en/
+
 - title: "Premier io de 2017"
   date: 24 janvier, à 18h00.
   event_url: "https://www.facebook.com/events/392164731137634/"

@@ -13,6 +13,11 @@
       description: "Gérer l'aspect social d'une start-up avec des outils techno."
       name: Juan Pablo Aguilar-Lliguin
       website: http://arriba.ec/en/
+    -
+      title: "Gitlab & Docker: Vers l'infini et au-delà"
+      description: "L'intégration continue avec docker, gitlab, etc."
+      name: Mathieu Tortuyaux
+
 
 - title: "Premier io de 2017"
   date: 24 janvier, à 18h00.

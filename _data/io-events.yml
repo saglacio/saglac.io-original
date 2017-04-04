@@ -1,3 +1,21 @@
+- title: "IO Spécial fin de session 2017 en collaboration avec l'AEMI"
+  date: 10 avril, à 18h30.
+  event_url: "https://www.facebook.com/events/1119460338187406/"
+  location: "Aquarieum de l'UQAC. Pizzas et bières disponibles."
+  talks:
+    -
+      title: "Compute Shaders"
+      description: "GPGPU dans Unity"
+      name: Gabriel Le Breton et Jules Robichaud-Gagnon
+      twitter: gableroux
+      website: https://gableroux.com/
+    -
+      title: "L'ABC des tests"
+      description: "Introduction à l'importance des tests unitaires."
+      name: Joel Trottier-Hebert
+      twitter: JoelTHebert
+
+
 - title: "IO de février 2017"
   date: 22 février, à 18h00.
   event_url: "https://www.facebook.com/events/1496033413763387/"

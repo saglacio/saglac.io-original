@@ -14,6 +14,11 @@
       description: "Introduction à l'importance des tests unitaires."
       name: Joel Trottier-Hebert
       twitter: JoelTHebert
+    -
+      title: "Kali Linux ou Comment faire la démo rapide d’un outil complexe"
+      description: "Une distribution regroupant l'ensemble des outils nécessaires aux tests de sécurité d'un système d'information. #cybersec"
+      name: Martin Renaud
+      twitter: martinrenaud
 
 
 - title: "IO de février 2017"

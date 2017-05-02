@@ -1,3 +1,22 @@
+- title: "L'io de mai à Alma!"
+  date: 16 mai, à 18h00.
+  event_url: "https://www.facebook.com/events/1574808475865288/"
+  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "NFC c'est bien, UHF c'est mieux: Les mille-et-uns visages de la radio-identification."
+      name: Jean-Philippe Gravel
+      twitter: formixse
+    -
+      title: "Featuring Yarn Bower: Yarn, JavaScript package managers & stuff"
+      name: Émile Bergeron
+      website: http://www.prismalstudio.com/
+    -
+      title: "La radio-identification avec M.PI"
+      name: Steeve Juair
+    -
+      title: "Injection SQL: Little Bobby Table: Les types d'attaque d'injection SQL et les méthodes pour les contrer"
+      name: Jim Plourde
 - title: "IO Spécial fin de session 2017 en collaboration avec l'AEMI"
   date: 10 avril, à 18h30.
   event_url: "https://www.facebook.com/events/1119460338187406/"

@@ -23,11 +23,11 @@
   location: "Aquarieum de l'UQAC. Pizzas et bières disponibles."
   talks:
     -
-      title: "Compute Shaders"
+      title: "Introduction aux Shaders et Compute Shaders"
       description: "GPGPU dans Unity"
       name: Gabriel Le Breton et Jules Robichaud-Gagnon
       twitter: gableroux
-      website: https://gableroux.com/
+      slides: https://gableroux.com/presentation/2017/04/10/introduction-to-shaders-saglacio/
     -
       title: "L'ABC des tests"
       description: "Introduction à l'importance des tests unitaires."
@@ -72,6 +72,7 @@
       name: Gabriel Le Breton
       website: https://gableroux.com/
       twitter: gableroux
+      slides: https://gableroux.com/presentation/2017/01/24/arch-is-cool-but-i-need-to-ship-software/
     -
       title: "Recon-ng : Un outil de reconnaissance"
       description: "Un framework open-source d'intelligence gathering. #cybersec"
@@ -184,6 +185,8 @@
       title: "Let's Encrypt: de kecé?"
       name: Gabriel Le Breton
       twitter: gableroux
+      website: https://gableroux.com/
+      slides: https://gableroux.com/presentation/2016/03/30/letsencrypt-saglacio/
     -
       title: "Faire sa propre authentification HTTP Basic en 15 minutes"
       name: Jean-Philippe Gravel
@@ -253,6 +256,7 @@
       title: "HUBOT - Improve and reduce employee efficiency"
       name: Gabriel Le Breton
       twitter: gableroux
+      website: https://gableroux.com/
       slides: https://gableroux.com/presentation/2015/10/28/hubot-saglacio/
     -
       title: "There's no place like 127.0.0.1"
@@ -402,6 +406,7 @@
       title: "ANNULÉ - Become an Internet Wizard; GruntJs + CoffeeScript"
       name: Gabriel Le Breton
       twitter: gableroux
+      website: https://gableroux.com/
 
 - title: "Octobre 2014: un an d'io!"
   date: Mardi 7 octobre, à 18h00.
@@ -577,6 +582,7 @@
       title: Introduction à Meteor
       name: Gabriel Le Breton
       twitter: gableroux
+      website: https://gableroux.com/
       slides: https://gableroux.com/presentation/2013/12/09/meteor-saglacio/
     -
       title: Introduction à Amazon EC2

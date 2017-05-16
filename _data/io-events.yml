@@ -11,12 +11,7 @@
       title: "Featuring Yarn Bower: Yarn, JavaScript package managers & stuff"
       name: Émile Bergeron
       website: http://www.prismalstudio.com/
-    -
-      title: "La radio-identification avec M.PI"
-      name: Steeve Juair
-    -
-      title: "Injection SQL: Little Bobby Table: Les types d'attaque d'injection SQL et les méthodes pour les contrer"
-      name: Jim Plourde
+
 - title: "IO Spécial fin de session 2017 en collaboration avec l'AEMI"
   date: 10 avril, à 18h30.
   event_url: "https://www.facebook.com/events/1119460338187406/"

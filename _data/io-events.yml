@@ -1,3 +1,34 @@
+- title: "IO de Septembre 2017"
+  date: 19 septembre, à 18h00.
+  event_url: "https://www.facebook.com/events/397532047316656"
+  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "Why we chose Vuejs (en français)"
+      name: Kim Desrosiers
+      twitter: kimondd
+    -
+      title: "Fastlane: deploy android and ios apps like a boss"
+      name: Gabriel Le Breton
+      twitter: gableroux
+
+- title: "Méta IO de Juillet 2017"
+  date: 27 juillet, à 18h00.
+  event_url: "https://www.facebook.com/events/106670710007633"
+  location: 'La Cage - Brasserie sportive (Chicoutimi)'
+
+- title: "IO de Juin 2017"
+  date: 26 juin, à 18h00.
+  event_url: "https://www.facebook.com/events/445500365803825"
+  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "Awesome Django: factory-boy 🦄"
+      name: Jules Robichaud-Gagnon
+    -
+      title: "Discord (Lightning talk)"
+      name: Mathieu Auclair
+
 - title: "L'io de mai à Alma!"
   date: 16 mai, à 18h00.
   event_url: "https://www.facebook.com/events/1574808475865288/"
@@ -125,6 +156,7 @@
     -
       title: "My shell story"
       name: Kim Desrosiers
+      twitter: kimondd
 
 - title: "Septembre 2016"
   date: 20 septembre, à 18h00.

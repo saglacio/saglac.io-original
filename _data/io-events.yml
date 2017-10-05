@@ -1,3 +1,13 @@
+- title: "IO Hacktoberfest - Spécial open source"
+  date: 17 octobre, à 18h00.
+  event_url: "https://www.facebook.com/events/120214745326424"
+  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  talks:
+    -
+      title: "Comment contribuer sur Github?"
+      name: Émile Bergeron
+      website: http://www.prismalstudio.com/
+
 - title: "IO de Septembre 2017"
   date: 19 septembre, à 18h00.
   event_url: "https://www.facebook.com/events/397532047316656"

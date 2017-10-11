@@ -1,3 +1,10 @@
+---
+---
+
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+
 /*
 	Escape Velocity by HTML5 UP
 	html5up.net | @ajlkn
@@ -6,20 +13,22 @@
 
 /* Basic */
 
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
-	form select,
-	form textarea {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+	form {
+		input[type="text"],
+		input[type="email"],
+		input[type="password"],
+		select,
+		textarea {
+			position: relative;
+			-ms-behavior: url('assets/js/ie/PIE.htc');
+		}
 	}
 
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"] {
 		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		-ms-behavior: url('assets/js/ie/PIE.htc');
 	}
 
 	.button,
@@ -28,7 +37,7 @@
 	#nav > ul,
 	.dropotron {
 		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		-ms-behavior: url('assets/js/ie/PIE.htc');
 	}
 
 /* Section/Article */
@@ -42,12 +51,17 @@
 
 /* Wrappers */
 
-	.wrapper .title:before, .wrapper .title:after {
-		display: none;
+	.wrapper {
+		.title {
+			&:before,
+			&:after {
+				display: none;
+			}
+		}
 	}
 
 	#header-wrapper {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
 	}
 
 /* Copyright */

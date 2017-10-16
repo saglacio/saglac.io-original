@@ -21,7 +21,9 @@ title: 'Accueil'
                 </div>
 
                 <!-- Nav -->
+                {% comment %}
                 {% include top_nav.html %}
+                {% endcomment %}
 
             </div>
         </div>
@@ -32,8 +34,10 @@ title: 'Accueil'
         <!-- Main -->
         {% include next-io.html %}
 
+        {% comment %}
         <!-- Highlights -->
-        {% include last-events.html %}
+        {% include testimonials.html %}
+        {% endcomment %}
 
         <!-- Footer -->
         {% include footer.html %}

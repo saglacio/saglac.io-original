@@ -5,9 +5,9 @@
     <div id="main" class="container">
 
         <!-- Image -->
-        <a href="#" class="image featured">
+        <!-- <a href="#" class="image featured">
             <img src="images/io-uqac.jpg" alt="" />
-        </a>
+        </a> -->
 
         <!-- Features -->
         <section id="features">
@@ -18,16 +18,6 @@
 
             <div class="feature-list">
 
-                <!-- {% for talk in next_io.talks %}
-
-                <h5>{{talk.title}}</h5>
-                <div class="author">
-                    Par {% if talk.website %}<a href="{{talk.website}}">{{talk.name}}</a>{% else %}{{talk.name}}{% endif %} {% if talk.twitter %}<a href="http://twitter.com/{{talk.twitter}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{%
-                    endif %}
-                    <p>{{talk.description}}</p>
-                </div>
-                {% endfor %} -->
-
                 {% for talk in next_io.talks %}
                 <section>
                     <h3 class="icon fa-comment">{{talk.title}}</h3>
@@ -35,119 +25,48 @@
                         <h4>
                             {% for author_key in talk.authors %}
                                 {% assign author = site.data.authors[author_key] %}
-                                {% if author.website %}<a href="{{author.website}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}
+                                {% if author.website %}<a href="{{author.website}}" target="_blank">{{author.name}}</a>{% else %}{{author.name}}{% endif %}
                                 {% if author.twitter %}<a href="http://twitter.com/{{author.twitter}}" target="_blank">
                                     <i class="fa fa-twitter" aria-hidden="true"></i>
                                 </a>{% endif %}
                             {% endfor %}
-                        </h4>{% if talk.description %}
-                        {{ talk.description | markdownify }}
-                        {% endif %}{% if talk.slides %}
+                        </h4>{% if talk.description %} {{ talk.description | markdownify }} {% endif %}{% if talk.slides %}
                         <div id="slides">
                             <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
                         </div>
                         {% endif %}
                     </div>
                 </section>
-                {% endfor %}
+                {% endfor %} {% assign location = site.data.locations[next_io.location] %}
+                <section>
+                    <h3 class="icon fa-map-pin">
+                        {{location.name}}
+                        {% if location.url %} <a href="{{location.url}}" target="_blank"><i class="fa fa-fw fa-external-link-square"></i></a>{% endif %}
+                        {% if location.facebook %} <a href="{{location.facebook}}" target="_blank"><i class="fa fa-fw fa-facebook-official"></i></a>{% endif %}
+                    </h3>
+                    <div class="feature-content">
+                        <h4>{{ location.address }}</h4>
+                        <p>
+                            {{ location.description }}
+                        </p>
+                        {{ location.map }}
+                    </div>
+                </section>
+
+                {% comment %} {% if next_io.sponsor %}
+                <h3 class='sponsor'>COMMANDITE: {{next_io.sponsor}}</h3> {% endif %} {% if next_io.eventbrite_id %}
+                <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a> {% endif %} {% endcomment %}
+
             </div>
 
-
-
-            <!-- <div class="feature-list">
-                <div class="row">
-                    <div class="6u 12u(mobile)">
-                        <section>
-                            <h3 class="icon fa-comment">Mattis velit diam vulputate</h3>
-                            <p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-                        </section>
-                    </div>
-                    <div class="6u 12u(mobile)">
-                        <section>
-                            <h3 class="icon fa-refresh">Lorem ipsum dolor sit veroeros</h3>
-                            <p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-                        </section>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="6u 12u(mobile)">
-                        <section>
-                            <h3 class="icon fa-picture-o">Pretium phasellus justo lorem</h3>
-                            <p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-                        </section>
-                    </div>
-                    <div class="6u 12u(mobile)">
-                        <section>
-                            <h3 class="icon fa-cog">Tempus sed pretium orci</h3>
-                            <p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-                        </section>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="6u 12u(mobile)">
-                        <section>
-                            <h3 class="icon fa-wrench">Aliquam consequat et feugiat</h3>
-                            <p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-                        </section>
-                    </div>
-                    <div class="6u 12u(mobile)">
-                        <section>
-                            <h3 class="icon fa-check">Dolore laoreet aliquam mattis</h3>
-                            <p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-                        </section>
-                    </div>
-                </div>
-            </div> -->
             <ul class="actions actions-centered">
-                <li><a href="#" class="button style1 big">Get Started</a></li>
-                <li><a href="#" class="button style2 big">More Info</a></li>
+                {% if next_io.event_url %}
+                <li><a href="{{ next_io.event_url }}" class="button style1 big" target="_blank">Je participe</a></li>
+                {% endif %}
+
+                <!-- <li><a href="#" class="button style2 big">More Info</a></li> -->
             </ul>
         </section>
 
     </div>
 </div>
-
-
-
-<!-- <h2>{{ next_io.title }}</h2>
-<p class="date">Quand? <span>{{ next_io.date }}</span></p>
-<p class='location'>Où? <span>{{ next_io.location }}</span></p>
-
-{% if next_io.sponsor %}
-  <h3 class='sponsor'>COMMANDITE: {{next_io.sponsor}}</h3>
-{% endif %}
-
-{% if next_io.eventbrite_id %}
-  <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
-{% endif %}
-
-{% if next_io.event_url %}
-  <a href="{{next_io.event_url}}" class="button alert inscription">Inscription!</a>
-{% endif %}
-
-<h2>Les présentations</h2>
-{% for talk in next_io.talks %}
-  {% if talk.slides %}
-  <div id="slides">
-    <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
-  </div>
-  {% endif %}
-  <h5>{{talk.title}}</h5>
-  <div class="author">
-  Par {% if talk.website %}<a href="{{talk.website}}" >{{talk.name}}</a>{% else %}{{talk.name}}{% endif %}
-   {% if talk.twitter %}<a href="http://twitter.com/{{talk.twitter}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{% endif %}
-  <p>{{talk.description}}</p>
-  </div>
-{% endfor %}
-
-<p>
-  Inscrivez-vous pour faciliter la planification de l'espace et des repas s'il y a lieu.
-</p>
-
-{% if next_io.eventbrite_id %}
-  <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
-{% endif %}
-
-{% if next_io.event_url %}
-  <a href="{{next_io.event_url}}" class="button alert inscription">Inscription!</a>
-{% endif %} -->

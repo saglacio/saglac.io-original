@@ -1,650 +1,656 @@
 - title: "IO Hacktoberfest - Spécial open source"
-  date: 17 octobre, à 18h00.
+  date: 17 octobre 2017, à 18h00
   event_url: "https://www.facebook.com/events/120214745326424"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: bistro-du-centre
   talks:
     -
-      title: "Comment contribuer sur Github?"
-      name: Émile Bergeron
-      website: http://www.prismalstudio.com/
+      title: "To pull or not to pull? Ma première contribution open source"
+      description: De la première à la dernière étape pour contribuer à un projet sur Github.
+      authors:
+          - gableroux
+    -
+      title: "Nouveau site web du Saglac IO"
+      description: "Un nouveau design bien mérité."
+      authors:
+          - emileber
 
 - title: "IO de Septembre 2017"
-  date: 19 septembre, à 18h00.
+  date: 19 septembre, à 18h00
   event_url: "https://www.facebook.com/events/397532047316656"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Why we chose Vuejs (en français)"
-      name: Kim Desrosiers
+      authors: Kim Desrosiers
       twitter: kimondd
     -
       title: "Fastlane: deploy android and ios apps like a boss"
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       twitter: gableroux
       slides: https://gableroux.com/saglacio/2017/09/19/fastlane-deploy-ios-and-android-like-a-boss/
 
 - title: "Méta IO de Juillet 2017"
-  date: 27 juillet, à 18h00.
+  date: 27 juillet, à 18h00
   event_url: "https://www.facebook.com/events/106670710007633"
   location: 'La Cage - Brasserie sportive (Chicoutimi)'
 
 - title: "IO de Juin 2017"
-  date: 26 juin, à 18h00.
+  date: 26 juin, à 18h00
   event_url: "https://www.facebook.com/events/445500365803825"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Awesome Django: factory-boy 🦄"
-      name: Jules Robichaud-Gagnon
+      authors: Jules Robichaud-Gagnon
     -
       title: "Discord (Lightning talk)"
-      name: Mathieu Auclair
+      authors: Mathieu Auclair
 
 - title: "L'io de mai à Alma!"
-  date: 16 mai, à 18h00.
+  date: 16 mai, à 18h00
   event_url: "https://www.facebook.com/events/1574808475865288/"
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "NFC c'est bien, UHF c'est mieux: Les mille-et-uns visages de la radio-identification."
-      name: Jean-Philippe Gravel
+      authors: Jean-Philippe Gravel
       twitter: formixian
       slides: https://www.dropbox.com/s/19ce9ujgkjejmfx/SaglacIO-20170516-RFID.pdf?dl=0
     -
       title: "Featuring Yarn Bower: Yarn, JavaScript package managers & stuff"
-      name: Émile Bergeron
+      authors: Émile Bergeron
       website: http://www.prismalstudio.com/
 
 - title: "IO Spécial fin de session 2017 en collaboration avec l'AEMI"
-  date: 10 avril, à 18h30.
+  date: 10 avril, à 18h30
   event_url: "https://www.facebook.com/events/1119460338187406/"
   location: "Aquarieum de l'UQAC. Pizzas et bières disponibles."
   talks:
     -
       title: "Introduction aux Shaders et Compute Shaders"
       description: "GPGPU dans Unity"
-      name: Gabriel Le Breton et Jules Robichaud-Gagnon
+      authors: Gabriel Le Breton et Jules Robichaud-Gagnon
       twitter: gableroux
       slides: https://gableroux.com/presentation/2017/04/10/introduction-to-shaders-saglacio/
     -
       title: "L'ABC des tests"
       description: "Introduction à l'importance des tests unitaires."
-      name: Joel Trottier-Hebert
+      authors: Joel Trottier-Hebert
       twitter: JoelTHebert
     -
       title: "Kali Linux ou Comment faire la démo rapide d’un outil complexe"
       description: "Une distribution regroupant l'ensemble des outils nécessaires aux tests de sécurité d'un système d'information. #cybersec"
-      name: Martin Renaud
+      authors: Martin Renaud
       twitter: martinrenaud
 
 
 - title: "IO de février 2017"
-  date: 22 février, à 18h00.
+  date: 22 février, à 18h00
   event_url: "https://www.facebook.com/events/1496033413763387/"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Tout est terrible"
       description: "Primeur partielle sur une présentation du WAQ!"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
     -
       title: "Start-up mode loin du code"
       description: "Gérer l'aspect social d'une start-up avec des outils techno."
-      name: Juan Pablo Aguilar-Lliguin
+      authors: Juan Pablo Aguilar-Lliguin
       website: http://arriba.ec/en/
     -
       title: "Gitlab & Docker: Vers l'infini et au-delà"
       description: "L'intégration continue avec docker, gitlab, etc."
-      name: Mathieu Tortuyaux
+      authors: Mathieu Tortuyaux
 
 
 - title: "Premier io de 2017"
-  date: 24 janvier, à 18h00.
+  date: 24 janvier, à 18h00
   event_url: "https://www.facebook.com/events/392164731137634/"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "arch is cool, but I need to ship software"
       description: "Comment installer archlinux, l'utiliser pendant 1 an, trouver ça cool, perdre des fins de semaines et des soirs à essayer de faire fonctionner xorg, bumblebeec, bbswitch, ses display ports et le piton brightness pour finalement faire un backup de son ordi et passer à Fedora parce qu'après un bug étrange, gnome-online-acconts fait des timeouts sans raisons (no more emails), chrome et chromium load pu les pages et des fois gdm décide de pas démarrer."
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       website: https://gableroux.com/
       twitter: gableroux
       slides: https://gableroux.com/presentation/2017/01/24/arch-is-cool-but-i-need-to-ship-software/
     -
       title: "Recon-ng : Un outil de reconnaissance"
       description: "Un framework open-source d'intelligence gathering. #cybersec"
-      name: Martin Renaud
+      authors: Martin Renaud
       twitter: martinrenaud
     -
       title: "Optimisez votre JS pour la minification?"
       description: "Sans compromis sur la lisibilité et avec des benchmarks."
-      name: Émile Bergeron
+      authors: Émile Bergeron
       website: http://www.prismalstudio.com/
 
 - title: "Dernier io de 2016, à Alma!"
-  date: 7 décembre, à 18h00.
+  date: 7 décembre, à 18h00
   event_url: "https://www.facebook.com/events/1799450726981595/"
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Pack your 💩 with webpack!"
-      name: Maxime Morin
+      authors: Maxime Morin
     -
       title: '"Reflection" pour programmeurs et hackers'
-      name: Jules Robichaud-Gagnon
+      authors: Jules Robichaud-Gagnon
     -
       title: "Commencez vos projets par la fin!"
-      name: Mathieu Tortuyaux
+      authors: Mathieu Tortuyaux
 
 - title: "Novembre 2016 Spécial UQAC"
-  date: 21 novembre, à 19h00.
+  date: 21 novembre, à 19h00
   event_url: "https://www.facebook.com/events/163206777482547/"
   location: Baruqac, 555 Boulevard de l'Université, Chicoutimi, QC G7H 2B1. Nourriture, bière et autres breuvages disponibles.
   talks:
     -
       title: "150 pages de recherches en génie logiciel en 10 slides"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
       slides: https://s3.amazonaws.com/ferd-presentations/150-en-10.pdf
     -
       title: "Introduction à git, l'arbre de la vie"
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       twitter: gableroux
       slides: https://gableroux.com/presentation/2016/11/21/version-control/
     -
       title: "Unity: construire un UI de la bonne façon"
-      name: Jules Robichaud-Gagnon
+      authors: Jules Robichaud-Gagnon
 
 - title: "Octobre 2016"
-  date: 25 octobre, à 18h00.
+  date: 25 octobre, à 18h00
   event_url: "https://www.facebook.com/events/794932377276580/"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Cordova/Ionic: To build two apps with one stone"
-      name: Émile Bergeron
+      authors: Émile Bergeron
     -
       title: "My shell story"
-      name: Kim Desrosiers
+      authors: Kim Desrosiers
       twitter: kimondd
 
 - title: "Septembre 2016"
-  date: 20 septembre, à 18h00.
+  date: 20 septembre, à 18h00
   event_url: "https://www.facebook.com/events/186613181771937/"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: " Simplifier le développement JS en équipe"
-      name: Émile Bergeron
+      authors: Émile Bergeron
     -
       title: "Pimp My Terminal"
-      name: Joël Trottier-Hébert
+      authors: Joël Trottier-Hébert
 
 - title: "Juin 2016"
-  date: 21 juin, à 18h00.
+  date: 21 juin, à 18h00
   event_url: "https://www.facebook.com/events/1007957892587553/"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "InfluxDB Telegraf Grafana now I see the data"
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       slides: https://gableroux.com/presentation/2016/06/21/influxdb-telegraf-grafana/
     -
       title: "Introduction à Unity WebGL"
-      name: Jules Robichaud-Gagnon
+      authors: Jules Robichaud-Gagnon
     -
       title: "Home Automation"
-      name: Steeve Juair
+      authors: Steeve Juair
 
 - title: "Avril 2016"
-  date: 27 avril, à 18h00.
+  date: 27 avril, à 18h00
   event_url: "https://www.facebook.com/events/1707690526139089/"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Cloud9 : Pelleter dans le nuage (Lightning Talk)"
-      name: Emile Bergeron
+      authors: Emile Bergeron
       slides: http://emileber.github.io/cloud9-reveal/#/
     -
       title: "Du coup, Tmux!"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
 
 - title: "Mars 2016: bienvenue, printemps!"
-  date: 30 Mars, à 18h00.
+  date: 30 Mars, à 18h00
   event_url: "https://www.facebook.com/events/810666755732038/"
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "\"De Rails aux microservices Go: notre expérience avec Gemnasium Enterprise\" (version allégée de la conférence donnée au WAQ en avril prochain)"
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
     -
       title: "Let's Encrypt: de kecé?"
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       twitter: gableroux
       website: https://gableroux.com/
       slides: https://gableroux.com/presentation/2016/03/30/letsencrypt-saglacio/
     -
       title: "Faire sa propre authentification HTTP Basic en 15 minutes"
-      name: Jean-Philippe Gravel
+      authors: Jean-Philippe Gravel
       twitter: formixse
     -
       title: "dix-patch: équivalent à Segment.io"
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
 - title: "Mars 2016"
-  date: 1er Mars, à 18h00.
+  date: 1er Mars, à 18h00
   event_url: "https://www.facebook.com/events/189931134704504/"
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Docker"
-      name: Steeve Juair
+      authors: Steeve Juair
       twitter: Juair
     -
       title: "Design d’interfaces web dans un cadre Agile"
-      name: Jean-Nicolas Viens
+      authors: Jean-Nicolas Viens
       twitter: jni_viens
     -
       title: "Introduction à l'inférence avec NodeJs"
-      name: Jean-Philippe Gravel
+      authors: Jean-Philippe Gravel
       twitter: formixse
 - title: "Janvier 2016"
-  date: 27 janvier, à 18h00.
+  date: 27 janvier, à 18h00
   event_url: "https://www.facebook.com/events/1632742133655739/"
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Tester du Python en Erlang"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
     -
       title: "Docker"
-      name: Steeve Juair
+      authors: Steeve Juair
       twitter: Juair
     -
       title: "Programmation fonctionnelle en JS"
-      name: Kim Lavoie
+      authors: Kim Lavoie
     -
       title: "(Si le temps le permet) Démo de React + Redux + Jasmine dans le code de Metrics Watch"
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
 - title: "Décembre 2015"
-  date: 2 décembre, à 18h00.
+  date: 2 décembre, à 18h00
   event_url: "https://www.facebook.com/events/197726173893502/"
   location: 'Deuxième étage de la Tour à Bières, Chicoutimi. Nourriture et bière disponibles.'
   talks:
     -
       title: "Introduction à Scala"
-      name: Kim Lavoie
+      authors: Kim Lavoie
     -
       title: "Révisions de DB avec Alembic et SQLAlchemy"
-      name: Jessica Lapointe
+      authors: Jessica Lapointe
     -
       title: "Un super sujet à proposer?"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 - title: "Octobre 2015"
-  date: 28 Octobre, à 18h00.
+  date: 28 Octobre, à 18h00
   event_url: "https://www.facebook.com/events/524316244393655/"
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "HUBOT - Improve and reduce employee efficiency"
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       twitter: gableroux
       website: https://gableroux.com/
       slides: https://gableroux.com/presentation/2015/10/28/hubot-saglacio/
     -
       title: "There's no place like 127.0.0.1"
-      name: Steeve Juair
+      authors: Steeve Juair
       twitter: Juair
     -
       title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 - title: "Septembre 2015"
-  date: 23 Septembre, à 18h00.
+  date: 23 Septembre, à 18h00
   event_url: "https://www.facebook.com/events/1470133096623433/"
   location: 'Resto-Bar Le Stade (Chicoutimi)'
   talks:
     -
       title: "Play games in your CLI"
-      name: Kim Desrosiers
+      authors: Kim Desrosiers
       twitter: kimondd
     -
       title: "(REPORTÉ AU MOIS PROCHAIN) HUBOT - Improve and reduce employee efficiency"
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       twitter: gableroux
     -
       title: "Développer pour le chromecast"
-      name: Patrick tremblay
+      authors: Patrick tremblay
 - title: "Juillet 2015"
-  date: Mardi 7 Juillet, à 18h00.
+  date: Mardi 7 Juillet, à 18h00
   eventbrite_id: 17357823718
   location: 'Microbrasse du Lac-St-Jean'
   talks:
     -
       title: "Aucune présentation, ce sera des discussions sur la gestion de projet, logiciels de gestion de projet/tâches/bugs, agile, ou non, etc :)"
-      name: saglacio
+      authors: saglacio
       twitter: saglacio
 - title: "Mai 2015"
-  date: Mardi 26 Mai, à 18h00.
+  date: Mardi 26 Mai, à 18h00
   eventbrite_id: 16869582375
   location: 'Entrecôte Riverain (JONQUIÈRE!!!)'
   talks:
     -
       title: "cos'è un hypervisor? (ça va parler de Proxmox)"
-      name: Steeve Juair
+      authors: Steeve Juair
       twitter: Juair
     -
       title: "SaltStack"
-      name: Gabriel Le Breton et Micael Bergeron
+      authors: Gabriel Le Breton et Micael Bergeron
       slides: https://gableroux.com/presentation/2015/06/03/saltstack-saglacio/
     -
       title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 - title: "Avril 2015"
-  date: Mardi 28 Avril, à 18h00.
+  date: Mardi 28 Avril, à 18h00
   eventbrite_id: 16388659923
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "React.js: le nouveau truc cool!"
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
     -
       title: "Principes de base de programmation distribuée"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
     -
       title: "Utilisabilité 101 : Qui c’est que c’est quoi?!"
-      name: Pierre-Alexandre Audet
+      authors: Pierre-Alexandre Audet
       twitter: mre_design
     -
       title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 
 - title: "Mars 2015"
-  date: Mardi 31 mars, à 18h00.
+  date: Mardi 31 mars, à 18h00
   eventbrite_id: 16327857060
   location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Microbrasserie et nourriture!'
   talks:
     -
       title: "Introduction à git"
-      name: Jessica Lapointe
+      authors: Jessica Lapointe
     -
       title: "Un super sujet à proposer?"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 
 - title: "Février 2015"
-  date: Mercredi 25 Février, à 18h00.
+  date: Mercredi 25 Février, à 18h00
   eventbrite_id: 15510032926
   location: 'HopEra, 2377 Rue Saint Dominique, Jonquière, QC G7X 6L4. Microbrasserie et nourriture!'
   talks:
     -
       title: "Le top des outils essentiels d'un bon OS"
-      name: Julien-Samuel Lacroix
+      authors: Julien-Samuel Lacroix
       twitter: JulienSam
     -
       title: "Google Summer of Code: Un emploie étudiant qui compte! (lightning talk)"
-      name: Jessica Lapointe
+      authors: Jessica Lapointe
     -
       title: "Un super sujet à proposer?"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 
 - title: "Janvier 2015"
-  date: Mercredi 21 Janvier, à 18h00.
+  date: Mercredi 21 Janvier, à 18h00
   eventbrite_id: 15252480580
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
       title: "Dart: en plein dans le mille"
-      name: Joel Trottier-Hebert
+      authors: Joel Trottier-Hebert
       twitter: JoelTHebert
     -
       title: "(ANNULÉ) Unicode vs. UTF-8 et les signes de quand on se tire dans le pied (lighting talk)"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
     -
       title: "Un super sujet à proposer?"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 
 - title: "Décembre 2014"
-  date: Mardi le 9 décembre, à 18h00.
+  date: Mardi le 9 décembre, à 18h00
   eventbrite_id: 14698544743
   location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Nourriture et alcool disponible.'
   talks:
     -
       title: "Gestionnaires de mots de passe"
-      name: "Quentin Bédéneau"
+      authors: "Quentin Bédéneau"
     -
       title: "Why I love zsh"
-      name: Kim Desrosiers
+      authors: Kim Desrosiers
       twitter: kimondd
 
 - title: "Novembre 2014: un an d'io, pour vrai!"
-  date: Mardi 11 novembre, à 18h00.
+  date: Mardi 11 novembre, à 18h00
   eventbrite_id: 13746079895
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   sponsor: '<a href="http://www.demarque.com/travailler-comme-developpeur-chez-demarque/">DeMarque</a> paye une consomation par personne! Stickers de <a href="https://www.rainforestqa.com/">Rainforest</a>, de <a href="http://www.cloud66.com/">Cloud 66</a> ainsi que des t-shirts & stickers de <a href="http://docker.com" target="_blank">Docker</a>!'
   talks:
     -
       title: "awk en 20 minutes"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
       slides: http://ferd.ca/awk-in-20-minutes.html
     -
       title: "ANNULÉ - Become an Internet Wizard; GruntJs + CoffeeScript"
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       twitter: gableroux
       website: https://gableroux.com/
 
 - title: "Octobre 2014: un an d'io!"
-  date: Mardi 7 octobre, à 18h00.
+  date: Mardi 7 octobre, à 18h00
   eventbrite_id: 13170572537
   location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Nourriture et alcool disponible.'
   talks:
     -
       title: "SQL vs. NoSQL: comment choisir sa base de données"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
     -
       title: "Open à toutes les sauces : comment s'y retrouver"
-      name: Daniel Morissette
+      authors: Daniel Morissette
       description: Open Source, Open Data, Open Standards, Open Government, Open API… Avec autant de “buzzwords”, comment s’y retrouver ? Nous allons tenter de démystifier le qui, le quoi et le comment derrière toutes ces tendances “Open”.
       twitter: dmorissette
     -
       title: "Logiciels de gestion de projet: comparaisons et demos"
-      name: Jessica Lapointe
+      authors: Jessica Lapointe
 
 - title: "September 2014: de la grande visite et des cadeaux!"
-  date: Mardi 9 septembre, à 18h00.
+  date: Mardi 9 septembre, à 18h00
   eventbrite_id: 12592567709
   location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
   sponsor: 'Des t-shirts de <a href="http://circleci.com" target="_blank">Circle CI</a> seront tirés parmis les présents et il y aura des stickers pour tout le monde aussi! Autres surprises en attentes...'
   talks:
     -
       title: "Firefox OS: une plateforme à découvrir"
-      name: "Frédéric Harper (Sr. Technical Evangelist - Mozilla)"
+      authors: "Frédéric Harper (Sr. Technical Evangelist - Mozilla)"
       description: "HTML5 est un pas de géant dans la bonne direction: il apporte plusieurs fonctionnalités dont les développeurs avaient besoin pour créer plus facilement de meilleures expériences web. Il a aussi fait naitre un débat sans fin: applications natives ou applications web! Lors de cette présentation, Frédéric Harper vous montrera comment le web ouvert peut vous aider à créer des applications mobiles de qualités. Vous en apprendrez plus sur des technologies telles que les WebAPIs, ainsi que les outils qui vous permettront de viser un nouveau marché avec Firefox OS et le web d’aujourd'hui."
       twitter: fharper
     -
       title: 'CI servers: hosted, self-hosted or from scratch (!!!)?'
       description: "Dans cette présentation je vais vous parler de différentes options qui s'offrent à vous en terme de serveurs d'intégration continue. Et oui, je vais vous montrer comment créer votre propre CI as a Service, que je vous suggère fortement de ne pas faire!"
-      name: "Jean-Philippe Boily"
+      authors: "Jean-Philippe Boily"
       twitter: jipiboily
     -
       title: "Un Beagle ?"
       description: "Présentation du BeagleBone Blace Rev C / Node.JS / automation avec peut-etre du data push"
-      name: Steeve Juair
+      authors: Steeve Juair
       twitter: Juair
 
 - title: Juin 2014
-  date: Mardi 10 juin, à 18h00.
+  date: Mardi 10 juin, à 18h00
   eventbrite_id: 11717757127
   location: 'Bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.'
   talks:
     -
       title: "Création de paquets RPM pour Fedora/openSUSE/etc"
-      name: Adrien Vitti
+      authors: Adrien Vitti
       twitter: n0tnull
     -
       title: "Big Data: Le far west (présentation un peu plus longue)"
-      name: Martin Renaud
+      authors: Martin Renaud
       twitter: MartinRenaud
     -
       title: "Un super sujet à proposer?"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 
 - title: Mai 2014
-  date: Mardi 13 mai, à 18h00.
+  date: Mardi 13 mai, à 18h00
   eventbrite_id: 11311337515
   location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.
   talks:
     -
       title: "Titre à venir"
-      name: Steeve Juair
+      authors: Steeve Juair
       twitter: Juair
     -
       title: "Maven & tests in java"
-      name: Jean-Daniel Pearson
+      authors: Jean-Daniel Pearson
       twitter: JD_Pearson_
     -
       title: "Améliorer la testabilité du code"
-      name: Joel Trottier-Hebert
+      authors: Joel Trottier-Hebert
       twitter: JoelTHebert
     -
       title: "Un super sujet à proposer?"
-      name: Toi!
+      authors: Toi!
       twitter: saglacio
 
 - title: Avril 2014
-  date: Mercredi 9 avril, à 18h00.
+  date: Mercredi 9 avril, à 18h00
   eventbrite_id: 10924929759
   location: 'Bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.'
   talks:
     -
       title: "Erlang"
-      name: Frederic Trottier-Hebert
+      authors: Frederic Trottier-Hebert
       twitter: mononcqc
     -
       title: "How to Vim"
-      name: Kim Desrosiers
+      authors: Kim Desrosiers
       twitter: kimondd
     -
       title: "Lightning talk à propos de Fourchette et Opinionated"
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
 
 - title: Mars 2014
-  date: Lundi 10 mars, à 18h00.
+  date: Lundi 10 mars, à 18h00
   eventbrite_id: 10597434211
   location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.
   talks:
     -
       title: "L'Arduino a nos portes!"
-      name: Steeve Juair
+      authors: Steeve Juair
       twitter: Juair
     -
       title: "Framework Django: cessez de vous répéter"
-      name: Francis Renaud
+      authors: Francis Renaud
       twitter: saglacio
     -
       title: "Elm à Elma"
-      name: Martin Lavoie
+      authors: Martin Lavoie
       twitter: refnil19
     -
       title: "Polymer, Google veulent tuer javascript! (présentation éclair)"
-      name: Alexandre Lessard
+      authors: Alexandre Lessard
       twitter: belug23
 
 - title: Février 2014
-  date: Lundi 10 février, à 18h00.
+  date: Lundi 10 février, à 18h00
   eventbrite_id: 10256987927
   location: Bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.
   talks:
     -
       title: "Environnement de développement avec Vagrant"
-      name: Alan Boudreault
+      authors: Alan Boudreault
       twitter: AlanBoudreault
     -
       title: "Introduction à AngularJS"
-      name: Julien-Samuel Lacroix
+      authors: Julien-Samuel Lacroix
       twitter: JulienSam
     -
       title: "FreeBSD"
-      name: Marc Pearson
+      authors: Marc Pearson
       twitter: marcpearsonTI
 
 - title: Janvier 2014 - Nickel edition
-  date: Lundi 13 janvier, à 18h00.
+  date: Lundi 13 janvier, à 18h00
   eventbrite_id: 9769359417
   location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma
   talks:
     -
       title: Think Locally - Act Globally
-      name: PJ Hagerty
+      authors: PJ Hagerty
       twitter: aspleenic
     -
       title: "Introduction to Pyramid: a web application development framework."
-      name: Alan Boudreault
+      authors: Alan Boudreault
       twitter: AlanBoudreault
       slides: https://dl.dropboxusercontent.com/u/6210261/introduction-pyramid.zip
     -
       title: PostgreSQL, de tout pour tous.
-      name: Marc-André Goderre
+      authors: Marc-André Goderre
       twitter: magoderre
     -
       title: "RubyMotion: create Mac (or iOS) apps with lovely Ruby"
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
 
 - title: Décembre 2013 - aka "beta 2"
-  date: Lundi 9 décembre, à 18h00.
+  date: Lundi 9 décembre, à 18h00
   eventbrite_id: 9389088015
   location: Bar la Zone, à Jonquière, sur la Saint-Dominique (salle à part, sans musique). Nourriture et alcool disponible.
   talks:
     -
       title: Introduction à Git
-      name: Keven Lefebvre
+      authors: Keven Lefebvre
       twitter: kevenlefebvre
     -
       title: Introduction à Meteor
-      name: Gabriel Le Breton
+      authors: Gabriel Le Breton
       twitter: gableroux
       website: https://gableroux.com/
       slides: https://gableroux.com/presentation/2013/12/09/meteor-saglacio/
     -
       title: Introduction à Amazon EC2
-      name: Julien-Samuel Lacroix
+      authors: Julien-Samuel Lacroix
       twitter: juliensam
     -
       title: Introduction aux tests
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
 
 - title: Octobre 2013 - aka "beta 1"
-  date: Mardi 29 octobre, à 18h30.
+  date: Mardi 29 octobre, à 18h30
   location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma
   talks:
     -
       title: Présentation de l’idée du groupe
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
     -
       title: "Introduction à CoffeeScript"
-      name: Jean-Philippe Boily
+      authors: Jean-Philippe Boily
       twitter: jipiboily
     -
       title: "La géomatique dans vos appli!"
-      name: Marc-André Goderre
+      authors: Marc-André Goderre
       twitter: magoderre

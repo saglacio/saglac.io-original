@@ -38,6 +38,14 @@ dt {
         line-height: 1.5em;
         position: relative;
 
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
         &::before{
             @extend %font-awesome;
             content: "\f059"; // fa-question-circle
@@ -48,6 +56,14 @@ dt {
 
         p {
             margin-bottom: 0;
+            display: inline;
+        }
+    }
+
+    dd {
+        ul {
+            list-style: circle;
+            padding-left: 30px;
         }
     }
 }

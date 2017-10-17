@@ -2,6 +2,10 @@
     font: normal normal normal 14px/1 FontAwesome
 }
 
+.text-center {
+    text-align: center;
+}
+
 #logo {
     height: auto;
     top: 145px;
@@ -24,6 +28,16 @@
 // fix logo and title display with nav
 #header-wrapper {
     height: 400px;
+}
+
+.homepage {
+    #header-wrapper {
+        height: auto;
+    }
+
+    #logo {
+        top: 33%;
+    }
 }
 
 

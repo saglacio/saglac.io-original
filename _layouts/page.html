@@ -1,11 +1,8 @@
 ---
 layout: default
-title: 'Accueil'
 ---
-{% assign next_openhack = site.data.openhack-events.first %}
 
-
-<div class="homepage">
+<div class="no-sidebar">
 
 
     <div id="page-wrapper">
@@ -13,11 +10,8 @@ title: 'Accueil'
         <!-- Header -->
         {% include header.html %}
 
-        <!-- Intro -->
-        {% include introduction.html %}
-
         <!-- Main -->
-        {% include next-io.html %}
+        {{ content }}
 
         {% comment %}
         <!-- Testimonials -->

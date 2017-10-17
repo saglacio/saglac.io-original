@@ -1,3 +1,7 @@
+%font-awesome {
+    font: normal normal normal 14px/1 FontAwesome
+}
+
 #logo {
     height: auto;
     top: 30%;
@@ -5,4 +9,30 @@
 
 .logo {
     max-width: 150px;
+}
+
+
+dt {
+    font-weight: bold;
+}
+
+.faq {
+    margin-left: 50px;
+    dt {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        position: relative;
+
+        &::before{
+            @extend %font-awesome;
+            content: "\f059"; // fa-question-circle
+            font-size: 1.5em;
+            position: absolute;
+            left: -45px;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
 }

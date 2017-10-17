@@ -22,4 +22,4 @@ Everything is in the `_data` directory, just send a [pull-request](https://githu
 ## LICENSE
 
 [MIT](LICENSE.md) © [SagLacIO](https://saglac.io)
-=======
+

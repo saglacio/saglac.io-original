@@ -4,11 +4,19 @@
 
 #logo {
     height: auto;
-    top: 30%;
+    top: 145px;
 }
 
 .logo {
     max-width: 150px;
+}
+
+#header-wrapper {
+    z-index: -2;
+    height: 400px;
+    &:before {
+        z-index: -1;
+    }
 }
 
 

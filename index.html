@@ -16,8 +16,7 @@ title: 'Accueil'
 
                 <!-- Logo -->
                 <div id="logo">
-                    <img class="logo" src="{{ '/images/logo_transparent_cropped.png' | relative_url }}" />
-                    <!-- <h1>Saglac IO</h1> -->
+                    <img class="logo" src="{{ '/images/logo_transparent_cropped.png' | relative_url }}" alt="Saglac IO Logo" />
                     <p>Meetup technologique du Saguenay&mdash;Lac-St-Jean</p>
                 </div>
 
@@ -36,91 +35,11 @@ title: 'Accueil'
         {% include next-io.html %}
 
         {% comment %}
-        <!-- Highlights -->
+        <!-- Testimonials -->
         {% include testimonials.html %}
         {% endcomment %}
 
         <!-- Footer -->
         {% include footer.html %}
-
     </div>
-
 </div>
-
-
-<!-- <div id='event-panels'>
-  <div class="small-12 large-6 columns event">
-    <h2 class='io'>io</h2>
-
-    <div class="description">
-      <p><a href="/io">C’est quoi l’io? Les détails sont ici.</a></p>
-    </div>
-
-    <div class="panel">
-      <h2>{{ next_io.title }}</h2>
-      <p class="date">Quand? <span>{{ next_io.date }}</span></p>
-      <p class='location'>Où? <span>{{ next_io.location }}</span></p>
-
-      {% if next_io.sponsor %}
-        <h3 class='sponsor'>COMMANDITE: {{next_io.sponsor}}</h3>
-      {% endif %}
-
-      {% if next_io.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
-
-      {% if next_io.event_url %}
-        <a href="{{next_io.event_url}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
-
-      <h2>Les présentations</h2>
-      {% for talk in next_io.talks %}
-        {% if talk.slides %}
-        <div id="slides">
-          <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
-        </div>
-        {% endif %}
-        <h5>{{talk.title}}</h5>
-        <div class="author">
-        Par {% if talk.website %}<a href="{{talk.website}}" >{{talk.name}}</a>{% else %}{{talk.name}}{% endif %}
-         {% if talk.twitter %}<a href="http://twitter.com/{{talk.twitter}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{% endif %}
-        <p>{{talk.description}}</p>
-        </div>
-      {% endfor %}
-
-      <p>
-        Inscrivez-vous pour faciliter la planification de l'espace et des repas s'il y a lieu.
-      </p>
-
-      {% if next_io.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
-
-      {% if next_io.event_url %}
-        <a href="{{next_io.event_url}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
-    </div>
-  </div>
-
-  <div class="small-12 large-6 columns event">
-    <h2>OpenHack</h2>
-    <div class="description">
-      <p><a href='/openhack'>C’est quoi l’OpenHack? Les détails sont ici.</a></p>
-    </div>
-
-    <div class="panel">
-      <h2>{{ next_openhack.title }}</h2>
-      <p class="date">Quand? <span>{{ next_openhack.date }}</span></p>
-      <p class='location'>Où? <span>{{ next_openhack.location }}</span></p>
-      <p class='sponsor'>
-        {% if next_openhack.sponsor %}
-          {{ next_openhack.sponsor }}
-        {% endif %}
-      </p>
-
-      {% if next_openhack.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/e/{{next_openhack.eventbrite_id}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
-    </div>
-  </div>
-</div> -->

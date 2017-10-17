@@ -17,6 +17,7 @@ dt {
 }
 
 .faq {
+    margin-left: 50px;
     dt {
         font-size: 1.5em;
         line-height: 1.5em;
@@ -27,7 +28,7 @@ dt {
             content: "\f059"; // fa-question-circle
             font-size: 1.5em;
             position: absolute;
-            left: -40px;
+            left: -45px;
         }
 
         p {

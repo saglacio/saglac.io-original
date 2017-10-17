@@ -17,3 +17,7 @@ Visit http://0.0.0.0:4000 ... :boom:!
 ## Add an event
 
 Everything is in the `_data` directory.
+
+## LICENSE
+
+[MIT](/LICENSE.md) © [SagLacIO](https://saglac.io)

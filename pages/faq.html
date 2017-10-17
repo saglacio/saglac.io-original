@@ -18,7 +18,7 @@ permalink: faq
                         <dl class="faq">
                             {% for question in section.questions %}
 
-                                <dt>{{ question.question | markdownify }}</dt>
+                                <dt id="{{ question.slug }}"><a href="#{{ question.slug }}">{{ question.question | markdownify }}</a></dt>
                                 <dd>{{ question.answer | markdownify }}</dd>
 
                             {% endfor %}

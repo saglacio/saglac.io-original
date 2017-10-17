@@ -11,12 +11,19 @@
     max-width: 150px;
 }
 
-#header-wrapper {
-    z-index: -2;
-    height: 400px;
-    &:before {
-        z-index: -1;
+// fix header overlay getting on top only on mobile
+@include breakpoint(mobile) {
+    #header-wrapper {
+        z-index: -2;
+        &:before {
+            z-index: -1;
+        }
     }
+}
+
+// fix logo and title display with nav
+#header-wrapper {
+    height: 400px;
 }
 
 

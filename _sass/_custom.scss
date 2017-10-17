@@ -18,10 +18,20 @@ dt {
 
 .faq {
     dt {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        position: relative;
 
         &::before{
             @extend %font-awesome;
             content: "\f059"; // fa-question-circle
+            font-size: 1.5em;
+            position: absolute;
+            left: -40px;
+        }
+
+        p {
+            margin-bottom: 0;
         }
     }
 }

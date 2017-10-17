@@ -2,82 +2,44 @@
 layout: default
 title: 'Accueil'
 ---
-{% assign next_io = site.data.io-events.first %}
 {% assign next_openhack = site.data.openhack-events.first %}
 
-<div id='event-panels'>
-  <div class="small-12 large-6 columns event">
-    <h2 class='io'>io</h2>
 
-    <div class="description">
-      <p><a href="/io">C’est quoi l’io? Les détails sont ici.</a></p>
-    </div>
+<div class="homepage">
 
-    <div class="panel">
-      <h2>{{ next_io.title }}</h2>
-      <p class="date">Quand? <span>{{ next_io.date }}</span></p>
-      <p class='location'>Où? <span>{{ next_io.location }}</span></p>
 
-      {% if next_io.sponsor %}
-        <h3 class='sponsor'>COMMANDITE: {{next_io.sponsor}}</h3>
-      {% endif %}
+    <div id="page-wrapper">
 
-      {% if next_io.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
+        <!-- Header -->
+        <div id="header-wrapper" class="wrapper">
+            <div id="header">
 
-      {% if next_io.event_url %}
-        <a href="{{next_io.event_url}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
+                <!-- Logo -->
+                <div id="logo">
+                    <img class="logo" src="{{ '/images/logo_transparent_cropped.png' | relative_url }}" alt="Saglac IO Logo" />
+                    <p>Meetup technologique du Saguenay&mdash;Lac-St-Jean</p>
+                </div>
 
-      <h2>Les présentations</h2>
-      {% for talk in next_io.talks %}
-        {% if talk.slides %}
-        <div id="slides">
-          <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
+                <!-- Nav -->
+                {% comment %}
+                {% include top_nav.html %}
+                {% endcomment %}
+
+            </div>
         </div>
-        {% endif %}
-        <h5>{{talk.title}}</h5>
-        <div class="author">
-        Par {% if talk.website %}<a href="{{talk.website}}" >{{talk.name}}</a>{% else %}{{talk.name}}{% endif %}
-         {% if talk.twitter %}<a href="http://twitter.com/{{talk.twitter}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{% endif %}
-        <p>{{talk.description}}</p>
-        </div>
-      {% endfor %}
 
-      <p>
-        Inscrivez-vous pour faciliter la planification de l'espace et des repas s'il y a lieu.
-      </p>
+        <!-- Intro -->
+        {% include introduction.html %}
 
-      {% if next_io.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
+        <!-- Main -->
+        {% include next-io.html %}
 
-      {% if next_io.event_url %}
-        <a href="{{next_io.event_url}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
+        {% comment %}
+        <!-- Testimonials -->
+        {% include testimonials.html %}
+        {% endcomment %}
+
+        <!-- Footer -->
+        {% include footer.html %}
     </div>
-  </div>
-
-  <div class="small-12 large-6 columns event">
-    <h2>OpenHack</h2>
-    <div class="description">
-      <p><a href='/openhack'>C’est quoi l’OpenHack? Les détails sont ici.</a></p>
-    </div>
-
-    <div class="panel">
-      <h2>{{ next_openhack.title }}</h2>
-      <p class="date">Quand? <span>{{ next_openhack.date }}</span></p>
-      <p class='location'>Où? <span>{{ next_openhack.location }}</span></p>
-      <p class='sponsor'>
-        {% if next_openhack.sponsor %}
-          {{ next_openhack.sponsor }}
-        {% endif %}
-      </p>
-
-      {% if next_openhack.eventbrite_id %}
-        <a href="https://www.eventbrite.ca/e/{{next_openhack.eventbrite_id}}" class="button alert inscription">Inscription!</a>
-      {% endif %}
-    </div>
-  </div>
 </div>

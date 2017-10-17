@@ -1,5 +1,7 @@
 # saglac.io
 
+[![Build Status](https://travis-ci.org/saglacio/saglac.io.svg?branch=master)](https://travis-ci.org/saglacio/saglac.io)
+
 Website for saglac.io. This is a basic Jekyll website with Zurb Foundation. Nothing crazy.
 
 ## Running in development

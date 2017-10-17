@@ -4,9 +4,6 @@
 
 Website for [saglac.io](https://saglac.io). This is a basic [Jekyll](https://jekyllrb.com/) website :rocket:
 
-## Submit a new talk
-
-
 ## Development
 
 Run:

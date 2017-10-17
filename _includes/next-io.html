@@ -1,0 +1,72 @@
+{% assign next_io = site.data.io-events.first %}
+
+<div class="wrapper style2">
+    <div class="title">Prochain événement</div>
+    <div id="main" class="container">
+
+        <!-- Image -->
+        <!-- <a href="#" class="image featured">
+            <img src="images/io-uqac.jpg" alt="" />
+        </a> -->
+
+        <!-- Features -->
+        <section id="features">
+            <header class="style1">
+                <h2>{{ next_io.title }}</h2>
+                <p>{{ next_io.date }}</p>
+            </header>
+
+            <div class="feature-list">
+
+                {% for talk in next_io.talks %}
+                <section>
+                    <h3 class="icon fa-comment">{{talk.title}}</h3>
+                    <div class="feature-content">
+                        <h4>
+                            {% for author_key in talk.authors %}
+                                {% assign author = site.data.authors[author_key] %}
+                                {% if author.website %}<a href="{{author.website}}" target="_blank">{{author.name}}</a>{% else %}{{author.name}}{% endif %}
+                                {% if author.twitter %}<a href="http://twitter.com/{{author.twitter}}" target="_blank">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>{% endif %}
+                            {% endfor %}
+                        </h4>{% if talk.description %} {{ talk.description | markdownify }} {% endif %}{% if talk.slides %}
+                        <div id="slides">
+                            <a href="{{talk.slides}}"><i class="fa fa-eye fa-lg"></i></a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </section>
+                {% endfor %} {% assign location = site.data.locations[next_io.location] %}
+                <section>
+                    <h3 class="icon fa-map-pin">
+                        {{location.name}}
+                        {% if location.url %} <a href="{{location.url}}" target="_blank"><i class="fa fa-fw fa-external-link-square"></i></a>{% endif %}
+                        {% if location.facebook %} <a href="{{location.facebook}}" target="_blank"><i class="fa fa-fw fa-facebook-official"></i></a>{% endif %}
+                    </h3>
+                    <div class="feature-content">
+                        <h4>{{ location.address }}</h4>
+                        <p>
+                            {{ location.description }}
+                        </p>
+                        {{ location.map }}
+                    </div>
+                </section>
+
+                {% comment %} {% if next_io.sponsor %}
+                <h3 class='sponsor'>COMMANDITE: {{next_io.sponsor}}</h3> {% endif %} {% if next_io.eventbrite_id %}
+                <a href="https://www.eventbrite.ca/e/{{next_io.eventbrite_id}}" class="button alert inscription">Inscription!</a> {% endif %} {% endcomment %}
+
+            </div>
+
+            <ul class="actions actions-centered">
+                {% if next_io.event_url %}
+                <li><a href="{{ next_io.event_url }}" class="button style1 big" target="_blank">Je participe</a></li>
+                {% endif %}
+
+                <!-- <li><a href="#" class="button style2 big">More Info</a></li> -->
+            </ul>
+        </section>
+
+    </div>
+</div>

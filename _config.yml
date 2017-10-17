@@ -6,6 +6,8 @@ author:
   email:      ""
 markdown:     redcarpet
 permalink:    pretty
-pygments:     true
 highlighter:  rouge
 paginate:     5
+# plugins: [jekyll-paginate]
+sass:
+  sass_dir: _sass

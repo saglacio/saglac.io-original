@@ -1,62 +1,44 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
+<head>
+    <title>
+        {% if page.title %}{{ page.title }} &middot; {% endif %} io &middot; saglac.io
+    </title>
+    <meta charset="utf-8" />
     <meta name="description" content="L’io se veut un événement informel entre passionnés de programmation et administration de systèmes.">
     <meta name="author" content="@jipiboily">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link href="/assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="{{ '/assets/favicon.ico' | relative_url }}" rel="shortcut icon" type="image/x-icon">
 
-    <title>
-      {% if page.title %}{{ page.title }} &middot; {% endif %}
-      io &middot; saglac.io
-    </title>
-
-    <!-- JS -->
-    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <script src="/assets/js/foundation.min.js"></script>
-    <script src="/assets/js/saglac.io.js"></script>
-
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/foundation.min.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
-    <link rel="stylesheet" href="/assets/css/saglac.io.css">
-
-
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="/assets/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--[if lte IE 8]><script src="{{ '/assets/js/ie/html5shiv.js' | relative_url }}"></script><![endif]-->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="{{ '/assets/css/ie8.css' | relative_url }}" /><![endif]-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     {% include google-analytics.html %}
-  </head>
-  <body>
-    <div class='row container off-canvas-wrap'>
-      <div class="inner-wrap">
-        {% include top_nav.html %}
+</head>
 
-        <header id='site-title'>
-          <h1>
-            saglac.io
-          </h1>
-          <h6>
-            Événements pour et par les passionnés de programmation et d’administration de systèmes du Saguenay-Lac-St-Jean
-          </h6>
-        </header>
+<body>
+    {{ content }}
 
 
+    <!-- Scripts -->
 
-        {{ content }}
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jquery.dropotron.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/skel.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/skel-viewport.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/util.js' | relative_url }}"></script>
+    <!--[if lte IE 8]><script src="{{ '/assets/js/ie/respond.min.js' | relative_url }}"></script><![endif]-->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
-        {% include footer.html %}
-      </div>
-    </div>
+</body>
 
-    <a id='fork-on-github' href="https://github.com/jipiboily/saglac.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-
-  </body>
 </html>

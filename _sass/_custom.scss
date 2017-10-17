@@ -1,0 +1,83 @@
+%font-awesome {
+    font: normal normal normal 14px/1 FontAwesome
+}
+
+.text-center {
+    text-align: center;
+}
+
+#logo {
+    height: auto;
+    top: 145px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+// fix header overlay getting on top only on mobile
+@include breakpoint(mobile) {
+    #header-wrapper {
+        z-index: -2;
+        &:before {
+            z-index: -1;
+        }
+    }
+}
+
+// fix logo and title display with nav
+#header-wrapper {
+    height: 400px;
+}
+
+.homepage {
+    #header-wrapper {
+        height: auto;
+    }
+
+    #logo {
+        top: 33%;
+    }
+}
+
+
+dt {
+    font-weight: bold;
+}
+
+.faq {
+    margin-left: 50px;
+    dt {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        position: relative;
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        &::before{
+            @extend %font-awesome;
+            content: "\f059"; // fa-question-circle
+            font-size: 1.5em;
+            position: absolute;
+            left: -45px;
+        }
+
+        p {
+            margin-bottom: 0;
+            display: inline;
+        }
+    }
+
+    dd {
+        ul {
+            list-style: circle;
+            padding-left: 30px;
+        }
+    }
+}

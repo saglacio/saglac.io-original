@@ -1,22 +1,105 @@
-<footer>
-  <div class="small-12 large-4 columns">
-    <form action="http://jipiboily.us7.list-manage1.com/subscribe/post?u=057aa15d4f31799882124acd5&amp;id=da1eb7ce3d" method="post" target="_blank" novalidate="">
-      <div class="row collapse">
-        <div class="small-10 columns">
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Infolettre (courriel)">
-        </div>
-        <div class="small-2 columns">
-          <input type="submit" value="Go!" name="subscribe" id="mc-embedded-subscribe" class="button postfix">
-        </div>
-      </div>
-    </form>
-  </div>
+<div id="footer-wrapper" class="wrapper">
+    <div class="title">Restez en contact</div>
+    <div id="footer" class="container">
+        <header class="style1">
+            <h2>Une communauté vivante</h2>
+            <p>
+                Le Saglac IO n'est pas seulement un événement mensuel, c'est aussi une communauté de professionnels et d'étudiants qui partagent et s'entraident toute l'année.
+            </p>
+        </header>
+        <hr />
+        <div class="row 150%">
+            <div class="6u 12u(mobile)">
 
-  <div class='small-12 large-8 columns'>
-    <ul>
-      <li><a href="http://twitter.com/saglacio">@saglacio</a></li>
-      <li><a href="https://www.facebook.com/groups/saglac.io">groupe Facebook</a></li>
-      <li><a href="mailto:info@saglac.io">info@saglac.io</a></li>
-    </ul>
-  </div>
-</footer>
+                <!-- Contact Form -->
+                <section>
+                    <form method="post" action="https://formspree.io/info@saglac.io">
+                        <input type="hidden" name="_subject" value="Nouveau message du site" />
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <!-- <input type="hidden" name="_next" value="//saglac.io/sent" /> -->
+                        <div class="row 50%">
+                            <div class="6u 12u(mobile)">
+                                <input type="text" name="name" id="contact-name" placeholder="Nom" />
+                            </div>
+                            <div class="6u 12u(mobile)">
+                                <input type="text" name="_replyto" id="contact-email" placeholder="Courriel" />
+                            </div>
+                        </div>
+                        <div class="row 50%">
+                            <div class="12u">
+                                <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="12u">
+                                <ul class="actions">
+                                    <li><input type="submit" class="style1" value="Envoyer" /></li>
+                                    <li><input type="reset" class="style2" value="Réinitialiser" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+
+            </div>
+            <div class="6u 12u(mobile)">
+
+                <!-- Contact -->
+                <section class="feature-list small">
+                    <div class="row">
+                        <div class="6u 12u(mobile)">
+                            <section>
+                                <h3 class="icon fa-facebook">Facebook</h3>
+                                <p>
+                                    Toute l'actualité de la communauté passe par le
+                                    <a href="https://www.facebook.com/groups/saglac.io" target="_blank">groupe Facebook</a>.
+                                </p>
+                            </section>
+                        </div>
+                        <div class="6u 12u(mobile)">
+                            <section>
+                                <h3 class="icon fa-slack">Slack</h3>
+                                <p>
+                                    Demandez sur le groupe Facebook à ce qu'on vous ajoute au groupe Slack privé.
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="6u 12u(mobile)">
+                            <section>
+                                <h3 class="icon fa-at">Courriel</h3>
+                                <p>
+                                    <a href="mailto:info@saglac.io">info@saglac.io</a>
+                                </p>
+                            </section>
+                        </div>
+                        <div class="6u 12u(mobile)">
+                            <section>
+                                <form action="http://jipiboily.us7.list-manage1.com/subscribe/post?u=057aa15d4f31799882124acd5&amp;id=da1eb7ce3d" method="post" target="_blank" novalidate="">
+                                    <div class="row">
+                                        <div class="12u">
+                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Infolettre (courriel)">
+                                        </div>
+                                        <div class="12u">
+                                            <input type="submit" value="M'informer" name="subscribe" id="mc-embedded-subscribe" class="style2">
+                                        </div>
+                                    </div>
+                                </form>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <hr />
+    </div>
+    <div id="copyright">
+        <ul>
+            <li>&copy; Saglac IO</li>
+            <li><a href="{{ site.github.repository_url }}"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</div>

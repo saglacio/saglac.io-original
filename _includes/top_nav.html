@@ -1,27 +1,11 @@
-<!-- For large screens -->
-<div id='top-nav'>
-  <ul class="button-group radius">
-    <li><a href="/" class="small button">Accueil</a></li>
-    <li><a href="/io" class="small button">io</a></li>
-    <li><a href="/openhack" class="small button">OpenHack</a></li>
-    <li><a href="/ateliers" class="small button">Ateliers</a></li>
-    <li><a href="/a-propos" class="small button">À propos</a></li>
-  </ul>
-</div>
-
-<!-- Starting from here, it is for medium and small screens -->
-<nav class="tab-bar show-for-medium-down">
-  <a class="left-off-canvas-toggle menu-icon" href="#">
-    <span>io</span>
-  </a>
+<!-- Nav -->
+<nav id="nav">
+    <ul>
+        <li class="current"><a href="{{ '/' | relative_url }}">Accueil</a></li>
+        <!-- <li><a href="/openhack">OpenHack</a></li> -->
+        <!-- <li><a href="/ateliers">Ateliers</a></li> -->
+        <li><a href="{% link pages/about.html %}">À propos</a></li>
+        <li><a href="{% link pages/io.html %}">Archives</a></li>
+        <li><a href="{% link pages/faq.html %}">FAQ</a></li>
+    </ul>
 </nav>
-
-<aside class="left-off-canvas-menu">
-  <ul class="off-canvas-list">
-    <li><a href="/">Accueil</a></li>
-    <li><a href="/io">io</a></li>
-    <li><a href="/openhack">OpenHack</a></li>
-    <li><a href="/ateliers">Ateliers</a></li>
-    <li><a href="/a-propos">À propos</a></li>
-  </ul>
-</aside>

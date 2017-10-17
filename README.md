@@ -12,8 +12,6 @@ Website for [saglac.io](https://saglac.io). This is a basic [Jekyll](https://jek
 Run:
 
 ```bash
-npm i -g bower
-bower install
 bundle install
 jekyll serve --watch
 ```

@@ -34,7 +34,7 @@
 				grid: ( gutters: (50px, 50px) )
 			),
 			tablet: (
-				containers: 1000px,
+				containers: 730px,
 				grid: ( gutters: (35px, 35px) )
 			),
 			mobile: (
@@ -709,10 +709,6 @@
 				letter-spacing: 0.025em;
 			}
 
-			body {
-				min-width: 1200px;
-			}
-
 			hr {
 				margin: 2em 0 2em 0;
 			}
@@ -1080,7 +1076,6 @@
 
 				> .style3 {
 					font-size: 1.1em;
-					width: 48em;
 					margin: 0 auto;
 				}
 			}
@@ -1172,7 +1167,6 @@
 		/* Basic */
 
 			body {
-				min-width: 1000px;
 				font-size: 12pt;
 				line-height: 1.5em;
 				letter-spacing: 0.015em;
@@ -1182,10 +1176,6 @@
 				font-size: 12pt;
 				line-height: 1.5em;
 				letter-spacing: 0.015em;
-			}
-
-			body {
-				min-width: 960px;
 			}
 
 		/* Wrappers */

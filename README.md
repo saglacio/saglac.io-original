@@ -20,4 +20,4 @@ Everything is in the `_data` directory.
 
 ## LICENSE
 
-[MIT](/LICENSE.md) © [SagLacIO](https://saglac.io)
+[MIT](LICENSE.md) © [SagLacIO](https://saglac.io)

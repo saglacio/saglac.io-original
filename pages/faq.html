@@ -7,6 +7,25 @@ permalink: faq
 <div class="wrapper style2">
     <div class="title">Foire aux questions</div>
 
-    
+        <div id="main" class="container">
+
+            <div id="content">
+                {% for section in site.data.faq %}
+                    <article class="box post">
+                        <header class="style1">
+                            <h2>{{ section.header }}</h2>
+                        </header>
+                        <dl class="faq">
+                            {% for question in section.questions %}
+
+                                <dt>{{ question.question | markdownify }}</dt>
+                                <dd>{{ question.answer | markdownify }}</dd>
+
+                            {% endfor %}
+                        </dl>
+                    </article>
+                {% endfor %}
+            </div>
+        </div>
     </div>
 </div>

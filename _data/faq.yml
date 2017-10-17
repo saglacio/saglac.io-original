@@ -1,4 +1,4 @@
-- section: L'organisation
+- header: L'organisation
   questions:
     - slug: organization-pronunciation
       question: C'est quoi le _"IO"_ dans _SagLac IO?_
@@ -28,7 +28,7 @@
         * En tant qu'employeur, vous pouvez encouragez vos employés à participer en facilitant leur déplacement et en diminuant le coût de la soirée (payer une bière, le repas, le déplacement, etc.)
         * Il est aussi possible de devenir partenaire d'un événement.
 
-- section: L'événement
+- header: L'événement
   questions:
     - slug: event-how-much
       question: Combien coûte un billet pour participer?
@@ -78,7 +78,7 @@
       answer: L'événement se déroule en public, portez les vêtements dans lesquels vous êtes à l'aise d'être vu en public.
 
 
-- section: Présentations
+- header: Présentations
   questions:
     - slug: talk-who
       question: Qui a le droit de parler?
@@ -125,7 +125,7 @@
         La communauté du Saglac IO peut aussi te diriger vers les meilleurs outils.
 
 
-- section: Partenaires
+- header: Partenaires
   questions:
     - slug: sponsor-organization
       question: Qui est l'entreprise derrière le Saglac IO?

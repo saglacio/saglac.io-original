@@ -2,9 +2,10 @@
   questions:
     - slug: organization-pronunciation
       question: C'est quoi le _"IO"_ dans _SagLac IO?_
-      answer: >
-        _**I**nput/**O**utput_ ou 2 en binaire, comme le numéro de la
-        [région administrative](https://fr.wikipedia.org/wiki/Saguenay%E2%80%93Lac-Saint-Jean).
+      answer: |
+        _**I**nput/**O**utput_ ou 2 en binaire, comme le numéro de la [région administrative](https://fr.wikipedia.org/wiki/Saguenay%E2%80%93Lac-Saint-Jean).
+
+        Cours de prononciation anglophone en 2 secondes: _IO_ se prononce _"ail eau"._
 
     - slug: organization-members
       question: Qui sont les membres de l'organisation?

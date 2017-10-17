@@ -57,7 +57,7 @@
       question: C'est **quand?**
       answer: >
         L'événement est mensuel et les dates sont déterminés quelques
-        semaines à l'avance selon les disponibilités de l'organisation et des présentateurs.
+        semaines à l'avance selon la disponibilité des organisateurs et des présentateurs.
 
     - slug: event-duration
       question: Ça dure **combien de temps** normalement?
@@ -141,4 +141,4 @@
 
     - slug: sponsor-how-to
       question: Comment devenir un partenaire?
-      answer: Communiquez avec nous par courriel et nous pourrons en discuter en détails par la suite.
+      answer: Communiquez avec nous par courriel et il nous fera plaisir de discuter des détails avec vous.

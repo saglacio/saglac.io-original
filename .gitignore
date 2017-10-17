@@ -3,4 +3,4 @@ _site
 .DS_Store
 node_modules
 yarn-error.log
-bower_components
+#bower_components

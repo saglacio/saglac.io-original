@@ -1,0 +1,144 @@
+- section: L'organisation
+  questions:
+    - slug: organization-pronunciation
+      question: C'est quoi le _"IO"_ dans _SagLac IO?_
+      answer: >
+        _**I**nput/**O**utput_ ou 2 en binaire, comme le numéro de la
+        [région administrative](https://fr.wikipedia.org/wiki/Saguenay%E2%80%93Lac-Saint-Jean).
+
+    - slug: organization-members
+      question: Qui sont les membres de l'organisation?
+      answer: >
+        Personne n'est spécifiquement élu membre de l'organisation. Le Saglac IO
+        existe sur une base volontaire.
+
+    - slug: organization-how-to-join
+      question: Comment puis-je m'impliquer?
+      answer: >
+        Joins-toi au [groupe Facebook](https://www.facebook.com/groups/saglac.io)
+        et/ou au Slack et propose ton aide!
+        Il est aussi possible de devenir un partenaire de l'événement suite à une
+        entente avec une majorité de l'organisation.
+
+    - slug: organization-how-to-help
+      question: Comment puis-je aider l'événement?
+      answer: |
+        * La façon la plus facile d'aider est de parler de l'événement à vos amis et collègues du domaine de l'informatique.
+        * Vous pouvez aussi donner un coup de main dans les tâches autours de l'événement, comme la rédaction de la FAQ!
+        * En tant qu'employeur, vous pouvez encouragez vos employés à participer en facilitant leur déplacement et en diminuant le coût de la soirée (payer une bière, le repas, le déplacement, etc.)
+        * Il est aussi possible de devenir partenaire d'un événement.
+
+- section: L'événement
+  questions:
+    - slug: event-how-much
+      question: Combien coûte un billet pour participer?
+      answer: >
+        **C'est totalement GRATUIT.** Il n'y a pas de billet de participation et
+        c'est ouvert au public. Ceci dit, bien qu'optionnel, si vous désirez manger
+        et prendre une consommation, c'est à vos frais.
+
+    - slug: event-who
+      question: À **qui** s'adresse l'événement?
+      answer: >
+        À tous les passionnés d'informatique, autant professionnel qu'amateur.
+        Bien que les sujets gravitent autour du développement logiciel et
+        de l'administration de système, nous avons régulièrement d'autres
+        sujet qui émergent, comme le jeux vidéos, la sécurité informatique,
+        ainsi que l'Internet of Things.
+
+    - slug: event-where
+      question: C'est **où?**
+      answer: >
+        En alternance entre Saguenay et Alma selon la demande, l'événement se
+        déroule normalement dans une salle privé d'un restaurant. Quelques
+        événements spéciaux se déroulent à l'UQAC.
+
+    - slug: event-when
+      question: C'est **quand?**
+      answer: >
+        L'événement est mensuel et les dates sont déterminés quelques
+        semaines à l'avance selon les disponibilités de l'organisation et des présentateurs.
+
+    - slug: event-duration
+      question: Ça dure **combien de temps** normalement?
+      answer: >
+        L'événement débute à 18h00 et se termine normalement à la fermeture
+        de l'endroit. Nous invitons les gens à rester après les présentations
+        pour discuter et boire une bière.
+
+    - slug: event-resautage-recrutement
+      question: Est-ce que je peux faire du **résautage** pour mon entreprise ou du **recrutement**?
+      answer: >
+        Nous encourageons les entreprises à venir à l'événement et à parler des
+        postes à combler. Par contre, nous ne tolérons pas les recruteurs qui
+        harcèlent les participants durant et en dehors de l'événement.
+
+    - slug: event-code-vestimentaire
+      question: Est-ce qu'il y a un code vestimentaire particulier?
+      answer: L'événement se déroule en public, portez les vêtements dans lesquels vous êtes à l'aise d'être vu en public.
+
+
+- section: Présentations
+  questions:
+    - slug: talk-who
+      question: Qui a le droit de parler?
+      answer: >
+        Tout le monde est invité à proposer une présentation pour un événement futur.
+        De plus, il est encouragé d'intéragir (avec respect) et de poser des
+        questions durant les présentations.
+
+    - slug: talk-duration
+      question: Combien de temps dure une présentation?
+      answer: >
+        Deux formats s'offrent aux présentateurs, soient le survol rapide
+        de 15 minutes _(talk)_ ou la présentation spontanée de 5 minutes _(lightning talk)._
+
+    - slug: talk-count
+      question: Combien de présentations y a-t-il durant un événement?
+      answer: >
+        Questions de laisser du temps pour le réseautage, nous essayons d'offrir
+        de 2 à 4 présentations. Parfois, une présentation éclaire se décide durant
+        l'événement.
+
+    - slug: talk-subjects
+      question: À quels types de sujets dois-je m'attendre?
+      answer: >
+        Une lib JS, un nouveau framework, un language ésotérique et/ou fonctionnel,
+        un nouveau projet arduino, etc. Le sujet d'une présentation doit intéresser
+        la majorité, il est donc découragé de faire un _pitch_ de vente.
+
+    - slug: talk-past-subjects
+      question: Quels sont les sujets qui ont déjà été discuté?
+      answer: Voir l'archive des événements pour voir l'éventail des sujets abordés.
+
+    - slug: talk-deja-vu
+      question: Est-ce possible de revoir une présentation?
+      answer: >
+        Si une présentation est redemandé par une majorité, et que son auteur
+        désire la refaire, il est possible qu'elle soit remise à l'horaire dans un
+        prochain événement, ou en remplacement d'une présentation annulée.
+
+    - slug: talk-how-to
+      question: J'aimerais présenter mais je ne sais pas trop comment m'y prendre.
+      answer: >
+        Plusieurs outils existent pour aider à faire des présentations rapidement.
+        La communauté du Saglac IO peut aussi te diriger vers les meilleurs outils.
+
+
+- section: Partenaires
+  questions:
+    - slug: sponsor-organization
+      question: Qui est l'entreprise derrière le Saglac IO?
+      answer: >
+        Aucune entreprise ne parraine officiellement l'événement. Nous sommes donc libre
+        de diriger l'événement et l'organisation dans la direction que nous souhaitons.
+
+    - slug: sponsor-event
+      question: Qui sont les partenaires de l'événement?
+      answer: >
+        Il n'y a aucun partenaire officiel pour l'instant. Par contre,
+        plusieurs entreprises et associations donnent un coup de main au Saglac IO.
+
+    - slug: sponsor-how-to
+      question: Comment devenir un partenaire?
+      answer: Communiquez avec nous par courriel et nous pourrons en discuter en détails par la suite.

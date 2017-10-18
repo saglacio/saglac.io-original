@@ -18,3 +18,8 @@ Visit http://0.0.0.0:4000 ... :boom:!
 ## Add an event
 
 Everything is in the `_data` directory, just send a [pull-request](https://github.com/saglacio/saglac.io/pulls)!
+
+## LICENSE
+
+[MIT](LICENSE.md) © [SagLacIO](https://saglac.io)
+

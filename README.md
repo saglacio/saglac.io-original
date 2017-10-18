@@ -9,6 +9,7 @@ Website for [saglac.io](https://saglac.io). This is a basic [Jekyll](https://jek
 Run:
 
 ```bash
+gem install bundle
 bundle install
 jekyll serve --watch
 ```
@@ -22,4 +23,3 @@ Everything is in the `_data` directory, just send a [pull-request](https://githu
 ## LICENSE
 
 [MIT](LICENSE.md) © [SagLacIO](https://saglac.io)
-

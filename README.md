@@ -9,6 +9,7 @@ Website for [saglac.io](https://saglac.io). This is a basic [Jekyll](https://jek
 Run:
 
 ```bash
+gem install bundle
 bundle install
 jekyll serve --watch
 ```

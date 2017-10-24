@@ -6,8 +6,8 @@ Related to issue [put a link to the issue if applicable]
 
 ### [All Submissions]
 
+[Use `master` for new events, or hotfix to a bug that affects the use of the website.]
 [Use `develop` as the base for features or trivial fixes.]  
-[Use `master` for hotfix to bugs that affects the use of the website.]
 
 * [ ] Have you followed the guidelines in our Contributing document?
 * [ ] Have you checked to ensure there aren't other open [Pull Requests](https://github.com/saglacio/saglac.io/pulls) for the same update/change?

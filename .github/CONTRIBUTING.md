@@ -1,5 +1,13 @@
 # How to contribute
 
+## Want to add or edit the next event?
+
+1. Start a new branch with prefix `event/` like `event/2017-04`.
+
+1. Edit the `_data/io-events.yml` file and choose the authors from the `_data/authors.yml` file, adding the new ones when necessary.
+
+1. Make a new pull request on `master`.
+
 ## Did you find a bug?
 
 * **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/saglacio/saglac.io/issues).

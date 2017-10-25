@@ -20,6 +20,8 @@
 
 ## Submitting changes
 
+Please **discuss the changes in the related issue** before making a pull request as it will greatly reduce risks of duplicates.
+
 We follow a simplified [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) branching model, where feature branches are squashed onto the `develop` branch.
 
 ### Did you write a patch that fixes a bug?

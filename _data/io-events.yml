@@ -1,18 +1,29 @@
+- title: "IO Hardware à l'UQAC"
+  date: 20 novembre 2017, à 18h00
+  event_url: "https://www.facebook.com/events/1316410948471000"
+  location: UQAC_Aquarium
+  talks:
+    -
+      title: "Club Asimov: Démonstration musicale et graphique complètement robotisée!"
+      description: S’inscrivant dans le mouvement « Makers », le club Asimov rassemble des étudiants du Cégep de Chicoutimi de programmes variés réunis pour fabriquer des appareils, des robots, des machines originales et inventives à partir de recyclage et de microcontrôleur électronique Arduino.
+      authors:
+        - yanick_ouellet
+
 - title: "IO Hacktoberfest - Spécial open source"
   date: 17 octobre 2017, à 18h00
   event_url: "https://www.facebook.com/events/120214745326424"
-  location: bistro-du-centre
+  location: bistro_du_centre
   talks:
     -
       title: "To pull or not to pull? Ma première contribution open source"
       description: De la première à la dernière étape pour contribuer à un projet sur Github.
       authors:
-          - gableroux
+        - gableroux
     -
       title: "Nouveau site web du Saglac IO"
       description: "Un nouveau design bien mérité."
       authors:
-          - emileber
+        - emileber
 
 - title: "IO de Septembre 2017"
   date: 19 septembre, à 18h00

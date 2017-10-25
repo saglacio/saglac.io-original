@@ -34,6 +34,36 @@
     }
 }
 
+@include breakpoint(mobile) {
+    #header-wrapper {
+        z-index: -2;
+        &:before {
+            z-index: -1;
+        }
+    }
+    textarea {
+        display: block;
+        width: 100%;
+        font-size: 1em;
+        padding: 1em 0 1em 0;
+        max-width: 30em;
+        margin: 0 auto;
+    }
+}
+
+/* Desktop + Tablet */
+
+@include breakpoint(desktop) {
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"],
+    button,
+    .button {
+        padding: 0 1em 0 1em;
+        font-size: 0.8em;
+    }
+}
+
 // fix logo and title display with nav
 #header-wrapper {
     height: 400px;
@@ -88,5 +118,15 @@ dt {
             list-style: circle;
             padding-left: 30px;
         }
+    }
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+    &.style2 {
+        width:100%;
     }
 }

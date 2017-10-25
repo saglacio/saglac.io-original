@@ -341,7 +341,6 @@
 			background: none;
 			color: #606167;
 			box-shadow: inset 0px 0px 2px 0px #a0a1a7;
-            width:100%;
 
 			&:hover {
 				box-shadow: inset 0px 0px 2px 0px #606167;
@@ -754,8 +753,8 @@
 			input[type="reset"],
 			button,
 			.button {
-				padding: 0 1em 0 1em;
-				font-size: 0.8em;
+				padding: 0 2.25em 0 2.25em;
+				font-size: 0.9em;
 				min-width: 12em;
 				height: 4em;
 				line-height: 4em;

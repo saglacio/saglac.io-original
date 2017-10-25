@@ -16,6 +16,7 @@
 }
 
 // fix header overlay getting on top only on mobile
+// Apply the same parametres to textarea on mobile from the other imput elements
 @include breakpoint(mobile) {
     #header-wrapper {
         z-index: -2;

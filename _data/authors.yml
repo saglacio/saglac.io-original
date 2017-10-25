@@ -1,9 +1,14 @@
 emileber:
-    name: Émile Bergeron
-    twitter: prismalstudio
-    website: http://www.prismalstudio.com/
+  name: Émile Bergeron
+  twitter: prismalstudio
+  website: http://www.prismalstudio.com/
 
 gableroux:
-    name: Gabriel Le Breton
-    twitter: gableroux
-    website: https://gableroux.com/
+  name: Gabriel Le Breton
+  twitter: gableroux
+  website: https://gableroux.com/
+
+yanick_ouellet:
+  name: Yanick Ouellet (Club Asimov)
+  twitter: ClubAsimov
+  website: https://www.facebook.com/ClubAsimov/

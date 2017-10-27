@@ -34,23 +34,6 @@
     }
 }
 
-@include breakpoint(mobile) {
-    #header-wrapper {
-        z-index: -2;
-        &:before {
-            z-index: -1;
-        }
-    }
-    textarea {
-        display: block;
-        width: 100%;
-        font-size: 1em;
-        padding: 1em 0 1em 0;
-        max-width: 30em;
-        margin: 0 auto;
-    }
-}
-
 /* Desktop + Tablet */
 
 @include breakpoint(desktop) {

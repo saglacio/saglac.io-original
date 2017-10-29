@@ -25,6 +25,21 @@
     }
 }
 
+@include breakpoint(desktop) {
+    /* Feature List */
+    .feature-list {
+        h3 {
+            position: relative;
+            padding: 4px 0 0 90px;
+
+            &:before {
+                left: 0;
+                position: absolute;
+            }
+        }
+    }
+}
+
 // fix logo and title display with nav
 #header-wrapper {
     height: 400px;

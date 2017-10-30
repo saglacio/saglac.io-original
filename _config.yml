@@ -11,3 +11,7 @@ paginate:     5
 # plugins: [jekyll-paginate]
 sass:
   sass_dir: _sass
+
+facebook_app_id: 130024877754864
+facebook_default_image: /images/open-graph-default-image.png
+

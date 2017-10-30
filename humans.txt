@@ -1,13 +1,13 @@
 /* TEAM */
-  Lead Organizer and communications: Emile Bergeron
-  Contact: ber.emile [at] gmail.com
-  Twitter: @emile_ber
-  From:La Baie, Québec, Canada
-
   Founder: Jean-Philippe Boily
   Contact: j [at] jipi.ca
   Twitter: @jipiboily
   From: Alma, Québec, Canada
+
+  Contributor: Emile Bergeron
+  Contact: ber.emile [at] gmail.com
+  Twitter: @emile_ber
+  From:La Baie, Québec, Canada
 
   Contributor: Jessica Lapointe
   Contact: jellyka [at] gmail.com

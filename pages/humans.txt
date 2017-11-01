@@ -1,3 +1,7 @@
+---
+permalink: humans.txt
+---
+
 /* TEAM */
   Founder: Jean-Philippe Boily
   Contact: j [at] jipi.ca
@@ -5,9 +9,9 @@
   From: Alma, Québec, Canada
 
   Contributor: Emile Bergeron
-  Contact: ber.emile [at] gmail.com
+  Contact: ber.emile [at] prismalstudio.com
   Twitter: @emile_ber
-  From:La Baie, Québec, Canada
+  From: La Baie, Québec, Canada
 
   Contributor: Jessica Lapointe
   Contact: jellyka [at] gmail.com
@@ -17,14 +21,15 @@
   Contact: lebreton.gabriel [at] gmail.com
   Twitter: @gableroux
   From: Saguenay, Québec, Canada
-  
+
 /* THANKS */
   Everyone listed in here: https://github.com/saglacio/saglac.io/graphs/contributors
   Everyone who gives talks
   Café Bistro du Centre: http://cafebistroducentre.ca/
 
 /* SITE */
+  Last update: {{ site.time }}
   Language: French
   Doctype: HTML5
   Hosting: Github Pages
-
+  Framework: Jekyll

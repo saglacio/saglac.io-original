@@ -13,10 +13,10 @@
 
                 <!-- Contact Form -->
                 <section>
-                    <form method="post" action="https://formspree.io/info@saglac.io">
+                    <form method="post" action="https://formspree.io/{{ site.email }}">
                         <input type="hidden" name="_subject" value="Nouveau message du site" />
                         <input type="text" name="_gotcha" style="display:none" />
-                        <!-- <input type="hidden" name="_next" value="//saglac.io/sent" /> -->
+                        <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}{% link pages/merci.html %}" />
                         <div class="row 50%">
                             <div class="6u 12u(mobile)">
                                 <input type="text" name="name" id="contact-name" placeholder="Nom" />
@@ -70,7 +70,7 @@
                             <section>
                                 <h3 class="icon fa-at">Courriel</h3>
                                 <p>
-                                    <a href="mailto:info@saglac.io">info@saglac.io</a>
+                                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
                                 </p>
                             </section>
                         </div>

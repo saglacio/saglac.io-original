@@ -16,7 +16,7 @@
 }
 
 // fix header overlay getting on top only on mobile
-// Apply the same parametres to textarea on mobile from the other imput elements
+// Apply same css as other inputs on textarea for mobile
 @include breakpoint(mobile) {
     #header-wrapper {
         z-index: -2;
@@ -35,7 +35,6 @@
 }
 
 /* Desktop + Tablet */
-
 @include breakpoint(desktop) {
     input[type="button"],
     input[type="submit"],

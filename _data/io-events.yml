@@ -8,6 +8,10 @@
       description: S’inscrivant dans le mouvement « Makers », le club Asimov rassemble des étudiants du Cégep de Chicoutimi de programmes variés réunis pour fabriquer des appareils, des robots, des machines originales et inventives à partir de recyclage et de microcontrôleur électronique Arduino.
       authors:
         - yanick_ouellet
+    -
+      title: "Introduction aux rétro-ordinateurs avec le processeur Z80"
+      authors:
+        - formix
 
 - title: "IO Hacktoberfest - Spécial open source"
   date: 17 octobre 2017, à 18h00

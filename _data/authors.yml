@@ -1,12 +1,17 @@
 emileber:
   name: Émile Bergeron
-  twitter: prismalstudio
+  twitter: emile_ber
   website: http://www.prismalstudio.com/
 
 gableroux:
   name: Gabriel Le Breton
   twitter: gableroux
   website: https://gableroux.com/
+
+formix:
+  name: Jean-Philippe Gravel
+  twitter: formixian
+  bio: Ingénieur, entrepreneur, geek, programmeur et électronicien amateur. RFID is fun, got a few readers here and there. You can run but you can't hide!
 
 yanick_ouellet:
   name: Yanick Ouellet (Club Asimov)

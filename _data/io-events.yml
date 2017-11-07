@@ -10,6 +10,7 @@
         - yanick_ouellet
     -
       title: "Introduction aux rétro-ordinateurs avec le processeur Z80"
+      description: Survol technique du processeur Z80 et présentation d'une application pratique.
       authors:
         - formix
 

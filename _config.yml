@@ -1,10 +1,8 @@
-title:        io
+title:        Saglac IO
 tagline:      "saglac.io"
-url:          http://andhyde.com
+description:  "Le Saglac IO se veut un événement informel entre passionnés de technologies."
+url:          http://saglac.io
 email:        info@saglac.io
-author:
-  name:       ""
-  email:      ""
 markdown:     redcarpet
 permalink:    pretty
 highlighter:  rouge
@@ -13,6 +11,12 @@ paginate:     5
 sass:
   sass_dir: _sass
 
-facebook_app_id: 130024877754864
-facebook_default_image: /images/open-graph-default-image.png
+facebook:
+  app_id: 130024877754864
+  default_image: /images/open-graph-default-image.png
+  page: https://www.facebook.com/saglacio/
+  group: https://www.facebook.com/groups/saglac.io/
 
+twitter:
+  handle: saglacio
+  url: https://twitter.com/saglacio

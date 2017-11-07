@@ -53,6 +53,16 @@
                 position: absolute;
             }
         }
+
+        &.small {
+            h3 {
+                padding: 0;
+
+                &:before {
+                    position: relative;
+                }
+            }
+        }
     }
 }
 
@@ -70,7 +80,6 @@
         top: 33%;
     }
 }
-
 
 dt {
     font-weight: bold;
@@ -91,7 +100,7 @@ dt {
             }
         }
 
-        &::before{
+        &::before {
             @extend %font-awesome;
             content: "\f059"; // fa-question-circle
             font-size: 1.5em;
@@ -113,12 +122,22 @@ dt {
     }
 }
 
+#intro {
+    .feature-list {
+        text-align: left;
+
+        h3 {
+            color: #fff;
+        }
+    }
+}
+
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
 button,
 .button {
     &.style2 {
-        width:100%;
+        width: 100%;
     }
 }

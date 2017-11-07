@@ -1,7 +1,7 @@
-<meta property="og:title" content="{% if page.title %}{{ page.title }} &middot; {% endif %} io &middot; saglac.io"/>
+<meta property="og:title" content="{% if page.title %}{{ page.title }} &middot; {% endif %} {{ site.title }}"/>
 <meta content="{{ site.title }}" property="og:site_name">
-{% if site.facebook_app_id %}
-<meta content="{{ site.facebook_app_id }}" property="fb:app_id">
+{% if site.facebook.app_id %}
+<meta content="{{ site.facebook.app_id }}" property="fb:app_id">
 {% endif %}
 {% if page.title %}
 <meta content="{{ page.title }}" property="og:title">
@@ -28,7 +28,7 @@
 {% if page.image %}
 <meta content="{{ site.url }}/images/{{ page.image }}" property="og:image">
 {% else %}
-<meta content="{{ site.url }}/{{ site.facebook_default_image }}" property="og:image">
+<meta content="{{ site.url }}/{{ site.facebook.default_image }}" property="og:image">
 {% endif %}
 {% if page.categories %}
 {% for category in page.categories limit:1 %}

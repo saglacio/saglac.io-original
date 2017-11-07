@@ -1,34 +1,3 @@
-- header: L'organisation
-  questions:
-    - slug: organization-pronunciation
-      question: C'est quoi le _"IO"_ dans _SagLac IO?_
-      answer: |
-        _**I**nput/**O**utput_ ou 2 en binaire, comme le numéro de la [région administrative](https://fr.wikipedia.org/wiki/Saguenay%E2%80%93Lac-Saint-Jean).
-
-        Cours de prononciation anglophone en 2 secondes: _IO_ se prononce _"ail eau"._
-
-    - slug: organization-members
-      question: Qui sont les membres de l'organisation?
-      answer: >
-        Personne n'est spécifiquement élu membre de l'organisation. Le Saglac IO
-        existe sur une base volontaire.
-
-    - slug: organization-how-to-join
-      question: Comment puis-je m'impliquer?
-      answer: >
-        Joins-toi au [groupe Facebook](https://www.facebook.com/groups/saglac.io)
-        et/ou au Slack et propose ton aide!
-        Il est aussi possible de devenir un partenaire de l'événement suite à une
-        entente avec une majorité de l'organisation.
-
-    - slug: organization-how-to-help
-      question: Comment puis-je aider l'événement?
-      answer: |
-        * La façon la plus facile d'aider est de parler de l'événement à vos amis et collègues du domaine de l'informatique.
-        * Vous pouvez aussi donner un coup de main dans les tâches autours de l'événement, comme la rédaction de la FAQ!
-        * En tant qu'employeur, vous pouvez encouragez vos employés à participer en facilitant leur déplacement et en diminuant le coût de la soirée (payer une bière, le repas, le déplacement, etc.)
-        * Il est aussi possible de devenir partenaire d'un événement.
-
 - header: L'événement
   questions:
     - slug: event-how-much
@@ -52,7 +21,7 @@
       answer: >
         En alternance entre Saguenay et Alma selon la demande, l'événement se
         déroule normalement dans une salle privé d'un restaurant. Quelques
-        événements spéciaux se déroulent à l'UQAC.
+        événements spéciaux se déroulent à l'UQAC ou ailleurs.
 
     - slug: event-when
       question: C'est **quand?**
@@ -124,6 +93,48 @@
       answer: >
         Plusieurs outils existent pour aider à faire des présentations rapidement.
         La communauté du Saglac IO peut aussi te diriger vers les meilleurs outils.
+
+    - slug: talk-fears
+      question: J'ai peur qu'on me vole mes idées si je les partage aux participants.
+      answer: >
+        L'objectif n'est pas de partager des secrets, mais bien d'introduire les
+        autres à de nouvelles technologies, partager nos nouvelles découvertes, etc.
+
+        De plus, si votre idée peut être reproduite suite à une présentation de
+        quelques minutes, ce n'est probablement pas une très bonne idée. Rapellez-vous,
+        le succès réside dans la réalisation.
+
+
+- header: L'organisation
+  questions:
+    - slug: organization-pronunciation
+      question: C'est quoi le _"IO"_ dans _SagLac IO?_
+      answer: |
+        _**I**nput/**O**utput_ ou 2 en binaire, comme le numéro de la [région administrative](https://fr.wikipedia.org/wiki/Saguenay%E2%80%93Lac-Saint-Jean).
+
+        Cours de prononciation anglophone en 2 secondes: _IO_ se prononce _"ail eau"._
+
+    - slug: organization-members
+      question: Qui sont les membres de l'organisation?
+      answer: >
+        Personne n'est spécifiquement élu membre de l'organisation. Le Saglac IO
+        existe grâce à un groupe de bénévoles.
+
+    - slug: organization-how-to-join
+      question: Comment puis-je m'impliquer?
+      answer: >
+        Joins-toi au [groupe Facebook](https://www.facebook.com/groups/saglac.io)
+        et/ou au Slack et propose ton aide!
+        Il est aussi possible de devenir un partenaire de l'événement suite à une
+        entente avec une majorité de l'organisation.
+
+    - slug: organization-how-to-help
+      question: Comment puis-je aider l'événement?
+      answer: |
+        * La façon la plus facile d'aider est de parler de l'événement à vos amis et collègues du domaine de l'informatique.
+        * Vous pouvez aussi donner un coup de main dans les tâches autours de l'événement, comme la rédaction de la FAQ!
+        * En tant qu'employeur, vous pouvez encouragez vos employés à participer en facilitant leur déplacement et en diminuant le coût de la soirée (payer une bière, le repas, le déplacement, etc.)
+        * Il est aussi possible de devenir partenaire d'un événement.
 
 
 - header: Partenaires

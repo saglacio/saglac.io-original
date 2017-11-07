@@ -1,0 +1,20 @@
+<head>
+    <title>
+        {% if page.title %}{{ page.title }} &middot; {% endif %} {{ site.title }}
+    </title>
+    <meta charset="utf-8" />
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link type="text/plain" rel="author" href="{{ '/humans.txt' | relative_url }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {% include header-open-graph.html %}
+
+    <link href="{{ '/assets/favicon.ico' | relative_url }}" rel="shortcut icon" type="image/x-icon">
+
+    <!--[if lte IE 8]><script src="{{ '/assets/js/ie/html5shiv.js' | relative_url }}"></script><![endif]-->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="{{ '/assets/css/ie8.css' | relative_url }}" /><![endif]-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    {% include google-analytics.html %}
+</head>

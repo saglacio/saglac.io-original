@@ -1,10 +1,10 @@
-<div id="footer-wrapper" class="wrapper">
-    <div class="title">Restez en contact</div>
+<div class="footer-wrapper wrapper">
+    <div class="title">Restons en contact</div>
     <div id="footer" class="container">
         <header class="style1">
             <h2>Une communauté vivante</h2>
             <p>
-                Le Saglac IO n'est pas seulement un événement mensuel, c'est aussi une communauté de professionnels et d'étudiants qui partagent et s'entraident toute l'année.
+                Le Saglac IO n'est pas seulement un événement mensuel, c'est aussi une communauté de professionnels et d'amateurs qui partagent et s'entraident toute l'année.
             </p>
         </header>
         <hr />
@@ -48,19 +48,13 @@
                 <section class="feature-list small">
                     <div class="row">
                         <div class="6u 12u(mobile)">
-                            <section>
-                                <h3 class="icon fa-facebook">Facebook</h3>
-                                <p>
-                                    Toute l'actualité de la communauté passe par le
-                                    <a href="https://www.facebook.com/groups/saglac.io" target="_blank">groupe Facebook</a>.
-                                </p>
-                            </section>
+                            <section>{% include facebook-page.html %}</section>
                         </div>
                         <div class="6u 12u(mobile)">
                             <section>
                                 <h3 class="icon fa-slack">Slack</h3>
                                 <p>
-                                    Demandez sur le groupe Facebook à ce qu'on vous ajoute au groupe Slack privé.
+                                    Demandez à ce qu'on vous ajoute au groupe Slack privé.
                                 </p>
                             </section>
                         </div>
@@ -68,9 +62,9 @@
                     <div class="row">
                         <div class="6u 12u(mobile)">
                             <section>
-                                <h3 class="icon fa-at">Courriel</h3>
+                                <h3 class="icon fa-twitter">Twitter</h3>
                                 <p>
-                                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                                    <a href="{{ site.twitter.url }}">@{{ site.twitter.handle }}</a>
                                 </p>
                             </section>
                         </div>

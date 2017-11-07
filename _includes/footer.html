@@ -48,7 +48,13 @@
                 <section class="feature-list small">
                     <div class="row">
                         <div class="6u 12u(mobile)">
-                            <section>{% include facebook-page.html %}</section>
+                            <section>
+                                <h3 class="icon fa-facebook">Facebook</h3>
+                                <ul>
+                                    <li><a href="{{ site.facebook.page }}">Page Officielle</a></li>
+                                    <li><a href="{{ site.facebook.group }}">Groupe de discussion</a></li>
+                                </ul>
+                            </section>
                         </div>
                         <div class="6u 12u(mobile)">
                             <section>
@@ -70,7 +76,7 @@
                         </div>
                         <div class="6u 12u(mobile)">
                             <section>
-                                <form action="http://jipiboily.us7.list-manage1.com/subscribe/post?u=057aa15d4f31799882124acd5&amp;id=da1eb7ce3d" method="post" target="_blank" novalidate="">
+                                <form action="{{ site.mailing.url }}" method="post" target="_blank" novalidate="">
                                     <div class="row">
                                         <div class="12u">
                                             <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Infolettre (courriel)">

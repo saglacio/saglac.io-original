@@ -33,6 +33,16 @@
     }
 }
 
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+    &.style2 {
+        width: 100%;
+    }
+}
+
 @include breakpoint(desktop) {
     input[type="button"],
     input[type="submit"],
@@ -85,43 +95,6 @@ dt {
     font-weight: bold;
 }
 
-.faq {
-    margin-left: 50px;
-    dt {
-        font-size: 1.5em;
-        line-height: 1.5em;
-        position: relative;
-
-        a {
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-
-        &::before {
-            @extend %font-awesome;
-            content: "\f059"; // fa-question-circle
-            font-size: 1.5em;
-            position: absolute;
-            left: -45px;
-        }
-
-        p {
-            margin-bottom: 0;
-            display: inline;
-        }
-    }
-
-    dd {
-        ul {
-            list-style: circle;
-            padding-left: 30px;
-        }
-    }
-}
-
 #intro {
     .feature-list {
         text-align: left;
@@ -132,12 +105,10 @@ dt {
     }
 }
 
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-button,
-.button {
-    &.style2 {
-        width: 100%;
+.footer-wrapper {
+    h3 {
+        color: #e97770;
     }
 }
+
+@import "page/faq";

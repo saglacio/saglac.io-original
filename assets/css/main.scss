@@ -420,18 +420,16 @@ ol {
 /* Feature List */
 
 .feature-list {
-    section {
-        h3 {
-            color: #e97770;
+    h3 {
+        color: #e97770;
 
-            &:before {
-                position: relative;
-                display: inline-block;
-                color: #fff;
-                background: #2f333b url('images/overlay.png');
-                border-radius: 1em;
-                text-align: center;
-            }
+        &:before {
+            position: relative;
+            display: inline-block;
+            color: #fff;
+            background: #2f333b url('images/overlay.png');
+            border-radius: 1em;
+            text-align: center;
         }
     }
 }

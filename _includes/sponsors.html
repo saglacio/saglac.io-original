@@ -1,0 +1,25 @@
+{% assign category = site.data.sponsors.partnership %}
+
+<div class="wrapper style3">
+    <div class="title">{{ category.title }}</div>
+    <div class="row">
+        {% for sponsor in category.sponsors %}
+        <div class="2u 10u(mobile) -1u(mobile) {% if forloop.index == 1 %}-1u{% endif %}">
+            <section class="highlight">
+                <a href="{{ sponsor.link }}" class="image featured" target="_blank">
+                    <img src="{{ 'images/sponsors/' | relative_url }}{{ sponsor.logo }}" alt=""/>
+                </a>
+                <!--<h3><a href="#">{{ sponsor.name }}</a></h3>
+                <p>{{ sponsor.description }}</p>
+                <ul class="actions">
+                    <li>
+                        <a href="{{ sponsor.link }}" class="button style1" target="_blank">
+                            <i class="fa fa-fw fa-external-link-square"></i> Voir plus
+                        </a>
+                    </li>
+                </ul>-->
+            </section>
+        </div>
+        {% endfor %}
+    </div>
+</div>

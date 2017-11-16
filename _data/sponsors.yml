@@ -1,0 +1,21 @@
+partnership:
+  title: Partenaires
+  sponsors:
+    - name: Totema Studio
+      logo: totema-studio.png
+      link: https://totemastudio.com/
+
+    - name: TLM
+      logo: tlm.png
+      link: http://solutionstlm.com/
+
+    - name: Ellipse Synergie
+      logo: ellipse.png
+      link: http://www.ellipse-synergie.com/
+
+    - name: Metrics Watch
+      logo: metrics-watch.png
+
+    - name: Orbite Web
+      logo: orbite-web.png
+      link: https://orbiteweb.com/

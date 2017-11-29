@@ -15,6 +15,7 @@ partnership:
 
     - name: Metrics Watch
       logo: metrics-watch.png
+      link: https://metricswatch.com/
 
     - name: Orbite Web
       logo: orbite-web.png

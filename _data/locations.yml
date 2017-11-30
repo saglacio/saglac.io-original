@@ -3,13 +3,21 @@ bistro_du_centre:
   address: 2750 Rue de la Salle, Jonquière, QC G7S 2A6
   url: http://cafebistroducentre.ca/
   facebook: https://www.facebook.com/cafebistroducentre
-  description: Nourriture, café, bières et autres breuvages disponibles.
+  description: Nourriture, café, bière et autres breuvages disponibles.
   map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.783320665328!2d-71.17780699500557!3d48.42230405889264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbe482df2860dac4!2sCaf%C3%A9+Du+Centre!5e0!3m2!1sfr!2sca!4v1508129703053" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+exode:
+  name: L'Exode Café
+  address: 960 avenue du Pont Sud, Alma, Qc, G8B 2V8
+  url: http://www.exodecafe.com/
+  facebook: https://www.facebook.com/lexodecafe
+  description: Nourriture, café, bière et autres breuvages disponibles.
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2641.801822046847!2d-71.64950868411728!3d48.537029531233415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc1d88098d4ba05%3A0x7bbc68ba9657e905!2sL&#39;Exode+Caf%C3%A9!5e0!3m2!1sfr!2sca!4v1512079607086" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 UQAC_Aquarium:
   name: Université du Québec à Chicoutimi (UQAC)
   address: 555, boulevard de l'Université, Chicoutimi, QC G7H 2B1
   url: http://www.uqac.ca/
   facebook: https://www.facebook.com/uqac.ca
-  description: Dans l'aquarium au fond de la cafétéria. Pizzas et bières disponibles sur place. Le stationnement est payant, mais plusieurs stationnements gratuits sont disponibles dans les quartiers autour.
+  description: Dans l'aquarium au fond de la cafétéria. Pizza et bière disponibles sur place. Le stationnement est payant, mais plusieurs stationnements gratuits sont disponibles dans les quartiers autour.
   map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.9083644300003!2d-71.05437638412025!3d48.419903539433456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc020b61fb009bd%3A0x1add0ff6a51f8b10!2s555+Boulevard+de+l&#39;Universit%C3%A9%2C+Chicoutimi%2C+QC+G7H+2B1!5e0!3m2!1sfr!2sca!4v1508891813115" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>

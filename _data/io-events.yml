@@ -1,3 +1,19 @@
+- title: "Dernier IO de 2017"
+  date: 12 décembre 2017, à 18h00
+  event_url: "https://www.facebook.com/events/2045874012295073"
+  location: exode
+  talks:
+    -
+      title: "Laravel: Une fondation solide"
+      description: Suite à la présentation d'une heure au CREP, voici un aperçu en 15 minutes.
+      authors:
+        - emileber
+    -
+      title: "Lighting talk sur les snippets JS"
+      description: Comment faire un snippet JS qui va partout et qui _scale_.
+      authors:
+        - jp
+
 - title: "IO Hardware à l'UQAC"
   date: 20 novembre 2017, à 18h00
   event_url: "https://www.facebook.com/events/1316410948471000"

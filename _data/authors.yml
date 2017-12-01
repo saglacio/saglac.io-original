@@ -3,15 +3,20 @@ emileber:
   twitter: emile_ber
   website: http://www.prismalstudio.com/
 
+formix:
+  name: Jean-Philippe Gravel
+  twitter: formixian
+  bio: Ingénieur, entrepreneur, geek, programmeur et électronicien amateur. RFID is fun, got a few readers here and there. You can run but you can't hide!
+
 gableroux:
   name: Gabriel Le Breton
   twitter: gableroux
   website: https://gableroux.com/
 
-formix:
-  name: Jean-Philippe Gravel
-  twitter: formixian
-  bio: Ingénieur, entrepreneur, geek, programmeur et électronicien amateur. RFID is fun, got a few readers here and there. You can run but you can't hide!
+jp:
+  name: Jean-Philippe Boily
+  twitter: jipiboily
+  website: https://metricswatch.com/
 
 yanick_ouellet:
   name: Yanick Ouellet (Club Asimov)

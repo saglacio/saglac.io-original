@@ -26,9 +26,16 @@
                             {% for author_key in talk.authors %}
                                 {% assign author = site.data.authors[author_key] %}
                                 {% if author.website %}<a href="{{author.website}}" target="_blank">{{author.name}}</a>{% else %}{{author.name}}{% endif %}
-                                {% if author.twitter %}<a href="http://twitter.com/{{author.twitter}}" target="_blank">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </a>{% endif %}
+                                {% if author.github %}
+                                    <a href="//github.com/{{author.github}}" target="_blank">
+                                        <i class="fa fa-fw fa-github" aria-hidden="true"></i>
+                                    </a>
+                                {% endif %}
+                                {% if author.twitter %}
+                                    <a href="//twitter.com/{{author.twitter}}" target="_blank">
+                                        <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                {% endif %}
                             {% endfor %}
                         </h4>{% if talk.description %} {{ talk.description | markdownify }} {% endif %}{% if talk.slides %}
                         <div id="slides">

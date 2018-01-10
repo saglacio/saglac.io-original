@@ -1,3 +1,19 @@
+- title: "Premier IO de 2018"
+  date: 16 janvier 2018, à 18h00
+  # event_url: "https://www.facebook.com/events/2045874012295073"
+  location: bistro_du_centre
+  talks:
+    -
+      title: "Testing Migrations 🔥"
+      description: Comment et pourquoi tester les migrations de base de données avec des exemples Django.
+      authors:
+        - jrobichaudg
+    -
+      title: "Test all the things in gitlab-ci with docker by example"
+      description: Apprendre à utiliser et configurer un outil d'intégration continue avec ou sans docker.
+      authors:
+        - gableroux
+
 - title: "Dernier IO de 2017"
   date: 12 décembre 2017, à 18h00
   event_url: "https://www.facebook.com/events/2045874012295073"
@@ -12,7 +28,7 @@
       title: "Lighting talk sur les snippets JS"
       description: Comment faire un snippet JS qui va partout et qui _scale_.
       authors:
-        - jp
+        - jipiboily
 
 - title: "IO Hardware à l'UQAC"
   date: 20 novembre 2017, à 18h00

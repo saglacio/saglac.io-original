@@ -1,22 +1,30 @@
 emileber:
   name: Émile Bergeron
   twitter: emile_ber
+  github: emileber
   website: http://www.prismalstudio.com/
 
 formix:
   name: Jean-Philippe Gravel
   twitter: formixian
+  github: formix
   bio: Ingénieur, entrepreneur, geek, programmeur et électronicien amateur. RFID is fun, got a few readers here and there. You can run but you can't hide!
 
 gableroux:
   name: Gabriel Le Breton
   twitter: gableroux
+  github: GabLeRoux
   website: https://gableroux.com/
 
-jp:
+jipiboily:
   name: Jean-Philippe Boily
   twitter: jipiboily
+  github: jipiboily
   website: https://metricswatch.com/
+
+jrobichaudg:
+  name: Jules Robichaud-Gagnon
+  github: jrobichaud
 
 yanick_ouellet:
   name: Yanick Ouellet (Club Asimov)

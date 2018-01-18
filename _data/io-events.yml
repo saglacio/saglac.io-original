@@ -6,11 +6,13 @@
     -
       title: "Testing Migrations 🔥"
       description: Comment et pourquoi tester les migrations de base de données avec des exemples Django.
+      slides: https://speakerdeck.com/jrobichaud/testing-migrations-fr
       authors:
         - jrobichaudg
     -
       title: "Test all the things in gitlab-ci with docker by example"
       description: Apprendre à utiliser et configurer un outil d'intégration continue avec ou sans docker.
+      slides: https://gableroux.com/saglacio/2018/01/16/test-all-the-things-in-gitlab-ci-with-docker-by-example/
       authors:
         - gableroux
 

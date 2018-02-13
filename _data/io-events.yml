@@ -1,3 +1,20 @@
+- title: "IO de février 2018"
+  date: 20 février 2018, à 18h00
+  #event_url: "https://www.facebook.com/events/1469574146474528"
+  location: bistro_du_centre
+  talks:
+    -
+      title: "Le Guide du Routard pour l'Imprévu"
+      description: "Comment approcher la construction d'une équipe et le design d'un système inspiré par Erlang et Elixir pour éviter de se faire surprendre par des erreurs impossibles à voir venir d'avance"
+      authors:
+        - ferd
+    -
+#      title: "Test all the things in gitlab-ci with docker by example"
+#      description: Apprendre à utiliser et configurer un outil d'intégration continue avec ou sans docker.
+#      slides: https://gableroux.com/saglacio/2018/01/16/test-all-the-things-in-gitlab-ci-with-docker-by-example/
+      authors:
+        - kimlavoie
+
 - title: "Premier IO de 2018"
   date: 16 janvier 2018, à 18h00
   event_url: "https://www.facebook.com/events/1469574146474528"

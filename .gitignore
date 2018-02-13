@@ -3,3 +3,4 @@ _site
 .DS_Store
 .idea
 yarn-error.log
+.jekyll-metadata

@@ -4,6 +4,22 @@ emileber:
   github: emileber
   website: http://www.prismalstudio.com/
 
+ferd:
+  name: Frédéric Trottier-Hebert
+  twitter: mononcqc
+  github: ferd
+  website: https://ferd.ca/
+  bio: |
+    Fred Hébert est l’auteur de <a href="http://learnyousomeerlang.com/" target="_blank">Learn You Some Erlang</a>, un
+    livre gratuit et en ligne (disponible également en version papier) qui vise à enseigner le langage de programmation
+    Erlang, de <a href="https://www.erlang-in-anger.com/" target="_blank">Erlang in Anger</a>, un ebook sur l’opération
+    de ce langage en production, et de <a href="https://propertesting.com/" target="_blank">PropEr Testing</a>, sur le
+    property-based testing.
+
+    Il est Architecte Système chez Genetec, entreprise de sécurité sur IP, vidéosurveillance, contrôle d’accès, et de
+    reconnaissance de plaques d’immatriculation. Par le passé, il agissait en tant qu’expert pour la plateforme de
+    routage et de logging de Heroku.
+
 formix:
   name: Jean-Philippe Gravel
   twitter: formixian
@@ -25,6 +41,10 @@ jipiboily:
 jrobichaudg:
   name: Jules Robichaud-Gagnon
   github: jrobichaud
+
+kimlavoie:
+  name: Kim Lavoie
+  github: KimLavoie
 
 yanick_ouellet:
   name: Yanick Ouellet (Club Asimov)

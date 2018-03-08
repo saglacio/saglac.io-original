@@ -2,17 +2,19 @@
   date: 26 mars 2018, à 18h00
   event_url: "https://www.facebook.com/events/2093498940886079"
   location: UQAC_Aquarium
+  talks:
+    -
+      title: "Les complications du VR Gaming"
+      description: "Les besoins spéciaux de la réalité virtuelle, que ce soit matériel, logiciel ou design, dans les jeux vidéo."
+      authors:
+        - aduquette
 
 - title: "IO de février 2018"
   date: 20 février 2018, à 18h00
   event_url: "https://www.facebook.com/events/1611677945583993"
   location: bistro_du_centre
   talks:
-    -
-      title: "Le Guide du Routard pour l'Imprévu"
-      description: "Comment approcher la construction d'une équipe et le design d'un système inspiré par Erlang et Elixir pour éviter de se faire surprendre par des erreurs impossibles à voir venir d'avance."
-      authors:
-        - ferd
+
     -
       title: "Introduction à Rust"
       description: La philosophie du langage de programmation Rust et en quoi il se différencie des autres.

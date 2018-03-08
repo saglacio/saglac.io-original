@@ -6,8 +6,8 @@ email:        info@saglac.io
 markdown:     redcarpet
 permalink:    pretty
 highlighter:  rouge
-paginate:     5
-# plugins: [jekyll-paginate]
+#paginate:     5
+#plugins: [jekyll-paginate]
 sass:
   sass_dir: _sass
 

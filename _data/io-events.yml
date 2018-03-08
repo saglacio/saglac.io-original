@@ -8,6 +8,11 @@
       description: "Les besoins spéciaux de la réalité virtuelle, que ce soit matériel, logiciel ou design, dans les jeux vidéo."
       authors:
         - aduquette
+    -
+      title: "How to explode buildings in a gamejam with unity and blender"
+      description: "[City Crashers](https://gamejolt.com/games/city-crashers/323962)'s satisfying building destruction in 15 minutes."
+      authors:
+        - gableroux
 
 - title: "IO de février 2018"
   date: 20 février 2018, à 18h00

@@ -14,6 +14,12 @@
       authors:
         - gableroux
 
+    -
+      title: "Programme double: Implémentation du modèle ECS / Gérer la mémoire dans un jeu"
+      description: "Deux sujets rapides sur comment implémenter le modèle ECS et sur les stratégies courantes de gestion de la mémoire dans un moteur de jeu."
+      authors:
+        - elaberge
+
 - title: "IO de février 2018"
   date: 20 février 2018, à 18h00
   event_url: "https://www.facebook.com/events/1611677945583993"

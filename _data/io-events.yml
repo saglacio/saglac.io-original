@@ -1,3 +1,15 @@
+- title: "De l'IO au Moulin"
+  date: 23 avril 2018, à 18h00
+  event_url: "https://www.facebook.com/events/1784388525203963"
+  location: moulin_a_cie
+  talks:
+    -
+      title: "Présentation du Moulin et du coworking"
+      description: "Le Moulin à Cie a pour mission de favoriser l’émergence et la prospérité de projets novateurs en offrant aux entrepreneurs, aux startups, aux travailleurs autonomes, aux professionnels et aux chercheurs un espace de travail partagé et convivial, au cœur du centre-ville de Chicoutimi. Basé sur les principes de l’économie de partage, le Moulin à Cie favorise la collaboration, la créativité, et le partage d’expériences."
+      authors:
+        - paulhenri_callens
+        - claudia_belanger
+
 - title: "IO Jeux vidéo à l'UQAC"
   date: 26 mars 2018, à 18h00
   event_url: "https://www.facebook.com/events/2093498940886079"
@@ -17,6 +29,9 @@
     -
       title: "Programme double: Implémentation du modèle ECS / Gérer la mémoire dans un jeu"
       description: "Deux sujets rapides sur comment implémenter le modèle ECS et sur les stratégies courantes de gestion de la mémoire dans un moteur de jeu."
+      slides:
+        - https://docs.google.com/presentation/d/1znRKPo9kNkGatRea-OIMaNM-1wxiibqDHjuemNqNZ0M
+        - https://docs.google.com/presentation/d/1jSlQ9ooqT3rKxkyxSnb1qv11KSB12UmWzbDKWFPtzW8
       authors:
         - elaberge
 

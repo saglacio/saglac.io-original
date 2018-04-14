@@ -6,6 +6,10 @@ aduquette:
     Originaire de Gatineau, Anthony a travaillé chez Ludia à Montreal avant de déménager en Janvier 2018 pour rejoindre
     l'équipe d'Ubisoft Saguenay en tant que programmeur généraliste.
 
+claudia_belanger:
+  name: Claudia Bélanger
+  website: https://www.moulinacie.com/
+
 elaberge:
   name: Eric Laberge
   github: elaberge
@@ -57,6 +61,11 @@ jrobichaudg:
 kimlavoie:
   name: Kim Lavoie
   github: KimLavoie
+
+paulhenri_callens:
+  name: Paul-Henri Callens
+  twitter: phcallens
+  website: https://www.moulinacie.com/
 
 yanick_ouellet:
   name: Yanick Ouellet (Club Asimov)

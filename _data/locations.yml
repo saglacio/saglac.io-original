@@ -1,6 +1,6 @@
 bistro_du_centre:
   name: Café Bistro du Centre
-  address: 2750 Rue de la Salle, Jonquière, QC, G7S 2A6
+  address: 2750 rue de la Salle, Jonquière, QC, G7S 2A6
   url: http://cafebistroducentre.ca/
   facebook: https://www.facebook.com/cafebistroducentre
   description: Nourriture, café, bière et autres breuvages disponibles.
@@ -30,3 +30,11 @@ moulin_a_cie:
   twitter: Moulin_a_Cie
   description: Service exclusif sur place par le [Bistro Café Summum Chicoutimi](https://www.facebook.com/summumchicout/)
   map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.511863188854!2d-71.06258648416761!3d48.42751503890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc0274cd671c1e3%3A0x20e84d37e626ca15!2sLe+Moulin+%C3%A0+Cie!5e0!3m2!1sfr!2sca!4v1523737084657" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+lion_bleu:
+  name: Microbrasserie Lion Bleu
+  address: 45 rue Saint Joseph, Alma, QC, G8B 6V4
+  url: http://www.microlionbleu.com/
+  facebook: https://www.facebook.com/microlionbleu
+  description: Bières brassées sur place et nourriture disponible sur place.
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2641.1160798083893!2d-71.65361818411695!3d48.55016913031257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cea762fe5f20425%3A0xa7548e1d3c605e3!2sMicrobrasserie+Lion+Bleu!5e0!3m2!1sfr!2sca!4v1525213625014" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>

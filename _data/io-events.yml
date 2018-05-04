@@ -2,6 +2,21 @@
   date: 14 mai 2018, à 18h00
   event_url: "https://www.facebook.com/events/974324606075464"
   location: lion_bleu
+  talks:
+    -
+      title: "Server side rendering ou génération de sites statiques avec React et Nextjs"
+      description: |
+        - Différents modèles d'architectures (frontend, frontend + backend)
+        - Structure d'un projet
+        - Navigation
+        - Générer un site statique
+      authors:
+        - m0xx
+    -
+      title: "Le pouvoir de ESP"
+      description: "Domotique avec des petits boards esp8266, esp12 et du microphyton, ça vous parle?"
+      authors:
+        - sjuair
 
 - title: "De l'IO au Moulin"
   date: 23 avril 2018, à 18h00

@@ -67,10 +67,21 @@ kimlavoie:
   name: Kim Lavoie
   github: KimLavoie
 
+m0xx:
+  name: Maxime Morin
+  github: m0xx
+  twitter: m0xx_
+  website: https://m0xx.github.io/
+  bio: Développeur web du Saguenay, il mange du JavaScript pour déjeuner, diner et souper!
+
 paulhenri_callens:
   name: Paul-Henri Callens
   twitter: phcallens
   website: https://www.moulinacie.com/
+
+sjuair:
+  name: Steeve Juair
+  twitter: Juair
 
 yanick_ouellet:
   name: Yanick Ouellet (Club Asimov)

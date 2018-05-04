@@ -14,7 +14,7 @@
         - m0xx
     -
       title: "Le pouvoir de ESP"
-      description: "Domotique avec des petits boards esp8266, esp12 et du microphyton, ça vous parle?"
+      description: "Domotique avec des petits boards esp8266, esp12 et du MicroPython, ça vous parle?"
       authors:
         - sjuair
 

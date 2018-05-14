@@ -1,7 +1,7 @@
-- title: "L'IO Bleu"
+- title: "L'IO Bleu (déplacé au Pacini)"
   date: 14 mai 2018, à 18h00
   event_url: "https://www.facebook.com/events/974324606075464"
-  location: lion_bleu
+  location: pacini_alma
   talks:
     -
       title: "Server side rendering ou génération de sites statiques avec React et Nextjs"

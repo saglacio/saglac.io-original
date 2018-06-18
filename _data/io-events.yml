@@ -1,3 +1,14 @@
+- title: "IO de juin 2018"
+  date: 19 juin 2018, à 18h00
+  event_url: "https://www.facebook.com/events/1012284435563486"
+  location: bistro_du_centre
+  talks:
+    -
+      title: "Faire des jeux video est un jeu d’enfants!"
+      description: Introduction au language Scratch
+      authors:
+        - chefjuanpi
+
 - title: "L'IO Bleu (déplacé au Pacini)"
   date: 14 mai 2018, à 18h00
   event_url: "https://www.facebook.com/events/974324606075464"
@@ -77,7 +88,6 @@
   event_url: "https://www.facebook.com/events/1611677945583993"
   location: bistro_du_centre
   talks:
-
     -
       title: "Introduction à Rust"
       description: La philosophie du langage de programmation Rust et en quoi il se différencie des autres.

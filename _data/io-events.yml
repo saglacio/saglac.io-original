@@ -5,9 +5,14 @@
   talks:
     -
       title: "Faire des jeux video est un jeu d’enfants!"
-      description: Introduction au language Scratch
+      description: Introduction au language Scratch.
       authors:
         - chefjuanpi
+    -
+      title: "Bonnes pratiques du logging"
+      description: Une présentation surprise qui s'ajoute à la soirée.
+      authors:
+        - ferd
 
 - title: "L'IO Bleu (déplacé au Pacini)"
   date: 14 mai 2018, à 18h00

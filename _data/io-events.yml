@@ -1,3 +1,19 @@
+- title: "IO de septembre 2018"
+  date: 18 septembre 2018, à 18h00
+  event_url: "https://www.facebook.com/events/1039568092870432/"
+  location: mikes_chicoutimi_racine
+  talks:
+    -
+      title: "Sémaphore et microservices"
+      description: Comment gérer l'utilisation de ressources limitées dans un contexte multiprocessus
+      authors:
+        - formix
+    -
+      title: "Lightning talk: Targeted Property Testing"
+      description: Trouver des bugs de manière magique
+      authors:
+        - ferd
+
 - title: "IO de juin 2018"
   date: 19 juin 2018, à 18h00
   event_url: "https://www.facebook.com/events/1012284435563486"

@@ -1,7 +1,7 @@
 - title: "IO Hacktoberfest 2018 à UQAC"
   date: 23 octobre 2018, à 18h00
   event_url: "https://www.facebook.com/events/1152923258196040/"
-  location: UQAC_Aquarium
+  location: "Aquarium de l'UQAC"
   talks:
     -
       title: "Unity3d CI: teste et build ton jeu dans les nuages"
@@ -22,15 +22,12 @@
       description: Comment gérer l'utilisation de ressources limitées dans un contexte multiprocessus
       authors:
         - formix
-      talk_type:
-        - prog
+      talk_type: prog
     -
       title: "Lightning talk: Targeted Property Testing"
       description: Trouver des bugs de manière magique
-      authors:
-        - ferd
-      talk_type:
-        - prog
+      authors: Frederic Trottier-Hebert
+      talk_type: prog
 
 - title: "Méta io 2018"
   date: 22 août, à 18h00
@@ -40,22 +37,19 @@
 - title: "IO de juin 2018"
   date: 19 juin 2018, à 18h00
   event_url: "https://www.facebook.com/events/1012284435563486"
-  location: bistro_du_centre
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Faire des jeux video est un jeu d’enfants!"
       description: Introduction au language Scratch.
       authors:
         - chefjuanpi
-      talk_type:
-        - prog
+      talk_type: prog
     -
       title: "Bonnes pratiques du logging"
       description: Une présentation surprise qui s'ajoute à la soirée.
-      authors:
-        - ferd
-      talk_type:
-        - prog
+      authors: Frederic Trottier-Hebert
+      talk_type: prog
 
 - title: "L'IO Bleu (déplacé au Pacini)"
   date: 14 mai 2018, à 18h00
@@ -71,15 +65,13 @@
         - Générer un site statique
       authors:
         - m0xx
-      talk_type:
-        - prog
+      talk_type: prog
     -
       title: "Le pouvoir de ESP"
       description: "Domotique avec des petits boards esp8266, esp12 et du MicroPython, ça vous parle?"
       authors:
         - sjuair
-      talk_type:
-        - hardware
+      talk_type: hardware
 
 - title: "De l'IO au Moulin"
   date: 23 avril 2018, à 18h00
@@ -96,45 +88,37 @@
       authors:
         - paulhenri_callens
         - claudia_belanger
-      talk_type:
-        - autre
+      talk_type: autre
     -
       title: "Travailler à distance"
       description: Pourquoi, pourquoi pas, les mythes et comment bien réussir en tant qu’employé et employeur.
-      authors:
-        - jipiboily
-      talk_type:
-        - autre
+      authors: Jean-Philippe Boily
+      talk_type: autre
     -
       title: "Programmation en binôme à distance"
       description: |
         Introduction au concept et aux techniques de mise en place de programmation en binôme (pair programming) dans
         une équipe distribuée.
-      authors:
-        - joelthebert
-      talk_type:
-        - prog
+      authors: Joel Trottier-Hebert
+      talk_type: prog
 
 - title: "IO Jeux vidéo à l'UQAC"
   date: 26 mars 2018, à 18h00
   event_url: "https://www.facebook.com/events/2093498940886079"
-  location: UQAC_Aquarium
+  location: "Aquarium de l'UQAC"
   talks:
     -
       title: "Les complications du VR Gaming"
       description: "Les besoins spéciaux de la réalité virtuelle, que ce soit matériel, logiciel ou design, dans les jeux vidéo."
       authors:
         - aduquette
-      talk_type:
-        - prog
+      talk_type: prog
     -
       title: "How to explode buildings in a gamejam with unity and blender"
       description: "[City Crashers](https://gamejolt.com/games/city-crashers/323962)'s satisfying building destruction in 15 minutes."
       slides: https://gableroux.com/saglacio/2018/02/26/explode-buildings-in-unity-with-blender/
-      authors:
-        - gableroux
-      talk_type:
-        - prog
+      authors: Gabriel Le Breton
+      talk_type: prog
 
     -
       title: "Programme double: Implémentation du modèle ECS / Gérer la mémoire dans un jeu"
@@ -144,26 +128,24 @@
         - https://docs.google.com/presentation/d/1jSlQ9ooqT3rKxkyxSnb1qv11KSB12UmWzbDKWFPtzW8
       authors:
         - elaberge
-      talk_type:
-        - prog
+      talk_type: prog
 
 - title: "IO de février 2018"
   date: 20 février 2018, à 18h00
   event_url: "https://www.facebook.com/events/1611677945583993"
-  location: bistro_du_centre
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Introduction à Rust"
       description: La philosophie du langage de programmation Rust et en quoi il se différencie des autres.
       authors:
         - kimlavoie
-      talk_type:
-        - prog
+      talk_type: prog
 
 - title: "Premier IO de 2018"
   date: 16 janvier 2018, à 18h00
   event_url: "https://www.facebook.com/events/1469574146474528"
-  location: bistro_du_centre
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Testing Migrations 🔥"
@@ -171,81 +153,68 @@
       slides: https://speakerdeck.com/jrobichaud/testing-migrations-fr
       authors:
         - jrobichaudg
-      talk_type:
-        - prog
+      talk_type: prog
     -
       title: "Test all the things in gitlab-ci with docker by example"
       description: Apprendre à utiliser et configurer un outil d'intégration continue avec ou sans docker.
       slides: https://gableroux.com/saglacio/2018/01/16/test-all-the-things-in-gitlab-ci-with-docker-by-example/
-      authors:
-        - gableroux
-      talk_type:
-        - prog
+      authors: Gabriel Le Breton
+      talk_type: prog
 
 - title: "Dernier IO de 2017"
   date: 12 décembre 2017, à 18h00
   event_url: "https://www.facebook.com/events/2045874012295073"
-  location: exode
+  location: "Exode Café, Alma"
   talks:
     -
       title: "Laravel: Une fondation solide"
       description: Suite à la présentation d'une heure au CREP, voici un aperçu en 15 minutes.
-      authors:
-        - emileber
-      talk_type:
-        - prog
+      authors: Émile Bergeron
+      talk_type: prog
     -
       title: "Lighting talk sur les snippets JS"
       description: Comment faire un snippet JS qui va partout et qui _scale_.
-      authors:
-        - jipiboily
-      talk_type:
-        - prog
+      authors: Jean-Philippe Boily
+      talk_type: prog
 
 - title: "IO Hardware à l'UQAC"
   date: 20 novembre 2017, à 18h00
   event_url: "https://www.facebook.com/events/1316410948471000"
-  location: UQAC_Aquarium
+  location: "Aquarium de l'UQAC"
   talks:
     -
       title: "Club Asimov: Démonstration musicale et graphique complètement robotisée!"
       description: S’inscrivant dans le mouvement « Makers », le club Asimov rassemble des étudiants du Cégep de Chicoutimi de programmes variés réunis pour fabriquer des appareils, des robots, des machines originales et inventives à partir de recyclage et de microcontrôleur électronique Arduino.
       authors:
         - yanick_ouellet
-      talk_type:
-        - hardware
+      talk_type: hardware
     -
       title: "Introduction aux rétro-ordinateurs avec le processeur Z80"
       description: Survol technique du processeur Z80 et présentation d'une application pratique.
       authors:
         - formix
-      talk_type:
-        - hardware
+      talk_type: hardware
 
 - title: "IO Hacktoberfest - Spécial open source"
   date: 17 octobre 2017, à 18h00
   event_url: "https://www.facebook.com/events/120214745326424"
-  location: bistro_du_centre
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "To pull or not to pull? Ma première contribution open source"
       description: De la première à la dernière étape pour contribuer à un projet sur Github.
-      authors:
-        - gableroux
-      talk_type:
-        - prog
+      authors: Gabriel Le Breton
+      talk_type: prog
     -
       title: "Nouveau site web du Saglac IO"
       description: "Un nouveau design bien mérité."
-      authors:
-        - emileber
-      talk_type:
-        - autre
+      authors: Émile Bergeron
+      talk_type: autre
 
 - title: "IO de Septembre 2017"
   date: 19 septembre, à 18h00
   event_url: "https://www.facebook.com/events/397532047316656"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Why we chose Vuejs (en français)"
@@ -267,7 +236,7 @@
 - title: "IO de Juin 2017"
   date: 26 juin, à 18h00
   event_url: "https://www.facebook.com/events/445500365803825"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Awesome Django: factory-boy 🦄"
@@ -281,7 +250,7 @@
 - title: "L'io de mai à Alma!"
   date: 16 mai, à 18h00
   event_url: "https://www.facebook.com/events/1574808475865288/"
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   talks:
     -
       title: "NFC c'est bien, UHF c'est mieux: Les mille-et-uns visages de la radio-identification."
@@ -298,7 +267,7 @@
 - title: "IO Spécial fin de session 2017 en collaboration avec l'AEMI"
   date: 10 avril, à 18h30
   event_url: "https://www.facebook.com/events/1119460338187406/"
-  location: "Aquarieum de l'UQAC. Pizzas et bières disponibles."
+  location: "Aquarium de l'UQAC"
   talks:
     -
       title: "Introduction aux Shaders et Compute Shaders"
@@ -324,7 +293,7 @@
 - title: "IO de février 2017"
   date: 22 février, à 18h00
   event_url: "https://www.facebook.com/events/1496033413763387/"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Tout est terrible"
@@ -348,7 +317,7 @@
 - title: "Premier io de 2017"
   date: 24 janvier, à 18h00
   event_url: "https://www.facebook.com/events/392164731137634/"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "arch is cool, but I need to ship software"
@@ -374,7 +343,7 @@
 - title: "Dernier io de 2016, à Alma!"
   date: 7 décembre, à 18h00
   event_url: "https://www.facebook.com/events/1799450726981595/"
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   talks:
     -
       title: "Pack your 💩 with webpack!"
@@ -414,7 +383,7 @@
 - title: "Octobre 2016"
   date: 25 octobre, à 18h00
   event_url: "https://www.facebook.com/events/794932377276580/"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Cordova/Ionic: To build two apps with one stone"
@@ -429,7 +398,7 @@
 - title: "Septembre 2016"
   date: 20 septembre, à 18h00
   event_url: "https://www.facebook.com/events/186613181771937/"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Simplifier le développement JS en équipe"
@@ -437,13 +406,13 @@
       talk_type: prog
     -
       title: "Pimp My Terminal"
-      authors: Joël Trottier-Hébert
+      authors: Joel Trottier-Hebert
       talk_type: sysadmin
 
 - title: "Juin 2016"
   date: 21 juin, à 18h00
   event_url: "https://www.facebook.com/events/1007957892587553/"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "InfluxDB Telegraf Grafana now I see the data"
@@ -462,11 +431,11 @@
 - title: "Avril 2016"
   date: 27 avril, à 18h00
   event_url: "https://www.facebook.com/events/1707690526139089/"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Cloud9 : Pelleter dans le nuage (Lightning Talk)"
-      authors: Emile Bergeron
+      authors: Émile Bergeron
       slides: http://emileber.github.io/cloud9-reveal/#/
       talk_type: prog
     -
@@ -478,7 +447,7 @@
 - title: "Mars 2016: bienvenue, printemps!"
   date: 30 Mars, à 18h00
   event_url: "https://www.facebook.com/events/810666755732038/"
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   talks:
     -
       title: "\"De Rails aux microservices Go: notre expérience avec Gemnasium Enterprise\" (version allégée de la conférence donnée au WAQ en avril prochain)"
@@ -506,7 +475,7 @@
 - title: "Mars 2016"
   date: 1er Mars, à 18h00
   event_url: "https://www.facebook.com/events/189931134704504/"
-  location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Café Bistro du Centre, Arvida"
   talks:
     -
       title: "Docker"
@@ -527,7 +496,7 @@
 - title: "Janvier 2016"
   date: 27 janvier, à 18h00
   event_url: "https://www.facebook.com/events/1632742133655739/"
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   talks:
     -
       title: "Tester du Python en Erlang"
@@ -552,7 +521,7 @@
 - title: "Décembre 2015"
   date: 2 décembre, à 18h00
   event_url: "https://www.facebook.com/events/197726173893502/"
-  location: 'Deuxième étage de la Tour à Bières, Chicoutimi. Nourriture et bière disponibles.'
+  location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Nourriture et alcool disponible.'
   talks:
     -
       title: "Introduction à Scala"
@@ -566,7 +535,7 @@
 - title: "Octobre 2015"
   date: 28 Octobre, à 18h00
   event_url: "https://www.facebook.com/events/524316244393655/"
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   talks:
     -
       title: "HUBOT - Improve and reduce employee efficiency"
@@ -626,7 +595,7 @@
 - title: "Avril 2015"
   date: Mardi 28 Avril, à 18h00
   eventbrite_id: 16388659923
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   talks:
     -
       title: "React.js: le nouveau truc cool!"
@@ -647,7 +616,7 @@
 - title: "Mars 2015"
   date: Mardi 31 mars, à 18h00
   eventbrite_id: 16327857060
-  location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Microbrasserie et nourriture!'
+  location: 'La Tour à Bière, à Chicoutimi, dans la salle en haut. Nourriture et alcool disponible.'
   talks:
     -
       title: "Introduction à git"
@@ -672,7 +641,7 @@
 - title: "Janvier 2015"
   date: Mercredi 21 Janvier, à 18h00
   eventbrite_id: 15252480580
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   talks:
     -
       title: "Dart: en plein dans le mille"
@@ -704,7 +673,7 @@
 - title: "Novembre 2014: un an d'io, pour vrai!"
   date: Mardi 11 novembre, à 18h00
   eventbrite_id: 13746079895
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   sponsor: '<a href="http://www.demarque.com/travailler-comme-developpeur-chez-demarque/">DeMarque</a> paye une consomation par personne! Stickers de <a href="https://www.rainforestqa.com/">Rainforest</a>, de <a href="http://www.cloud66.com/">Cloud 66</a> ainsi que des t-shirts & stickers de <a href="http://docker.com" target="_blank">Docker</a>!'
   talks:
     -
@@ -745,7 +714,7 @@
 - title: "September 2014: de la grande visite et des cadeaux!"
   date: Mardi 9 septembre, à 18h00
   eventbrite_id: 12592567709
-  location: '<a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.'
+  location: "Exode Café, Alma"
   sponsor: 'Des t-shirts de <a href="http://circleci.com" target="_blank">Circle CI</a> seront tirés parmis les présents et il y aura des stickers pour tout le monde aussi! Autres surprises en attentes...'
   talks:
     -
@@ -786,7 +755,7 @@
 - title: Mai 2014
   date: Mardi 13 mai, à 18h00
   eventbrite_id: 11311337515
-  location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.
+  location: "Exode Café, Alma"
   talks:
     -
       title: "Titre à venir"
@@ -827,7 +796,7 @@
 - title: Mars 2014
   date: Lundi 10 mars, à 18h00
   eventbrite_id: 10597434211
-  location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma. Nourriture, café, bière et autres breuvages disponibles.
+  location: "Exode Café, Alma"
   talks:
     -
       title: "L'Arduino a nos portes!"
@@ -874,7 +843,7 @@
 - title: Janvier 2014 - Nickel edition
   date: Lundi 13 janvier, à 18h00
   eventbrite_id: 9769359417
-  location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma
+  location: "Exode Café, Alma"
   talks:
     -
       title: Think Locally - Act Globally
@@ -928,7 +897,7 @@
 
 - title: Octobre 2013 - aka "beta 1"
   date: Mardi 29 octobre, à 18h30
-  location: <a href="http://www.exodecafe.com">l’Exode Café</a>, Alma
+  location: "Exode Café, Alma"
   talks:
     -
       title: Présentation de l’idée du groupe

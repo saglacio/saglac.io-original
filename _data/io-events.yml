@@ -150,8 +150,7 @@
       title: "Testing Migrations 🔥"
       description: Comment et pourquoi tester les migrations de base de données avec des exemples Django.
       slides: https://speakerdeck.com/jrobichaud/testing-migrations-fr
-      authors:
-        - jrobichaudg
+      authors: Jules Robichaud-Gagnon
       talk_type: prog
     -
       title: "Test all the things in gitlab-ci with docker by example"

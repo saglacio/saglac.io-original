@@ -2,6 +2,15 @@
   date: 23 octobre 2018, à 18h00
   event_url: "https://www.facebook.com/events/1152923258196040/"
   location: UQAC_Aquarium
+  talks:
+    -
+      title: "Unity3d CI: teste et build ton jeu dans les nuages"
+      authors: Gabriel Le Breton
+      talk_type: prog
+    -
+      title: "Licences Open Source: une tournée sur le logiciel libre"
+      authors: Frederic Trottier-Hebert
+      talk_type: autre
 
 - title: "IO de septembre 2018"
   date: 18 septembre 2018, à 18h00

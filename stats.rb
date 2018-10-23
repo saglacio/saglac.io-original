@@ -47,3 +47,7 @@ puts
 puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 puts "Nombre de metas:"
 puts meta_ios
+puts
+puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+puts "Nombre d'événemnts:"
+puts events.count

@@ -20,8 +20,7 @@
     -
       title: "Sémaphore et microservices"
       description: Comment gérer l'utilisation de ressources limitées dans un contexte multiprocessus
-      authors:
-        - formix
+      authors: Jean-Philippe Gravel
       talk_type: prog
     -
       title: "Lightning talk: Targeted Property Testing"
@@ -191,8 +190,7 @@
     -
       title: "Introduction aux rétro-ordinateurs avec le processeur Z80"
       description: Survol technique du processeur Z80 et présentation d'une application pratique.
-      authors:
-        - formix
+      authors: Jean-Philippe Gravel
       talk_type: hardware
 
 - title: "IO Hacktoberfest - Spécial open source"

@@ -32,6 +32,11 @@
       talk_type:
         - prog
 
+- title: "Méta io 2018"
+  date: 22 août, à 18h00
+  event_url: "https://www.facebook.com/events/537861313338105/"
+  location: 'Entrecôte Riverin (JONQUIÈRE!!!)'
+
 - title: "IO de juin 2018"
   date: 19 juin 2018, à 18h00
   event_url: "https://www.facebook.com/events/1012284435563486"
@@ -605,7 +610,7 @@
 - title: "Mai 2015"
   date: Mardi 26 Mai, à 18h00
   eventbrite_id: 16869582375
-  location: 'Entrecôte Riverain (JONQUIÈRE!!!)'
+  location: 'Entrecôte Riverin (JONQUIÈRE!!!)'
   talks:
     -
       title: "cos'è un hypervisor? (ça va parler de Proxmox)"

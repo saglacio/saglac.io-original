@@ -13,11 +13,15 @@
       description: Comment gérer l'utilisation de ressources limitées dans un contexte multiprocessus
       authors:
         - formix
+      talk_type:
+        - prog
     -
       title: "Lightning talk: Targeted Property Testing"
       description: Trouver des bugs de manière magique
       authors:
         - ferd
+      talk_type:
+        - prog
 
 - title: "IO de juin 2018"
   date: 19 juin 2018, à 18h00
@@ -29,11 +33,15 @@
       description: Introduction au language Scratch.
       authors:
         - chefjuanpi
+      talk_type:
+        - prog
     -
       title: "Bonnes pratiques du logging"
       description: Une présentation surprise qui s'ajoute à la soirée.
       authors:
         - ferd
+      talk_type:
+        - prog
 
 - title: "L'IO Bleu (déplacé au Pacini)"
   date: 14 mai 2018, à 18h00
@@ -49,11 +57,15 @@
         - Générer un site statique
       authors:
         - m0xx
+      talk_type:
+        - prog
     -
       title: "Le pouvoir de ESP"
       description: "Domotique avec des petits boards esp8266, esp12 et du MicroPython, ça vous parle?"
       authors:
         - sjuair
+      talk_type:
+        - hardware
 
 - title: "De l'IO au Moulin"
   date: 23 avril 2018, à 18h00
@@ -70,11 +82,15 @@
       authors:
         - paulhenri_callens
         - claudia_belanger
+      talk_type:
+        - autre
     -
       title: "Travailler à distance"
       description: Pourquoi, pourquoi pas, les mythes et comment bien réussir en tant qu’employé et employeur.
       authors:
         - jipiboily
+      talk_type:
+        - autre
     -
       title: "Programmation en binôme à distance"
       description: |
@@ -82,6 +98,8 @@
         une équipe distribuée.
       authors:
         - joelthebert
+      talk_type:
+        - prog
 
 - title: "IO Jeux vidéo à l'UQAC"
   date: 26 mars 2018, à 18h00
@@ -93,12 +111,16 @@
       description: "Les besoins spéciaux de la réalité virtuelle, que ce soit matériel, logiciel ou design, dans les jeux vidéo."
       authors:
         - aduquette
+      talk_type:
+        - prog
     -
       title: "How to explode buildings in a gamejam with unity and blender"
       description: "[City Crashers](https://gamejolt.com/games/city-crashers/323962)'s satisfying building destruction in 15 minutes."
       slides: https://gableroux.com/saglacio/2018/02/26/explode-buildings-in-unity-with-blender/
       authors:
         - gableroux
+      talk_type:
+        - prog
 
     -
       title: "Programme double: Implémentation du modèle ECS / Gérer la mémoire dans un jeu"
@@ -108,6 +130,8 @@
         - https://docs.google.com/presentation/d/1jSlQ9ooqT3rKxkyxSnb1qv11KSB12UmWzbDKWFPtzW8
       authors:
         - elaberge
+      talk_type:
+        - prog
 
 - title: "IO de février 2018"
   date: 20 février 2018, à 18h00
@@ -119,6 +143,8 @@
       description: La philosophie du langage de programmation Rust et en quoi il se différencie des autres.
       authors:
         - kimlavoie
+      talk_type:
+        - prog
 
 - title: "Premier IO de 2018"
   date: 16 janvier 2018, à 18h00
@@ -131,12 +157,16 @@
       slides: https://speakerdeck.com/jrobichaud/testing-migrations-fr
       authors:
         - jrobichaudg
+      talk_type:
+        - prog
     -
       title: "Test all the things in gitlab-ci with docker by example"
       description: Apprendre à utiliser et configurer un outil d'intégration continue avec ou sans docker.
       slides: https://gableroux.com/saglacio/2018/01/16/test-all-the-things-in-gitlab-ci-with-docker-by-example/
       authors:
         - gableroux
+      talk_type:
+        - prog
 
 - title: "Dernier IO de 2017"
   date: 12 décembre 2017, à 18h00
@@ -148,11 +178,15 @@
       description: Suite à la présentation d'une heure au CREP, voici un aperçu en 15 minutes.
       authors:
         - emileber
+      talk_type:
+        - prog
     -
       title: "Lighting talk sur les snippets JS"
       description: Comment faire un snippet JS qui va partout et qui _scale_.
       authors:
         - jipiboily
+      talk_type:
+        - prog
 
 - title: "IO Hardware à l'UQAC"
   date: 20 novembre 2017, à 18h00
@@ -164,11 +198,15 @@
       description: S’inscrivant dans le mouvement « Makers », le club Asimov rassemble des étudiants du Cégep de Chicoutimi de programmes variés réunis pour fabriquer des appareils, des robots, des machines originales et inventives à partir de recyclage et de microcontrôleur électronique Arduino.
       authors:
         - yanick_ouellet
+      talk_type:
+        - hardware
     -
       title: "Introduction aux rétro-ordinateurs avec le processeur Z80"
       description: Survol technique du processeur Z80 et présentation d'une application pratique.
       authors:
         - formix
+      talk_type:
+        - hardware
 
 - title: "IO Hacktoberfest - Spécial open source"
   date: 17 octobre 2017, à 18h00
@@ -180,11 +218,15 @@
       description: De la première à la dernière étape pour contribuer à un projet sur Github.
       authors:
         - gableroux
+      talk_type:
+        - prog
     -
       title: "Nouveau site web du Saglac IO"
       description: "Un nouveau design bien mérité."
       authors:
         - emileber
+      talk_type:
+        - autre
 
 - title: "IO de Septembre 2017"
   date: 19 septembre, à 18h00
@@ -195,11 +237,13 @@
       title: "Why we chose Vuejs (en français)"
       authors: Kim Desrosiers
       twitter: kimondd
+      talk_type: prog
     -
       title: "Fastlane: deploy android and ios apps like a boss"
       authors: Gabriel Le Breton
       twitter: gableroux
       slides: https://gableroux.com/saglacio/2017/09/19/fastlane-deploy-ios-and-android-like-a-boss/
+      talk_type: prog
 
 - title: "Méta IO de Juillet 2017"
   date: 27 juillet, à 18h00
@@ -214,9 +258,11 @@
     -
       title: "Awesome Django: factory-boy 🦄"
       authors: Jules Robichaud-Gagnon
+      talk_type: prog
     -
       title: "Discord (Lightning talk)"
       authors: Mathieu Auclair
+      talk_type: autre
 
 - title: "L'io de mai à Alma!"
   date: 16 mai, à 18h00
@@ -228,10 +274,12 @@
       authors: Jean-Philippe Gravel
       twitter: formixian
       slides: https://www.dropbox.com/s/19ce9ujgkjejmfx/SaglacIO-20170516-RFID.pdf?dl=0
+      talk_type: hardware
     -
       title: "Featuring Yarn Bower: Yarn, JavaScript package managers & stuff"
       authors: Émile Bergeron
       website: http://www.prismalstudio.com/
+      talk_type: prog
 
 - title: "IO Spécial fin de session 2017 en collaboration avec l'AEMI"
   date: 10 avril, à 18h30
@@ -244,16 +292,19 @@
       authors: Gabriel Le Breton et Jules Robichaud-Gagnon
       twitter: gableroux
       slides: https://gableroux.com/presentation/2017/04/10/introduction-to-shaders-saglacio/
+      talk_type: prog
     -
       title: "L'ABC des tests"
       description: "Introduction à l'importance des tests unitaires."
       authors: Joel Trottier-Hebert
       twitter: JoelTHebert
+      talk_type: prog
     -
       title: "Kali Linux ou Comment faire la démo rapide d’un outil complexe"
       description: "Une distribution regroupant l'ensemble des outils nécessaires aux tests de sécurité d'un système d'information. #cybersec"
       authors: Martin Renaud
       twitter: martinrenaud
+      talk_type: sysadmin
 
 
 - title: "IO de février 2017"
@@ -266,15 +317,18 @@
       description: "Primeur partielle sur une présentation du WAQ!"
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
+      talk_type: prog
     -
       title: "Start-up mode loin du code"
       description: "Gérer l'aspect social d'une start-up avec des outils techno."
       authors: Juan Pablo Aguilar-Lliguin
       website: http://arriba.ec/en/
+      talk_type: autre
     -
       title: "Gitlab & Docker: Vers l'infini et au-delà"
       description: "L'intégration continue avec docker, gitlab, etc."
       authors: Mathieu Tortuyaux
+      talk_type: sysadmin
 
 
 - title: "Premier io de 2017"
@@ -289,16 +343,19 @@
       website: https://gableroux.com/
       twitter: gableroux
       slides: https://gableroux.com/presentation/2017/01/24/arch-is-cool-but-i-need-to-ship-software/
+      talk_type: sysadmin
     -
       title: "Recon-ng : Un outil de reconnaissance"
       description: "Un framework open-source d'intelligence gathering. #cybersec"
       authors: Martin Renaud
       twitter: martinrenaud
+      talk_type: prog
     -
       title: "Optimisez votre JS pour la minification?"
       description: "Sans compromis sur la lisibilité et avec des benchmarks."
       authors: Émile Bergeron
       website: http://www.prismalstudio.com/
+      talk_type: prog
 
 - title: "Dernier io de 2016, à Alma!"
   date: 7 décembre, à 18h00
@@ -308,12 +365,15 @@
     -
       title: "Pack your 💩 with webpack!"
       authors: Maxime Morin
+      talk_type: prog
     -
       title: '"Reflection" pour programmeurs et hackers'
       authors: Jules Robichaud-Gagnon
+      talk_type: prog
     -
       title: "Commencez vos projets par la fin!"
       authors: Mathieu Tortuyaux
+      talk_type: autre
 
 - title: "Novembre 2016 Spécial UQAC"
   date: 21 novembre, à 19h00
@@ -325,14 +385,17 @@
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
       slides: https://s3.amazonaws.com/ferd-presentations/150-en-10.pdf
+      talk_type: prog
     -
       title: "Introduction à git, l'arbre de la vie"
       authors: Gabriel Le Breton
       twitter: gableroux
       slides: https://gableroux.com/presentation/2016/11/21/version-control/
+      talk_type: prog
     -
       title: "Unity: construire un UI de la bonne façon"
       authors: Jules Robichaud-Gagnon
+      talk_type: prog
 
 - title: "Octobre 2016"
   date: 25 octobre, à 18h00
@@ -342,10 +405,12 @@
     -
       title: "Cordova/Ionic: To build two apps with one stone"
       authors: Émile Bergeron
+      talk_type: prog
     -
       title: "My shell story"
       authors: Kim Desrosiers
       twitter: kimondd
+      talk_type: sysadmin
 
 - title: "Septembre 2016"
   date: 20 septembre, à 18h00
@@ -353,11 +418,13 @@
   location: '<a href="http://cafebistroducentre.ca/">Café Bistro du Centre</a>, 2750 rue de la Salle, Arvida . Nourriture, café, bière et autres breuvages disponibles.'
   talks:
     -
-      title: " Simplifier le développement JS en équipe"
+      title: "Simplifier le développement JS en équipe"
       authors: Émile Bergeron
+      talk_type: prog
     -
       title: "Pimp My Terminal"
       authors: Joël Trottier-Hébert
+      talk_type: sysadmin
 
 - title: "Juin 2016"
   date: 21 juin, à 18h00
@@ -368,12 +435,15 @@
       title: "InfluxDB Telegraf Grafana now I see the data"
       authors: Gabriel Le Breton
       slides: https://gableroux.com/presentation/2016/06/21/influxdb-telegraf-grafana/
+      talk_type: prog
     -
       title: "Introduction à Unity WebGL"
       authors: Jules Robichaud-Gagnon
+      talk_type: prog
     -
       title: "Home Automation"
       authors: Steeve Juair
+      talk_type: hardware
 
 - title: "Avril 2016"
   date: 27 avril, à 18h00
@@ -384,10 +454,12 @@
       title: "Cloud9 : Pelleter dans le nuage (Lightning Talk)"
       authors: Emile Bergeron
       slides: http://emileber.github.io/cloud9-reveal/#/
+      talk_type: prog
     -
       title: "Du coup, Tmux!"
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
+      talk_type: sysadmin
 
 - title: "Mars 2016: bienvenue, printemps!"
   date: 30 Mars, à 18h00
@@ -398,20 +470,25 @@
       title: "\"De Rails aux microservices Go: notre expérience avec Gemnasium Enterprise\" (version allégée de la conférence donnée au WAQ en avril prochain)"
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: prog
     -
       title: "Let's Encrypt: de kecé?"
       authors: Gabriel Le Breton
       twitter: gableroux
       website: https://gableroux.com/
       slides: https://gableroux.com/presentation/2016/03/30/letsencrypt-saglacio/
+      talk_type: sysadmin
     -
       title: "Faire sa propre authentification HTTP Basic en 15 minutes"
       authors: Jean-Philippe Gravel
       twitter: formixse
+      talk_type: prog
     -
       title: "dix-patch: équivalent à Segment.io"
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: prog
+
 - title: "Mars 2016"
   date: 1er Mars, à 18h00
   event_url: "https://www.facebook.com/events/189931134704504/"
@@ -421,14 +498,18 @@
       title: "Docker"
       authors: Steeve Juair
       twitter: Juair
+      talk_type: sysadmin
     -
       title: "Design d’interfaces web dans un cadre Agile"
       authors: Jean-Nicolas Viens
       twitter: jni_viens
+      talk_type: autre
     -
       title: "Introduction à l'inférence avec NodeJs"
       authors: Jean-Philippe Gravel
       twitter: formixse
+      talk_type: prog
+
 - title: "Janvier 2016"
   date: 27 janvier, à 18h00
   event_url: "https://www.facebook.com/events/1632742133655739/"
@@ -438,17 +519,22 @@
       title: "Tester du Python en Erlang"
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
+      talk_type: prog
     -
       title: "Docker"
       authors: Steeve Juair
       twitter: Juair
+      talk_type: sysadmin
     -
       title: "Programmation fonctionnelle en JS"
       authors: Kim Lavoie
+      talk_type: prog
     -
       title: "(Si le temps le permet) Démo de React + Redux + Jasmine dans le code de Metrics Watch"
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: prog
+
 - title: "Décembre 2015"
   date: 2 décembre, à 18h00
   event_url: "https://www.facebook.com/events/197726173893502/"
@@ -457,13 +543,12 @@
     -
       title: "Introduction à Scala"
       authors: Kim Lavoie
+      talk_type: prog
     -
       title: "Révisions de DB avec Alembic et SQLAlchemy"
       authors: Jessica Lapointe
-    -
-      title: "Un super sujet à proposer?"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: prog
+
 - title: "Octobre 2015"
   date: 28 Octobre, à 18h00
   event_url: "https://www.facebook.com/events/524316244393655/"
@@ -475,14 +560,13 @@
       twitter: gableroux
       website: https://gableroux.com/
       slides: https://gableroux.com/presentation/2015/10/28/hubot-saglacio/
+      talk_type: autre
     -
       title: "There's no place like 127.0.0.1"
       authors: Steeve Juair
       twitter: Juair
-    -
-      title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: sysadmin
+
 - title: "Septembre 2015"
   date: 23 Septembre, à 18h00
   event_url: "https://www.facebook.com/events/1470133096623433/"
@@ -492,13 +576,12 @@
       title: "Play games in your CLI"
       authors: Kim Desrosiers
       twitter: kimondd
-    -
-      title: "(REPORTÉ AU MOIS PROCHAIN) HUBOT - Improve and reduce employee efficiency"
-      authors: Gabriel Le Breton
-      twitter: gableroux
+      talk_type: autre
     -
       title: "Développer pour le chromecast"
       authors: Patrick tremblay
+      talk_type: prog
+
 - title: "Juillet 2015"
   date: Mardi 7 Juillet, à 18h00
   eventbrite_id: 17357823718
@@ -508,6 +591,8 @@
       title: "Aucune présentation, ce sera des discussions sur la gestion de projet, logiciels de gestion de projet/tâches/bugs, agile, ou non, etc :)"
       authors: saglacio
       twitter: saglacio
+      talk_type: autre
+
 - title: "Mai 2015"
   date: Mardi 26 Mai, à 18h00
   eventbrite_id: 16869582375
@@ -517,14 +602,13 @@
       title: "cos'è un hypervisor? (ça va parler de Proxmox)"
       authors: Steeve Juair
       twitter: Juair
+      talk_type: sysadmin
     -
       title: "SaltStack"
       authors: Gabriel Le Breton et Micael Bergeron
       slides: https://gableroux.com/presentation/2015/06/03/saltstack-saglacio/
-    -
-      title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: sysadmin
+
 - title: "Avril 2015"
   date: Mardi 28 Avril, à 18h00
   eventbrite_id: 16388659923
@@ -534,18 +618,17 @@
       title: "React.js: le nouveau truc cool!"
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: prog
     -
       title: "Principes de base de programmation distribuée"
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
+      talk_type: prog
     -
       title: "Utilisabilité 101 : Qui c’est que c’est quoi?!"
       authors: Pierre-Alexandre Audet
       twitter: mre_design
-    -
-      title: "Le nouveau (ou pas si nouveau!) truc cool qui me fait tripper!"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: autre
 
 - title: "Mars 2015"
   date: Mardi 31 mars, à 18h00
@@ -555,10 +638,7 @@
     -
       title: "Introduction à git"
       authors: Jessica Lapointe
-    -
-      title: "Un super sujet à proposer?"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: prog
 
 - title: "Février 2015"
   date: Mercredi 25 Février, à 18h00
@@ -569,13 +649,11 @@
       title: "Le top des outils essentiels d'un bon OS"
       authors: Julien-Samuel Lacroix
       twitter: JulienSam
+      talk_type: sysadmin
     -
       title: "Google Summer of Code: Un emploie étudiant qui compte! (lightning talk)"
       authors: Jessica Lapointe
-    -
-      title: "Un super sujet à proposer?"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: autre
 
 - title: "Janvier 2015"
   date: Mercredi 21 Janvier, à 18h00
@@ -586,14 +664,13 @@
       title: "Dart: en plein dans le mille"
       authors: Joel Trottier-Hebert
       twitter: JoelTHebert
+      talk_type: prog
     -
+      # ce talk avait été fait quelques mois plus tard, mais il n'est pas dans l'historique ici, alors on garde celui annulé, question de stats
       title: "(ANNULÉ) Unicode vs. UTF-8 et les signes de quand on se tire dans le pied (lighting talk)"
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
-    -
-      title: "Un super sujet à proposer?"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: prog
 
 - title: "Décembre 2014"
   date: Mardi le 9 décembre, à 18h00
@@ -603,10 +680,12 @@
     -
       title: "Gestionnaires de mots de passe"
       authors: "Quentin Bédéneau"
+      talk_type: autre
     -
       title: "Why I love zsh"
       authors: Kim Desrosiers
       twitter: kimondd
+      talk_type: autre
 
 - title: "Novembre 2014: un an d'io, pour vrai!"
   date: Mardi 11 novembre, à 18h00
@@ -619,11 +698,14 @@
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
       slides: http://ferd.ca/awk-in-20-minutes.html
+      talk_type: sysadmin
     -
+      # ce talk avait été fait quelques mois plus tard, mais il n'est pas dans l'historique ici, alors on garde celui annulé, question de stats
       title: "ANNULÉ - Become an Internet Wizard; GruntJs + CoffeeScript"
       authors: Gabriel Le Breton
       twitter: gableroux
       website: https://gableroux.com/
+      talk_type: prog
 
 - title: "Octobre 2014: un an d'io!"
   date: Mardi 7 octobre, à 18h00
@@ -634,14 +716,17 @@
       title: "SQL vs. NoSQL: comment choisir sa base de données"
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
+      talk_type: prog
     -
       title: "Open à toutes les sauces : comment s'y retrouver"
       authors: Daniel Morissette
       description: Open Source, Open Data, Open Standards, Open Government, Open API… Avec autant de “buzzwords”, comment s’y retrouver ? Nous allons tenter de démystifier le qui, le quoi et le comment derrière toutes ces tendances “Open”.
       twitter: dmorissette
+      talk_type: autre
     -
       title: "Logiciels de gestion de projet: comparaisons et demos"
       authors: Jessica Lapointe
+      talk_type: autre
 
 - title: "September 2014: de la grande visite et des cadeaux!"
   date: Mardi 9 septembre, à 18h00
@@ -654,16 +739,19 @@
       authors: "Frédéric Harper (Sr. Technical Evangelist - Mozilla)"
       description: "HTML5 est un pas de géant dans la bonne direction: il apporte plusieurs fonctionnalités dont les développeurs avaient besoin pour créer plus facilement de meilleures expériences web. Il a aussi fait naitre un débat sans fin: applications natives ou applications web! Lors de cette présentation, Frédéric Harper vous montrera comment le web ouvert peut vous aider à créer des applications mobiles de qualités. Vous en apprendrez plus sur des technologies telles que les WebAPIs, ainsi que les outils qui vous permettront de viser un nouveau marché avec Firefox OS et le web d’aujourd'hui."
       twitter: fharper
+      talk_type: prog
     -
       title: 'CI servers: hosted, self-hosted or from scratch (!!!)?'
       description: "Dans cette présentation je vais vous parler de différentes options qui s'offrent à vous en terme de serveurs d'intégration continue. Et oui, je vais vous montrer comment créer votre propre CI as a Service, que je vous suggère fortement de ne pas faire!"
       authors: "Jean-Philippe Boily"
       twitter: jipiboily
+      talk_type: prog
     -
       title: "Un Beagle ?"
       description: "Présentation du BeagleBone Blace Rev C / Node.JS / automation avec peut-etre du data push"
       authors: Steeve Juair
       twitter: Juair
+      talk_type: hardware
 
 - title: Juin 2014
   date: Mardi 10 juin, à 18h00
@@ -674,14 +762,12 @@
       title: "Création de paquets RPM pour Fedora/openSUSE/etc"
       authors: Adrien Vitti
       twitter: n0tnull
+      talk_type: sysadmin
     -
       title: "Big Data: Le far west (présentation un peu plus longue)"
       authors: Martin Renaud
       twitter: MartinRenaud
-    -
-      title: "Un super sujet à proposer?"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: autre
 
 - title: Mai 2014
   date: Mardi 13 mai, à 18h00
@@ -696,14 +782,12 @@
       title: "Maven & tests in java"
       authors: Jean-Daniel Pearson
       twitter: JD_Pearson_
+      talk_type: prog
     -
       title: "Améliorer la testabilité du code"
       authors: Joel Trottier-Hebert
       twitter: JoelTHebert
-    -
-      title: "Un super sujet à proposer?"
-      authors: Toi!
-      twitter: saglacio
+      talk_type: prog
 
 - title: Avril 2014
   date: Mercredi 9 avril, à 18h00
@@ -714,14 +798,17 @@
       title: "Erlang"
       authors: Frederic Trottier-Hebert
       twitter: mononcqc
+      talk_type: prog
     -
       title: "How to Vim"
       authors: Kim Desrosiers
       twitter: kimondd
+      talk_type: autre
     -
       title: "Lightning talk à propos de Fourchette et Opinionated"
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: prog
 
 - title: Mars 2014
   date: Lundi 10 mars, à 18h00
@@ -732,18 +819,22 @@
       title: "L'Arduino a nos portes!"
       authors: Steeve Juair
       twitter: Juair
+      talk_type: hardware
     -
       title: "Framework Django: cessez de vous répéter"
       authors: Francis Renaud
       twitter: saglacio
+      talk_type: prog
     -
       title: "Elm à Elma"
       authors: Martin Lavoie
       twitter: refnil19
+      talk_type: prog
     -
       title: "Polymer, Google veulent tuer javascript! (présentation éclair)"
       authors: Alexandre Lessard
       twitter: belug23
+      talk_type: prog
 
 - title: Février 2014
   date: Lundi 10 février, à 18h00
@@ -754,14 +845,17 @@
       title: "Environnement de développement avec Vagrant"
       authors: Alan Boudreault
       twitter: AlanBoudreault
+      talk_type: sysadmin
     -
       title: "Introduction à AngularJS"
       authors: Julien-Samuel Lacroix
       twitter: JulienSam
+      talk_type: prog
     -
       title: "FreeBSD"
       authors: Marc Pearson
       twitter: marcpearsonTI
+      talk_type: sysadmin
 
 - title: Janvier 2014 - Nickel edition
   date: Lundi 13 janvier, à 18h00
@@ -772,19 +866,23 @@
       title: Think Locally - Act Globally
       authors: PJ Hagerty
       twitter: aspleenic
+      talk_type: autre
     -
       title: "Introduction to Pyramid: a web application development framework."
       authors: Alan Boudreault
       twitter: AlanBoudreault
       slides: https://dl.dropboxusercontent.com/u/6210261/introduction-pyramid.zip
+      talk_type: prog
     -
       title: PostgreSQL, de tout pour tous.
       authors: Marc-André Goderre
       twitter: magoderre
+      talk_type: prog
     -
       title: "RubyMotion: create Mac (or iOS) apps with lovely Ruby"
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: prog
 
 - title: Décembre 2013 - aka "beta 2"
   date: Lundi 9 décembre, à 18h00
@@ -795,20 +893,24 @@
       title: Introduction à Git
       authors: Keven Lefebvre
       twitter: kevenlefebvre
+      talk_type: prog
     -
       title: Introduction à Meteor
       authors: Gabriel Le Breton
       twitter: gableroux
       website: https://gableroux.com/
       slides: https://gableroux.com/presentation/2013/12/09/meteor-saglacio/
+      talk_type: prog
     -
       title: Introduction à Amazon EC2
       authors: Julien-Samuel Lacroix
       twitter: juliensam
+      talk_type: sysadmin
     -
       title: Introduction aux tests
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: prog
 
 - title: Octobre 2013 - aka "beta 1"
   date: Mardi 29 octobre, à 18h30
@@ -818,11 +920,14 @@
       title: Présentation de l’idée du groupe
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: autre
     -
       title: "Introduction à CoffeeScript"
       authors: Jean-Philippe Boily
       twitter: jipiboily
+      talk_type: prog
     -
       title: "La géomatique dans vos appli!"
       authors: Marc-André Goderre
       twitter: magoderre
+      talk_type: prog

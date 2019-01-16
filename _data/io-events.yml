@@ -1,3 +1,18 @@
+- title: "IO janvier 2019 à Chicoutimi - Premier IO de l'année!"
+  event_url: https://www.facebook.com/events/376737329557674/
+  date: 23 janvier 2019, à 18h00
+  location: mikes_chicoutimi_racine
+  talks:
+    -
+      title: "OpEx: rendre son système opérable"
+      authors:
+        - ferd
+    -
+      title: "Introduction au serverless framework"
+      description: "Déployer une application dans les nuages sans se soucier des serveurs"
+      authors:
+        - gableroux
+
 - title: "IO novembre-décembre 2018 à Alma"
   date: 11 décembre 2018, à 18h00
   event_url: https://www.facebook.com/events/196395121292676/

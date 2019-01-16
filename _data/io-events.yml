@@ -4,14 +4,14 @@
   location: mikes_chicoutimi_racine
   talks:
     -
+      title: "OpEx: rendre son système opérable"
+      authors:
+        - ferd
+    -
       title: "Introduction au serverless framework"
       description: "Déployer une application dans les nuages sans se soucier des serveurs"
       authors:
         - gableroux
-    -
-      title: "OpEx: rendre son système opérable"
-      authors:
-        - ferd
 
 - title: "IO novembre-décembre 2018 à Alma"
   date: 11 décembre 2018, à 18h00

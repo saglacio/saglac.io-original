@@ -4,6 +4,20 @@
 
 Website for [saglac.io](https://saglac.io). This is a basic [Jekyll](https://jekyllrb.com/) website :rocket:
 
+## Prerequisites
+
+On macOS, use [`brew`](https://brew.sh/index_fr) to install [`rbenv`](https://github.com/rbenv/rbenv).
+
+```bash
+brew install rbenv
+# Set up rbenv in your shell.
+rbenv init
+# Install the ruby version needed for this project
+rbenv install
+```
+
+Restart your shell to make sure everything is correctly loaded.
+
 ## Development
 
 Run:
@@ -11,7 +25,7 @@ Run:
 ```bash
 gem install bundle
 bundle install
-jekyll serve --watch
+bundle exec jekyll serve --watch
 ```
 
 Visit http://0.0.0.0:4000 ... :boom:!

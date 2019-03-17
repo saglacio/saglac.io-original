@@ -25,7 +25,7 @@ Run:
 ```bash
 gem install bundle
 bundle install
-jekyll serve --watch
+bundle exec jekyll serve --watch
 ```
 
 Visit http://0.0.0.0:4000 ... :boom:!

@@ -1,3 +1,17 @@
+- title: "IO février 2019 à Chicoutim"
+  event_url: https://www.facebook.com/events/387219898762930/
+  date: 19 février 2019, à 18h00
+  location: mikes_chicoutimi_racine
+  talks:
+    -
+      title: "ReactiveX: Asynchronous programming made easy"
+      authors:
+        - vincentpoirier
+    -
+      title: "L'aventure RetroZ: La conception d'un ordinateur Made in Saguenay!"
+      authors:
+        - formix
+
 - title: "IO janvier 2019 à Chicoutimi - Premier IO de l'année!"
   event_url: https://www.facebook.com/events/376737329557674/
   date: 23 janvier 2019, à 18h00

@@ -78,6 +78,11 @@ m0xx:
   website: https://m0xx.github.io/
   bio: Développeur web du Saguenay, il mange du JavaScript pour déjeuner, diner et souper!
 
+mathieu_auclair:
+  name: Mathieu Auclair
+  website: https://mathieuauclairweb.wordpress.com/
+  github: MathieuAuclair
+
 paulhenri_callens:
   name: Paul-Henri Callens
   twitter: phcallens
@@ -86,6 +91,11 @@ paulhenri_callens:
 sjuair:
   name: Steeve Juair
   twitter: Juair
+
+vincentpoirier:
+  name: Vincent Poirier
+  github: Eradash
+  website: https://eradash.github.io/
 
 yanick_ouellet:
   name: Yanick Ouellet (Club Asimov)

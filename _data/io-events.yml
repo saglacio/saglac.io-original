@@ -1,3 +1,17 @@
+- title: "IO mars 2019 à Chicoutim"
+  event_url: https://www.facebook.com/events/302634487076300/
+  date: 19 mars 2019, à 18h00
+  location: mikes_chicoutimi_racine
+  talks:
+    -
+      title: "Gain control of your app with Firebase"
+      authors:
+        - vincentpoirier
+    -
+      title: "ASP.NET"
+      authors:
+        - mathieu_auclair
+
 - title: "IO février 2019 à Chicoutim"
   event_url: https://www.facebook.com/events/387219898762930/
   date: 19 février 2019, à 18h00

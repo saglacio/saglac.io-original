@@ -19,10 +19,12 @@
   talks:
     -
       title: "ReactiveX: Asynchronous programming made easy"
+      slides: https://eradash.github.io/saglacio/2019/02/23/reactivex/
       authors:
         - vincentpoirier
     -
       title: "L'aventure RetroZ: La conception d'un ordinateur Made in Saguenay!"
+      slides: https://docs.google.com/presentation/d/1waBJT_bDU_6f4Fm4OVcyAsPD_SoAXtwaBh8bA0otuaE
       authors:
         - formix
 

@@ -6,6 +6,14 @@ bistro_du_centre:
   description: Nourriture, café, bière et autres breuvages disponibles.
   map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.783320665328!2d-71.17780699500557!3d48.42230405889264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbe482df2860dac4!2sCaf%C3%A9+Du+Centre!5e0!3m2!1sfr!2sca!4v1508129703053" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+conformit:
+  name: CONFORMiT
+  address: 125 rue Dubé, Chicoutimi, Quebec G7H 2V3
+  url: https://www.conformit.com/
+  facebook: https://www.facebook.com/CONFORMiT
+  description: Entreprise privée qui nous reçoit chaleureusement dans ses nouveaux bureaux.
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.0792078597324!2d-71.06829508414528!3d48.41662363966297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc0273364f24177%3A0x735f9ea9452baaa1!2sCONFORMiT!5e0!3m2!1sfr!2sca!4v1561998795370!5m2!1sfr!2sca" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 exode:
   name: L'Exode Café
   address: 960 avenue du Pont Sud, Alma, QC, G8B 2V8
@@ -54,3 +62,11 @@ mikes_chicoutimi_racine:
   facebook: https://www.facebook.com/Mikes.Racine/
   description: Les restaurants Mikes vous offrent des sous-marins, pizzas, pâtes ainsi que des poutines.
   map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.458936887918!2d-71.05742488434079!3d48.42853097924779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc020b2d36a01c7%3A0x1afd0b3126b9e536!2sMikes!5e0!3m2!1sen!2sca!4v1537291933675" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+tlm:
+  name: L'entreprise TLM
+  address: 930 Rue Jacques-Cartier E, Chicoutimi, QC G7H 7K9
+  url: https://solutionstlm.com/
+  facebook: https://www.facebook.com/TLMgo/
+  description: Entreprise privée qui nous reçoit chaleureusement sur sa nouvelle terrasse.
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.8427624977485!2d-71.04237838414518!3d48.421162939345415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc020b914e60c13%3A0x8d79f4ba8cc356dc!2sTLM!5e0!3m2!1sfr!2sca!4v1561999444149!5m2!1sfr!2sca" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>

@@ -14,6 +14,9 @@ claudia_belanger:
   name: Claudia Bélanger
   website: https://www.moulinacie.com/
 
+dany_ouellet:
+  name: Dany Ouellet
+
 elaberge:
   name: Eric Laberge
   github: elaberge
@@ -71,6 +74,9 @@ kimlavoie:
   name: Kim Lavoie
   github: KimLavoie
 
+laurent_parenteau:
+  name: Laurent Parenteau
+
 m0xx:
   name: Maxime Morin
   github: m0xx
@@ -88,9 +94,18 @@ paulhenri_callens:
   twitter: phcallens
   website: https://www.moulinacie.com/
 
+pa_audet:
+  name: Pierre-Alexandre Audet
+
+pierre_luc_tremblay:
+  name: Pierre-Luc Tremblay
+
 sjuair:
   name: Steeve Juair
   twitter: Juair
+
+valere_plantevin:
+  name: Valère Plantevin
 
 vincentpoirier:
   name: Vincent Poirier

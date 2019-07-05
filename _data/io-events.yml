@@ -1,4 +1,71 @@
-- title: "IO mars 2019 à Chicoutim"
+- title: "Saglac IO - Party d'été 2019"
+  event_url: https://www.facebook.com/events/1245692662274516/
+  date: 16 juillet 2019, à 17h00
+  location: tlm
+  talks:
+    -
+      title: "Resilience Engineering: une introduction"
+      description: "La gestion de sûreté et l'enquête d'incidents."
+      authors:
+        - ferd
+    -
+      title: "SMESC, structurer la communication d'équipe"
+      authors:
+        - dany_ouellet
+
+- title: "IO juin 2019 - Resilience Engineering et SMESC"
+  event_url: https://www.facebook.com/events/2275533349166633/
+  date: 26 juin 2019, à 18h00
+  location: mikes_chicoutimi_racine
+  talks:
+    -
+      title: "Resilience Engineering: une introduction"
+      description: "La gestion de sûreté et l'enquête d'incidents."
+      authors:
+        - ferd
+    -
+      title: "SMESC, structurer la communication d'équipe"
+      authors:
+        - dany_ouellet
+
+- title: "IO de mai chez CONFORMiT"
+  event_url: https://www.facebook.com/events/2270068819933982/
+  date: 28 mai 2019, à 18h00
+  location: conformit
+  talks:
+    -
+      title: "Élargir son champ d'apprentissage - de da Vinci jusqu'à Musk"
+      authors:
+        - laurent_parenteau
+    -
+      title: "GraphQL: a query language for your API"
+      authors:
+        - vincentpoirier
+    -
+      title: "GitOps et Helm: amour et haine"
+      authors:
+        - pierre_luc_tremblay
+
+- title: "IO jeux vidéo à l'UQAC 2.0"
+  event_url: https://www.facebook.com/events/2411719792172173/
+  date: 11 avril 2019, à 18h00
+  location: UQAC_Aquarium
+  talks:
+    -
+      title: "Le réseau dans les jeux vidéos : là où le fun cache les cauchemars"
+      authors:
+        - valere_plantevin
+    -
+      title: "L'asynchrone : comment bien tout faire tout en même temps"
+      authors:
+        - elaberge
+    -
+      title: "UI/UX en jeux vidéos : Wow...eurk?!"
+      authors:
+        - pa_audet
+
+
+- title: "IO mars 2019 à Chicoutimi"
   event_url: https://www.facebook.com/events/302634487076300/
   date: 19 mars 2019, à 18h00
   location: mikes_chicoutimi_racine
@@ -12,7 +79,7 @@
       authors:
         - mathieu_auclair
 
-- title: "IO février 2019 à Chicoutim"
+- title: "IO février 2019 à Chicoutimi"
   event_url: https://www.facebook.com/events/387219898762930/
   date: 19 février 2019, à 18h00
   location: mikes_chicoutimi_racine

@@ -2,16 +2,6 @@
   event_url: https://www.facebook.com/events/1245692662274516/
   date: 16 juillet 2019, à 17h00
   location: tlm
-  talks:
-    -
-      title: "Resilience Engineering: une introduction"
-      description: "La gestion de sûreté et l'enquête d'incidents."
-      authors:
-        - ferd
-    -
-      title: "SMESC, structurer la communication d'équipe"
-      authors:
-        - dany_ouellet
 
 - title: "IO juin 2019 - Resilience Engineering et SMESC"
   event_url: https://www.facebook.com/events/2275533349166633/

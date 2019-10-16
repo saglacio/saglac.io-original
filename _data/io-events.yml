@@ -1,16 +1,32 @@
 - title: "IO novembre 2019 à Alma"
   event_url: https://www.facebook.com/events/394900991193067/
-  date: 16 juillet 2019, à 17h00
+  date: "20 novembre 2019, à 18h00"
   location: cafeclocheralma
+  talks:
+  -
+    title: "L'API de Slack"
+    description: "Améliorer nos méthodes de travail et troller nos collègues."
+    authors:
+      - vincentpoirier
+  -
+    title: "Intro à Gitlab CI"
+    description: "Comment l'utiliser en 2019"
+    authors:
+      - gableroux
+  -
+    title: "Tout est un byte stream"
+    description: "Comment on s'est élevé au-delà du langage machine."
+    authors:
+      - jeanphilippe_gravel
 
 - title: "Saglac IO - Party d'été 2019"
   event_url: https://www.facebook.com/events/1245692662274516/
-  date: 16 juillet 2019, à 17h00
+  date: "16 juillet 2019, à 17h00"
   location: tlm
 
 - title: "IO juin 2019 - Resilience Engineering et SMESC"
   event_url: https://www.facebook.com/events/2275533349166633/
-  date: 26 juin 2019, à 18h00
+  date: "26 juin 2019, à 18h00"
   location: mikes_chicoutimi_racine
   talks:
     -
@@ -25,7 +41,7 @@
 
 - title: "IO de mai chez CONFORMiT"
   event_url: https://www.facebook.com/events/2270068819933982/
-  date: 28 mai 2019, à 18h00
+  date: "28 mai 2019, à 18h00"
   location: conformit
   talks:
     -
@@ -43,7 +59,7 @@
 
 - title: "IO jeux vidéo à l'UQAC 2.0"
   event_url: https://www.facebook.com/events/2411719792172173/
-  date: 11 avril 2019, à 18h00
+  date: "11 avril 2019, à 18h00"
   location: UQAC_Aquarium
   talks:
     -
@@ -62,7 +78,7 @@
 
 - title: "IO mars 2019 à Chicoutimi"
   event_url: https://www.facebook.com/events/302634487076300/
-  date: 19 mars 2019, à 18h00
+  date: "19 mars 2019, à 18h00"
   location: mikes_chicoutimi_racine
   talks:
     -
@@ -76,7 +92,7 @@
 
 - title: "IO février 2019 à Chicoutimi"
   event_url: https://www.facebook.com/events/387219898762930/
-  date: 19 février 2019, à 18h00
+  date: "19 février 2019, à 18h00"
   location: mikes_chicoutimi_racine
   talks:
     -
@@ -88,11 +104,11 @@
       title: "L'aventure RetroZ: La conception d'un ordinateur Made in Saguenay!"
       slides: https://docs.google.com/presentation/d/1waBJT_bDU_6f4Fm4OVcyAsPD_SoAXtwaBh8bA0otuaE
       authors:
-        - formix
+        - jeanphilippe_gravel
 
 - title: "IO janvier 2019 à Chicoutimi - Premier IO de l'année!"
   event_url: https://www.facebook.com/events/376737329557674/
-  date: 23 janvier 2019, à 18h00
+  date: "23 janvier 2019, à 18h00"
   location: mikes_chicoutimi_racine
   talks:
     -
@@ -106,7 +122,7 @@
         - gableroux
 
 - title: "IO novembre-décembre 2018 à Alma"
-  date: 11 décembre 2018, à 18h00
+  date: "11 décembre 2018, à 18h00"
   event_url: https://www.facebook.com/events/196395121292676/
   location: pacini_alma
   talks:
@@ -116,17 +132,17 @@
         - jipiboily
     -
       title: "Time to do the impossible and make a game"
-      description: Prototypage d'un jeu vidéo
+      description: "Prototypage d'un jeu vidéo"
       authors:
         - aduquette
 
 - title: "IO Hacktoberfest 2018 à UQAC"
-  date: 23 octobre 2018, à 18h00
+  date: "23 octobre 2018, à 18h00"
   event_url: "https://www.facebook.com/events/1152923258196040/"
   location: UQAC_Aquarium
 
 - title: "IO de septembre 2018"
-  date: 18 septembre 2018, à 18h00
+  date: "18 septembre 2018, à 18h00"
   event_url: "https://www.facebook.com/events/1039568092870432/"
   location: mikes_chicoutimi_racine
   talks:
@@ -134,10 +150,10 @@
       title: "Sémaphore et microservices"
       description: Comment gérer l'utilisation de ressources limitées dans un contexte multiprocessus
       authors:
-        - formix
+        - jeanphilippe_gravel
     -
       title: "Lightning talk: Targeted Property Testing"
-      description: Trouver des bugs de manière magique
+      description: "Trouver des bugs de manière magique"
       authors:
         - ferd
 
@@ -290,7 +306,7 @@
       title: "Introduction aux rétro-ordinateurs avec le processeur Z80"
       description: Survol technique du processeur Z80 et présentation d'une application pratique.
       authors:
-        - formix
+        - jeanphilippe_gravel
 
 - title: "IO Hacktoberfest - Spécial open source"
   date: 17 octobre 2017, à 18h00

@@ -3,7 +3,7 @@ tagline:      "Rencontre technologique du Saguenay&mdash;Lac-St-Jean"
 description:  "Le Saglac IO se veut un événement informel entre passionnés de technologies."
 url:          http://saglac.io
 email:        info@saglac.io
-# markdown:     redcarpet
+markdown:     redcarpet
 permalink:    pretty
 highlighter:  rouge
 #paginate:     5

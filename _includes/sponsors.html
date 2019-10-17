@@ -4,7 +4,7 @@
     <div class="title">{{ category.title }}</div>
     <div class="row">
         {% for sponsor in category.sponsors %}
-        <div class="2u 10u(mobile) -1u(mobile) {% if forloop.index == 1 %}-1u{% endif %}">
+        <div class="10u(mobile) -1u(mobile) {% if forloop.index == 1 %}-1u{% endif %}">
             <section class="highlight">
                 <a href="{{ sponsor.link }}" class="image featured" target="_blank">
                     <img src="{{ 'images/sponsors/' | relative_url }}{{ sponsor.logo }}" alt=""/>

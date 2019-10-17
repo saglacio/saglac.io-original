@@ -1,22 +1,18 @@
 partnership:
-  title: Partenaires
+  title: Partenaires OR de la conférence 2019
   sponsors:
-    - name: Totema Studio
-      logo: totema-studio.png
-      link: https://totemastudio.com/
+    - name: Mapgears
+      logo: mapgears.png
+      link: http://mapgears.com/fr/
+
+    - name: Eckinox
+      logo: eckinox.png
+      link: https://www.eckinox.ca/
 
     - name: TLM
       logo: tlm.png
       link: http://solutionstlm.com/
 
-    - name: Ellipse Synergie
-      logo: ellipse.png
-      link: http://www.ellipse-synergie.com/
-
-    - name: Metrics Watch
-      logo: metrics-watch.png
-      link: https://metricswatch.com/
-
-    - name: Orbite Web
-      logo: orbite-web.png
-      link: https://orbiteweb.com/
+    - name: Timespehere
+      logo: timesphere.png
+      link: https://www.timesphere.com/?lang=fr

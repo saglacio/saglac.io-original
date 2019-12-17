@@ -1,3 +1,8 @@
+- title: "Méta Saglac IO - 2019"
+  event_url: https://www.facebook.com/events/437558496915185/
+  date: "17 décembre 2019, à 18h00"
+  location: boston_pizza_jonquiere
+
 - title: "IO novembre 2019 à Alma"
   event_url: https://www.facebook.com/events/394900991193067/
   date: "20 novembre 2019, à 18h00"
@@ -18,6 +23,22 @@
     description: "Comment on s'est élevé au-delà du langage machine."
     authors:
       - jeanphilippe_gravel
+
+- title: "IO septembre 2019 chez STAS"
+  event_url: https://www.facebook.com/events/624576501386603/
+  date: "19 septembre 2019, à 18h00"
+  location: stas
+  talks:
+  -
+    title: "L'industrie 4.0"
+    description: "Accompagnés de ses collègues Jean-Pierre et Frédéric, Alexis nous présente un projet 4.0 sur lequel il a travaillé."
+    authors:
+      - alexis_valotaire
+  -
+    title: "Le Test Driven Development: Kosse ça donne?"
+    description: "Introduction au TDD"
+    authors:
+      - jim_plourde
 
 - title: "Saglac IO - Party d'été 2019"
   event_url: https://www.facebook.com/events/1245692662274516/

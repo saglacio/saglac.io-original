@@ -6,6 +6,10 @@ aduquette:
     Originaire de Gatineau, Anthony a travaillé chez Ludia à Montreal avant de déménager en Janvier 2018 pour rejoindre
     l'équipe d'Ubisoft Saguenay en tant que programmeur généraliste.
 
+alexis_valotaire:
+  name: Alexis Valotaire
+  github: AlexisCode101
+
 chefjuanpi:
   name: Juan Pablo Aguilar-Lliguin
   website: http://lliguin.com
@@ -54,6 +58,10 @@ gableroux:
   twitter: gableroux
   github: GabLeRoux
   website: https://gableroux.com/
+
+jim_plourde:
+  name: Jean-Michel Plourde
+  twitter: jimDePlour
 
 jipiboily:
   name: Jean-Philippe Boily

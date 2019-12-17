@@ -1,14 +1,22 @@
 bistro_du_centre:
   name: Café Bistro du Centre
-  address: 2750 rue de la Salle, Jonquière, QC, G7S 2A6
+  address: 2750 rue de la Salle, Jonquière, Québec G7S 2A6
   url: http://cafebistroducentre.ca/
   facebook: https://www.facebook.com/cafebistroducentre
   description: Nourriture, café, bière et autres breuvages disponibles.
   map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.783320665328!2d-71.17780699500557!3d48.42230405889264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbe482df2860dac4!2sCaf%C3%A9+Du+Centre!5e0!3m2!1sfr!2sca!4v1508129703053" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+boston_pizza_jonquiere:
+  name: Boston Pizza
+  address: "2673 Boul Du Royaume, Jonquière, Québec L1N 9G4"
+  url: https://bostonpizza.com/
+  facebook: https://www.facebook.com/BostonPizzaSaguenay/
+  description: "Restaurant bar sportif offrant plus de 100 délicieux articles de menu tels que des pizzas et des pâtes gourmet, des hamburgers savoureux et les célèbres ailes BP."
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.788418174491!2d-71.17203228397499!3d48.40300624061509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc02745857e79c9%3A0xe02e9ac287225d94!2sBoston%20Pizza%20Saguenay!5e0!3m2!1sen!2sca!4v1576615718269!5m2!1sen!2sca" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
 cafeclocheralma:
   name: Café du Clocher (Alma)
-  address: 19 Rue St Joseph S, Alma, Quebec G8B 3E2
+  address: 19 Rue St Joseph S, Alma, Québec G8B 3E2
   url: https://www.facebook.com/cafeduclocheralma/
   facebook: https://www.facebook.com/cafeduclocheralma/
   description: Nourriture, café, bière et autres breuvages disponibles.
@@ -16,7 +24,7 @@ cafeclocheralma:
 
 conformit:
   name: CONFORMiT
-  address: 125 rue Dubé, Chicoutimi, Quebec G7H 2V3
+  address: 125 rue Dubé, Chicoutimi, Québec G7H 2V3
   url: https://www.conformit.com/
   facebook: https://www.facebook.com/CONFORMiT
   description: Entreprise privée qui nous reçoit chaleureusement dans ses nouveaux bureaux.
@@ -57,7 +65,7 @@ lion_bleu:
 
 pacini_alma:
   name: Pacini Alma
-  address: 1000 Boul Des Cascades, Alma, Quebec G8B 3G4
+  address: 1000 Boul Des Cascades, Alma, Québec G8B 3G4
   url: http://www.hoteluniversel.com/pacini/
   facebook: https://www.facebook.com/pacinialma/
   description: Pacini est unique et propose à ses invités un menu authentiquement italien
@@ -65,11 +73,19 @@ pacini_alma:
 
 mikes_chicoutimi_racine:
   name: Mikes Restaurant Chicoutimi - Racine
-  address: 425 RUE RACINE E, Chicoutimi, Quebec G7H 1T5
+  address: 425 Rue Racine Est, Chicoutimi, Québec G7H 1T5
   url: https://www.mikes.ca/
   facebook: https://www.facebook.com/Mikes.Racine/
   description: Les restaurants Mikes vous offrent des sous-marins, pizzas, pâtes ainsi que des poutines.
   map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.458936887918!2d-71.05742488434079!3d48.42853097924779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc020b2d36a01c7%3A0x1afd0b3126b9e536!2sMikes!5e0!3m2!1sen!2sca!4v1537291933675" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+stas:
+  name: "STAS inc."
+  address: 622 Rue des Actionnaires, Chicoutimi, Québec G7J 5A9
+  url: https://www.stas.com/
+  facebook: https://www.facebook.com/stasinc/
+  description: STAS fournit des solutions de haute technologie pour l'industrie mondiale de l'aluminium.
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.834645447269!2d-71.10712048397498!3d48.402118540677066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc026e8ab390c47%3A0x9584689d08122181!2sSTAS%20Inc!5e0!3m2!1sen!2sca!4v1576614679620!5m2!1sen!2sca" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 tlm:
   name: L'entreprise TLM

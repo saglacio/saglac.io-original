@@ -1,3 +1,17 @@
+- title: "Janvier 2021: en ligne!"
+  event_url: https://www.facebook.com/events/3614069392014241/
+  date: "13 janvier 2020, à 18h00"
+  location: online
+  talks:
+  -
+    title: "Être Prêt Pour la Production"
+    authors:
+      - ferd
+  -
+    title: "Quitter Facebook avec son propre IFTTT (huginn)"
+    authors:
+      - vincentpoirier
+
 - title: "IO de février 2020 chez CONFORMiT"
   event_url: https://www.facebook.com/events/2794092540637355/
   date: "26 février 2020, à 18h00"

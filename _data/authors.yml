@@ -1,3 +1,7 @@
+annie_deshaies:
+  name: Annie Deshaies
+  github: https://github.com/AnnieDeshaies
+
 aduquette:
   name: Anthony Duquette
   twitter: CantyCanadian
@@ -46,6 +50,9 @@ ferd:
     Il est Architecte Système chez Genetec, entreprise de sécurité sur IP, vidéosurveillance, contrôle d’accès, et de
     reconnaissance de plaques d’immatriculation. Par le passé, il agissait en tant qu’expert pour la plateforme de
     routage et de logging de Heroku.
+
+jeandavidmoisan:
+  name: Jean-David Moisan
 
 jeanphilippe_gravel:
   name: Jean-Philippe Gravel

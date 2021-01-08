@@ -1,3 +1,25 @@
+- title: "IO de février 2020 chez CONFORMiT"
+  event_url: https://www.facebook.com/events/2794092540637355/
+  date: "26 février 2020, à 18h00"
+  location: conformit
+  talks:
+  -
+    title: "Les vrais facteurs qui impactent la qualité du code"
+    authors:
+      - ferd
+  -
+    title: "Trente-douze raisons d'apprendre Sass"
+    authors:
+      - annie_deshaies
+  -
+    title: "Weekend Projects"
+    authors:
+      - jeandavidmoisan
+  -
+    title: "Intégration CI/CD gitlab pour déployer sur Digital Ocean"
+    authors:
+      - laurent_parenteau
+
 - title: "Premier IO 2020 chez Devicom"
   event_url: https://www.facebook.com/events/858331021252495/
   date: "13 janvier 2020, à 18h00"

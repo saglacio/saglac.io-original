@@ -1,3 +1,17 @@
+- title: "Premier IO 2020 chez Devicom"
+  event_url: https://www.facebook.com/events/858331021252495/
+  date: "13 janvier 2020, à 18h00"
+  location: devicom
+  talks:
+  -
+    title: "Svelte, une alternative à ReactJs et VueJs"
+    authors:
+      - vincentpoirier
+  -
+    title: "Ubuntu pour Windows"
+    authors:
+      - jessicalapointe
+
 - title: "Méta Saglac IO - 2019"
   event_url: https://www.facebook.com/events/437558496915185/
   date: "17 décembre 2019, à 18h00"

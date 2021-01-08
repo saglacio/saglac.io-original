@@ -30,6 +30,14 @@ conformit:
   description: Entreprise privée qui nous reçoit chaleureusement dans ses nouveaux bureaux.
   map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.0792078597324!2d-71.06829508414528!3d48.41662363966297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc0273364f24177%3A0x735f9ea9452baaa1!2sCONFORMiT!5e0!3m2!1sfr!2sca!4v1561998795370!5m2!1sfr!2sca" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+devicom:
+  name: Devicom
+  address: 28 Rue Racine E, Chicoutimi, QC G7H 1P5
+  url: https://devicom.com/
+  facebook: https://www.facebook.com/LeGroupeDevicom
+  description: Entreprise privée qui nous reçoit chaleureusement dans ses bureaux.
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10589.96704606184!2d-71.0675748!3d48.4279009!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7658cb04a30c7e58!2sDevicom!5e0!3m2!1sen!2sca!4v1610116418671!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
 exode:
   name: L'Exode Café
   address: 960 avenue du Pont Sud, Alma, QC, G8B 2V8

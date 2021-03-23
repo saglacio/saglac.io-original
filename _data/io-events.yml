@@ -1,6 +1,20 @@
+- title: "IO de mars 2021 - En virtuel!"
+  event_url: https://www.airmeet.com/e/87444d10-7d53-11eb-bcad-59162d08a0eb
+  date: "23 mars 2021, à 18h00"
+  location: online
+  talks:
+  -
+    title: "next.js + tests + vercel deployment"
+    authors:
+      - gableroux
+  -
+    title: "Les librairies les plus farfelues du JS"
+    authors:
+      - vincentpoirier
+
 - title: "Janvier 2021: en ligne!"
   event_url: https://www.airmeet.com/e/9079c3e0-51bd-11eb-8497-5553e7235276
-  date: "13 janvier 2020, à 18h00"
+  date: "13 janvier 2021, à 18h00"
   location: online
   talks:
   -

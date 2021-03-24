@@ -5,6 +5,7 @@
   talks:
   -
     title: "next.js + tests + vercel deployment"
+    slides: https://gableroux.com/posts/2021-03-23-nextjs-testing-and-vercel-deployment/
     authors:
       - gableroux
   -

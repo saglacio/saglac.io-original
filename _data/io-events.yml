@@ -1,3 +1,17 @@
+- title: "IO de avril 2021 - En virtuel!"
+  event_url: https://www.airmeet.com/event/aab37ec0-a075-11eb-bb44-d52cffa4c0b3
+  date: "27 avril 2021, à 18h00"
+  location: online
+  talks:
+  -
+    title: "NFT: crypto bubble"
+    authors:
+      - jim_plourde
+  -
+    title: "Perfection d’image et les consoles rétro"
+    authors:
+      - jrobichaudg
+
 - title: "IO de mars 2021 - En virtuel!"
   event_url: https://www.airmeet.com/e/87444d10-7d53-11eb-bcad-59162d08a0eb
   date: "23 mars 2021, à 18h00"

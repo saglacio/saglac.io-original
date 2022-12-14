@@ -44,7 +44,7 @@ Changes that are cosmetic in nature and do not fix a problem are to be merged on
 
 ### Do you have questions about the source code?
 
-* Questions about how to get started should be asked on the Facebook page, or the slack channel.
+* Questions about how to get started should be asked on the Facebook page, or on Discord.
 
 * If you feel your question should be addressed in the documentation, feel free to open a [new issue](https://github.com/saglacio/saglac.io/issues/new).
 

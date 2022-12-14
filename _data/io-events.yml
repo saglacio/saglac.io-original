@@ -1,3 +1,98 @@
+- title: "IO décembre 2022 à Alma!"
+  event_url: https://www.facebook.com/events/1533854587129087?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D
+  date: "14 d/cembre 2022, à 18h00"
+  location: cafeclocheralma
+  talks:
+  -
+    title: "Terraform: gérer ses ressources cloud avec du code"
+    description: "Le cloud est complexe d'approche. C'est encore plus vrai lorsqu'on veut utiliser différents environnements (dev, prod, qa, etc.) pour un projet. Nous allons découvrir l'un des outils \"Code as Infrastructure\" qui nous permettent d'aller au-delà de l'implémentation manuelle."
+    authors:
+      - jim_plourde
+  -
+    title: "Nix pour les nuls"
+    description: "Présentation de l'univers du \"build system\" Nix à partir de l'exécution d'une commande jusqu'à un déploiement sur l'infonuagique. Nous commencerons par les questions de base: quoi, comment, quand, qui et pourquoi. Attendez-vous ensuite à entendre parler d'une distribution Linux, de comment faire des builds reproduisibles, de contrôler ses dépendances logicielles et finalement de gérer des services systemd ou des dotfiles."
+    authors: Martin Lavoie
+    twitter: refnil19
+  -
+    title: "Qwik: Le future des framework JS"
+    description: "Avec des pages de plus en plus lourdes en JavaScript, Qwik est potentiellement la solution à cette tendance."
+    authors:
+      - emileber
+
+- title: "IO de novembre chez Pulsar Informatique"
+  event_url: https://www.facebook.com/events/1292315631348928/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D
+  date: "15 novembre 2022, à 18h00"
+  location: pulsar
+  talks:
+    -
+      title: "C'est quoi un Homelab?"
+      authors: vincentpoirier
+    -
+      title: "On ne découvre pas les erreurs, on les invente."
+      authors: Frederic Trottier-Hebert
+      twitter: mononcqc
+
+- title: "IO d'avril 2022 au Lion Bleu"
+  event_url: https://www.facebook.com/events/1221379294933684/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D
+  date: "24 mars 2022, à 18h00"
+  location: lion_bleu
+  talks:
+    -
+      title: "Survol technique du nouveau site web du Saglac IO"
+      authors: emileber
+    -
+      title: "Fonts variables pour le web"
+      authors: jessicalapointe
+    -
+      title: "Je ne suis pas mon code et mon code est probablement mauvais"
+      authors: jeanphilippe_gravel
+
+- title: "Premier IO 2022 - Retour en personne 2!"
+  event_url: https://www.facebook.com/events/917008115661764/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D
+  date: "24 mars 2022, à 18h00"
+  location: lion_bleu
+  talks:
+    -
+      title: "Survol technique du nouveau site web du Saglac IO"
+      authors: emileber
+    -
+      title: "Fonts variables pour le web"
+      authors: jessicalapointe
+    -
+      title: "Je ne suis pas mon code et mon code est probablement mauvais"
+      authors: jeanphilippe_gravel
+
+- title: "Premier IO 2022 - Retour en personne 2!"
+  event_url: https://www.facebook.com/events/917008115661764/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D
+  date: "24 mars 2022, à 18h00"
+  location: mikes_chicoutimi_racine
+  talks:
+    -
+      title: "Vim is love, vim is life: introduction à Vim"
+      authors: jim_plourde
+    -
+      title: "Bash ou Sh? Ou pourquoi pas zsh?"
+      authors:
+        - vincentpoirier
+
+- title: "IO d'octobre 2021 - Retour en personne!"
+  event_url: https://www.facebook.com/events/388684586055492/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D
+  date: "21 octobre 2021, à 18h00"
+  location: cafeclocheralma
+  talks:
+    -
+      title: "Choisir ses alertes: Intro aux SLOs"
+      authors: Frederic Trottier-Hebert
+      twitter: mononcqc
+    -
+      title: "One service to rule them all: GraphQL as an aggregation layer serving Ubisoft Connect"
+      authors:
+        - emileber
+    -
+      title: "Comment ça marche les câbles?"
+      authors:
+        - vincentpoirier
+
 - title: "IO d'avril 2021 - En virtuel!"
   event_url: https://www.airmeet.com/event/aab37ec0-a075-11eb-bb44-d52cffa4c0b3
   date: "27 avril 2021, à 18h00"

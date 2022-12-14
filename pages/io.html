@@ -14,7 +14,21 @@ permalink: archives
                         <h2>Les événements passés</h2>
                     </header>
 
-                    <script src="//gist-it.appspot.com/https://github.com/saglacio/saglac.io/blob/master/_data/io-events.yml"></script>
+                    <p>
+                        Tous les détails des événements sont sur les pages de chaque événement, <a href="https://github.com/saglacio/saglac.io/blob/master/_data/io-events.yml">ou encore ici</a>.
+                    </p>
+
+                    <ul style="list-style-type: circle;padding-left: 30px;">
+                        {% for event in site.data.io-events %}
+                            <li>
+                                {{event.title}} ({{event.date}})
+                                {% if event.event_url %}
+                                    <a href="{{event.event_url}}">Lien</a>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+
                 </article>
             </div>
         </div>
